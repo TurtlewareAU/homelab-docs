@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker Swarm Setup/Docker Setup.md",
+            "file": "Docker Swarm Setup/Docker Swarm Setup.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Swarm Setup/Docker Setup.md",
+                "file": "Docker Swarm Setup/Docker Swarm Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Swarm Setup/Docker Setup.md",
+                "file": "Docker Swarm Setup/Docker Swarm Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Swarm Setup/Docker Setup.md"
+                "file": "Docker Swarm Setup/Docker Swarm Setup.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "dffd149ce59affbd",
   "lastOpenFiles": [
+    "Docker Swarm Setup/Docker Setup.md",
     "Test Git.md"
   ]
 }
