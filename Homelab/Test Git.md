@@ -2,4 +2,4 @@
 
 ## Second heading
 
-# Another Head
+# Another Heading
