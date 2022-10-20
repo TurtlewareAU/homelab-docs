@@ -16,8 +16,14 @@ sudo apt update
 sudo apt install nfs-kernel-server
 ```
 
+1. Next We will want to create a useable directory for our NFS Mount
 ```bash
 sudo mkdir /var/nfs/general -p
+```
+
+1. NFS will remap all root operations to the following user and group nobody:nogroup. We will need to add this to our recently made folder.
+```bash
+sudo chown nobody:nogroup /var/nfs/general
 ```
 
 ---
