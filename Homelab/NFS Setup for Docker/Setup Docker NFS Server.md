@@ -26,6 +26,10 @@ sudo mkdir /var/nfs/general -p
 sudo chown nobody:nogroup /var/nfs/general
 ```
 
+1. Next we will add values to the machine exports file to allow other clients to connect to our NFS machine.
+```bash
+sudo nano /etc/exports
+```
 ---
 Client Commands Here
 
