@@ -30,6 +30,12 @@ sudo chown nobody:nogroup /var/nfs/general
 ```bash
 sudo nano /etc/exports
 ```
+
+```bash
+/var/nfs/general    192.1.68.1/24(rw,sync,no_subtree_check)
+```
+
+
 ---
 Client Commands Here
 
