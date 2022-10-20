@@ -1,0 +1,1 @@
+Docker swarm could run a specific container on any node, to make sure we have available docker mounts for the docker containers, we will setup NFS on a server to host our mounted volumes. On each Node we will connect via NFS to this machine to allow any container on any node to read configurations in a centralised location.
