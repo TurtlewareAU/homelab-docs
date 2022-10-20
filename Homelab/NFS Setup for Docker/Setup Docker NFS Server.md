@@ -9,13 +9,16 @@ Below were the steps necessary to get NFS Setup for my Docker Swarm Nodes
 
 Will start with the Server Commands First:
 
-1. Update the current apt repository
+1. Update the current apt repository. Then install the nfs-kernel-server
 
 ```bash
 sudo apt update
 sudo apt install nfs-kernel-server
 ```
 
+```bash
+sudo mkdir /var/nfs/general -p
+```
 
 ---
 Client Commands Here
