@@ -35,12 +35,43 @@ sudo nano /etc/exports
 /var/nfs/general    192.1.68.1/24(rw,sync,no_subtree_check)
 ```
 
+1. Next we will restart the server to take on the new configuration
+```bash
+sudo systemctl restart nfs-kernel-server
+```
+
+1. We want to allow external machines access to the NFS server by opening firewalls
+```bash
+sudo ufw allow from 192.1.68.1/24 to any port nfs
+```
+
+```bash
+sudo ufw status
+```
 
 ---
 Client Commands Here
+
+1. Update client apt repository, then install the nfs-common toolset to allow the client to connect to the server
 
 ```bash
 sudo apt update
 sudo apt install nfs-common
 ```
 
+1. Add a new folder for the share
+```bash
+sudo mkdir -p /nfs/general
+```
+
+1. Mounting the NFS Drive is the next step to do so we use the following
+```bash
+sudo mount -t nfs 192.1.68.10:/var/nfs/general /nfs/general -vvv
+```
+
+this will print out verbose information.
+
+Now check everything is connected via
+```bash
+df -h
+```
