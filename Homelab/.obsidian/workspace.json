@@ -154,8 +154,9 @@
   },
   "active": "e23821670b9cbc55",
   "lastOpenFiles": [
+    "Test Git.md",
+    "NFS Setup for Docker/Setup Docker NFS Server.md",
     "Docker Swarm Setup/Docker Swarm Setup.md",
-    "Docker Swarm Setup/Docker Setup.md",
-    "Test Git.md"
+    "Docker Swarm Setup/Docker Setup.md"
   ]
 }
