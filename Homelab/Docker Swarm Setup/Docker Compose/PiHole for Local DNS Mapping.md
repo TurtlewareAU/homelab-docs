@@ -1,0 +1,1 @@
+Pihole has been running on vm's in my homelab stack for a while. it was my only dns sink hole for a while. I upgraded my router to pfsense and started using ad blocking via pfsense and these were only used for DNS querying for local DNS names.

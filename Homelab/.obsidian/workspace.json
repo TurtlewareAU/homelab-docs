@@ -30,9 +30,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "15358645a556cdd7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
+            "id": "bb558eabdcde3efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NFS Setup for Docker/Setup Docker NFS Server.md",
+                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NFS Setup for Docker/Setup Docker NFS Server.md",
+                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NFS Setup for Docker/Setup Docker NFS Server.md"
+                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md"
               }
             }
           }
@@ -149,10 +171,7 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "e23821670b9cbc55",
+  "active": "bb558eabdcde3efc",
   "lastOpenFiles": [
     "Test Git.md",
     "NFS Setup for Docker/Setup Docker NFS Server.md",
