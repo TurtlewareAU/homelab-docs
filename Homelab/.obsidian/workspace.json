@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dffd149ce59affbd",
+            "id": "54979b93b096f430",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Swarm Setup/Docker Swarm Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e23821670b9cbc55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NFS Setup for Docker/Setup Docker NFS Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15358645a556cdd7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
-          },
-          {
-            "id": "bb558eabdcde3efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Robot Framework/Docker Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Robot Framework/Docker Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Robot Framework/Docker Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md"
+                "file": "Robot Framework/Docker Setup.md"
               }
             }
           }
@@ -171,8 +136,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bb558eabdcde3efc",
+  "active": "54979b93b096f430",
   "lastOpenFiles": [
+    "Robot Framework/CI-CD pipeline.md",
+    "Robot Framework/Docker Setup.md",
+    "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Test Git.md",
     "NFS Setup for Docker/Setup Docker NFS Server.md",
     "Docker Swarm Setup/Docker Swarm Setup.md",
