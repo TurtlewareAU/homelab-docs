@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c862adabcd64b075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robot Framework/Example robot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ecaeb09616005c37",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robot Framework/Docker Setup.md",
+                "file": "Robot Framework/Example robot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robot Framework/Docker Setup.md",
+                "file": "Robot Framework/Example robot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robot Framework/Docker Setup.md"
+                "file": "Robot Framework/Example robot.md"
               }
             }
           }
@@ -148,10 +161,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "291ac8b8078fa250",
+  "active": "c862adabcd64b075",
   "lastOpenFiles": [
-    "Robot Framework/Running Code.md",
     "Robot Framework/Docker Setup.md",
+    "Robot Framework/Example robot.md",
+    "Robot Framework/Running Code.md",
     "Robot Framework/PIP install.md",
     "Robot Framework/CI-CD pipeline.md",
     "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
