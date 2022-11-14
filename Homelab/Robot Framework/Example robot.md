@@ -22,3 +22,16 @@ wait for home page to load
 ```
 
 create file 
+
+```
+*** Settings ***
+Documentation Implement steps for base operations
+Library SeleniumLibrary
+Variables configs/environment.py
+Resource adv_home_page.robot
+
+*** Keywords ***
+I open the Advantage Online website
+Go To ${production_url}
+wait for home page to load
+```
