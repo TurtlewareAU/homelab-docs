@@ -136,4 +136,111 @@ Wait Until Loading Spinners Disappear
 wait until element is not visible ${pageSpinner} timeout=5
 wait until element is not visible ${pageSpinner} timeout=5
 ```
-`
+
+```
+*** Settings ***
+Documentation Keywords for interacting with the Advantage top navigation
+Library SeleniumLibrary
+Library BuiltIn
+Library String
+Library Collections
+Resource web_base_keywords.robot
+
+  
+  
+
+*** Variables ***
+
+${speakersPanel} id:speakersImg
+
+${tabletsPanel} id:tabletsImg
+
+${headphonesPanel} id:headphonesImg
+
+${laptopsPanel} id:laptopsImg
+
+${micePanel} id:miceImg
+
+  
+
+*** Keywords ***
+
+Wait For Home Page To Load
+
+[Documentation] Waits for the product panels to load on the home page
+
+Wait Until Element Is Visible ${speakersPanel}
+
+wait until loading spinners disappear
+
+  
+
+Open Speakers Page
+
+[Documentation] Clicks the speakers link
+
+Wait Until Element Is Visible ${speakersPanel}
+
+wait until loading spinners disappear
+
+Click Element ${speakersPanel}
+
+wait until loading spinners disappear
+
+  
+  
+
+Open Tablets Page
+
+[Documentation] Clicks the tablets link
+
+Wait Until Element Is Visible ${tabletsPanel}
+
+wait until loading spinners disappear
+
+Click Element ${tabletsPanel}
+
+wait until loading spinners disappear
+
+  
+
+Open Headphones Page
+
+[Documentation] Clicks the headphones link
+
+Wait Until Element Is Visible ${headphonesPanel}
+
+wait until loading spinners disappear
+
+Click Element ${headphonesPanel}
+
+wait until loading spinners disappear
+
+  
+
+Open Laptops Page
+
+[Documentation] Clicks the laptops link
+
+Wait Until Element Is Visible ${laptopsPanel}
+
+wait until loading spinners disappear
+
+Click Element ${laptopsPanel}
+
+wait until loading spinners disappear
+
+  
+
+Open Mice Page
+
+[Documentation] Clicks the mice link
+
+Wait Until Element Is Visible ${micePanel}
+
+wait until loading spinners disappear
+
+Click Element ${micePanel}
+
+wait until loading spinners disappear
+```
