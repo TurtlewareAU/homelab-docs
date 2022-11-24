@@ -175,15 +175,15 @@
   },
   "active": "152d0b37f83dff75",
   "lastOpenFiles": [
+    "Robot Framework/Running Code.md",
+    "Docker Swarm Setup/Telegraf Setup.md",
     "Robot Framework/Example robot.md",
     "Robot Framework/Docker Setup.md",
-    "Robot Framework/Running Code.md",
     "Robot Framework/PIP install.md",
     "Robot Framework/CI-CD pipeline.md",
     "Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Test Git.md",
     "NFS Setup for Docker/Setup Docker NFS Server.md",
-    "Docker Swarm Setup/Docker Swarm Setup.md",
-    "Docker Swarm Setup/Docker Setup.md"
+    "Docker Swarm Setup/Docker Swarm Setup.md"
   ]
 }
