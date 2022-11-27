@@ -15,3 +15,9 @@ Node Information:
 |**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|disks|500Gb NVME - Crucial P2|||||
 
 
+Node Physical
+|NodeName|CPU|RAM|
+|---|---|---|
+|**Mercury**|AMD Ryzen 7 5700G|32gb Kingston Fury (2x16gb)|
+|**Jupiter**|AMD Ryzen 7 5700G|32gb Kingston Fury (2x16gb)|
+
