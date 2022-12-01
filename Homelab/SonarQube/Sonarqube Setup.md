@@ -17,6 +17,12 @@ The first step is to follow this set of steps: [[Setup Jenkins For SonarQube]] c
 
 ### With SonarQube Scanner Installed
 
+The next step is to move onto step 2 of the sonarqube setup. This means setting up a new jenkins pipeline that will act as our CI build for our scanner to run and analyse our code. As per the below image states.
+
+![[Pasted image 20221201143806.png]]
+
+For this we need to head over to Jenkins once again and create a new pipeline
+
 
 
 
