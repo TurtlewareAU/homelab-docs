@@ -12,4 +12,8 @@ I clicked on the Add SonarQube Scanner option as I develop mostly in Typescript 
 
 SonarQube Scanner Settings
 Name: `anything you want it to be`
-Click Add Installer Button
+Click install automatically check box
+
+Installation is now setup for Jenkins. Continue with this section if you came here from my other documents.
+
+[[Sonarqube Setup]]
