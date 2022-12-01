@@ -2,14 +2,14 @@
 Login to your sonar qube instance http://sonarqube:9000
 
 Under projects click on create Project.
+
 ![](Pasted%20image%2020221201141600.png)
-![[Pasted image 20221201141600.png]]
 
 Next selec the CI tool of your choice. Here are home I run a jenkins server for all of my at home CI pipeline needs. Also its so versatile for CI, many plugins are compatible with the tool.
 
 You will now need to follow all of the steps necessary to complete setup of Sonarqube with Jenkins.
 
-![[Pasted image 20221201141857.png]]
+![](Pasted%20image%2020221201141857.png)
 
 The first step is to follow this set of steps: [[Setup Jenkins For SonarQube]] complete these steps and then return to this section.
 
