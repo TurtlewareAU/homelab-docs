@@ -25,7 +25,9 @@ For this we need to head over to Jenkins once again and create a new pipeline
 
 ![[Pasted image 20221201144517.png]]
 
-Here I am going to create a new pipeline for my current production personal/business website. This website is built with react, using docker as the hosting platform, all running from a linode cloud server.
+Here I am going to create a new pipeline for my current production personal/business website. This website is built with react, using docker as the hosting platform, all running from a linode cloud server. Click ok to be taken to the pipeline configuration page.
+
+
 
 
 
