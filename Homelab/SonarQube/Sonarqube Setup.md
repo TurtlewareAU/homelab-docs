@@ -2,7 +2,7 @@
 Login to your sonar qube instance http://sonarqube:9000
 
 Under projects click on create Project.
-
+![](Pasted%20image%2020221201141600.png)
 ![[Pasted image 20221201141600.png]]
 
 Next selec the CI tool of your choice. Here are home I run a jenkins server for all of my at home CI pipeline needs. Also its so versatile for CI, many plugins are compatible with the tool.
