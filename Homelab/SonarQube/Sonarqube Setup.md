@@ -36,10 +36,12 @@ SCM: Git (as I use git to pull down from github)
 Repository: https://github.com/username/repository.git
 Credentials: select your git credentials for use with the repository
 Branch: make sure this matches your repositry settings (github uses main)
+Script Path: Jenkinsfile
 
 If all setup you should have something similar to the image
 
+![[Pasted image 20221201150038.png]]
 
-
+Click Save, your pipeline has been setup however we have a few more steps to complete to make it all work well together.
 
 
