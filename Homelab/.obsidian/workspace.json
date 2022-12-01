@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SonarQube/Sonarqube Setup.md",
+                "file": "SonarQube/Setup Jenkins For SonarQube.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SonarQube/Sonarqube Setup.md",
+                "file": "SonarQube/Setup Jenkins For SonarQube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SonarQube/Sonarqube Setup.md",
+                "file": "SonarQube/Setup Jenkins For SonarQube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SonarQube/Sonarqube Setup.md"
+                "file": "SonarQube/Setup Jenkins For SonarQube.md"
               }
             }
           }
@@ -187,6 +187,7 @@
   },
   "active": "baa5ae0bc1a760c0",
   "lastOpenFiles": [
+    "SonarQube/Sonarqube Setup.md",
     "SonarQube/Setup Jenkins For SonarQube.md",
     "SonarQube/Setup Jenkins For Github.md",
     "Proxmox Cluster/Proxmox Terraform.md",
@@ -195,7 +196,6 @@
     "Docker Swarm Setup/Telegraf Setup.md",
     "Robot Framework/Example robot.md",
     "Robot Framework/Docker Setup.md",
-    "Robot Framework/PIP install.md",
-    "Robot Framework/CI-CD pipeline.md"
+    "Robot Framework/PIP install.md"
   ]
 }

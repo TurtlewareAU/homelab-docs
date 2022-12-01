@@ -11,3 +11,10 @@ Next selec the CI tool of your choice. Here are home I run a jenkins server for 
 
 You will now need to follow all of the steps necessary to complete setup of Sonarqube with Jenkins.
 
+![[Pasted image 20221201141857.png]]
+
+The first step is to follow this set of steps: [[Setup Jenkins For SonarQube]] complete these steps and then return to this section.
+
+
+
+
