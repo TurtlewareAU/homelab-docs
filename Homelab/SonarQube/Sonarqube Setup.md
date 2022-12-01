@@ -27,6 +27,18 @@ For this we need to head over to Jenkins once again and create a new pipeline
 
 Here I am going to create a new pipeline for my current production personal/business website. This website is built with react, using docker as the hosting platform, all running from a linode cloud server. Click ok to be taken to the pipeline configuration page.
 
+Scroll down to the Build Triggers Section and click on the Trigger builds remotely checkbox. Make sure you enter an authentication token. I have been using lastpass to generate an 18 character password and then using that for my authentication token.
+
+![[Pasted image 20221201145204.png]]
+
+After setting these values scroll down to the Pipeline section. Here you want to setup the definition: Pipeline script from SCM (file stored in your repository)
+SCM: Git (as I use git to pull down from github)
+Repository: https://github.com/username/repository.git
+Credentials: select your git credentials for use with the repository
+Branch: make sure this matches your repositry settings (github uses main)
+
+If all setup you should have something similar to the image
+
 
 
 
