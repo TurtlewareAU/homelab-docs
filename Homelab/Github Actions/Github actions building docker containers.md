@@ -1,4 +1,10 @@
 The yml below is a slightly changed docker build and push action workflow file from the github market place. 
+
+I did a search on pushing to github, This uses the repository and generates a PAT token which the action can use to push images to the repository.
+
+![](Pasted%20image%2020221204104307.png)
+
+
 ```yml
 name: Build Integrate UI Container
 on:
