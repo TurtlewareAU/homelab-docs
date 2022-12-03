@@ -1,10 +1,27 @@
 The yml below is a slightly changed docker build and push action workflow file from the github market place. 
 
-I did a search on pushing to github, This uses the repository and generates a PAT token which the action can use to push images to the repository.
+Doing a search on push to github I selected the Publish Docker Container, this is the base commands needed to build and push to your repository the newly create docker image. 
 
 ![](Pasted%20image%2020221204104307.png)
 
 
+
+
+
+
+
+
+With mine being private these are only available when you auth to github.
+
+```bash
+docker login ghcr.io -u <username>
+```
+
+```bash
+docker pull ghcr.io/<username|organization>/<repositoty>:main
+```
+
+![](Pasted%20image%2020221204104507.png)
 ```yml
 name: Build Integrate UI Container
 on:
