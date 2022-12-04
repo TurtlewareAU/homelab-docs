@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "c1034bf6be493a4b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "59a9e09f7ffc3622",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Github Actions/Github actions building docker containers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

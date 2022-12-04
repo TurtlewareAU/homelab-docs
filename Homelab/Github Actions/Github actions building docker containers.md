@@ -7,14 +7,14 @@ The best place to start is inside a repository click on the acitons link. Here y
 
 Check your action variables and setup information. Here I named it after my website and the action its performing. Building the react app for Integrate. 
 
-`name:` The name displayed in the actions tab when running, and completed.
-`on:` Is the trigger section 
-`push:` Listens for push events on a specific branch
-`branches:` All of the branches we will listen to. so could have multiple
-`tags:` Version details for the current build.
-`env:` This sets up where the information will be stored to. 
-`REGISTRY:` ghcr.io (Github Container Registry)
-`IMAGE_NAME:` will be the name of the container stored in your repository.
+`name:` The name displayed in the actions tab when running, and completed.  
+`on:` Is the trigger section.  
+`push:` Listens for push events on a specific branch.  
+`branches:` All of the branches we will listen to. so could have multiple.  
+`tags:` Version details for the current build.  
+`env:` This sets up where the information will be stored to.  
+`REGISTRY:` ghcr.io (Github Container Registry).  
+`IMAGE_NAME:` will be the name of the container stored in your repository.  
 
 ```yml
 name: Build Integrate UI Container
