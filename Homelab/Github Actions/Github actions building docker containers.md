@@ -31,10 +31,10 @@ env:
 ---
 ### Job Setup
 
-`jobs:` Initial base step (always here)
-`build:` Setup the build environment and location.
-`runs-on:` This is used to tell the action where you want it to run. `dev` is a tag for my local ubunut runner, I wanted to keep my actions running at home, as at a time I was initiating docker run commands on remote network connected machines.
-`permissions:` These are base permissions setup by the template selected at the start.
+`jobs:` Initial base step (always here).  
+`build:` Setup the build environment and location.  
+`runs-on:` This is used to tell the action where you want it to run. `dev` is a tag for my local ubunut runner, I wanted to keep my actions running at home, as at a time I was initiating docker run commands on remote network connected machines.  
+`permissions:` These are base permissions setup by the template selected at the start.  
 
 ```yml
 jobs:
@@ -49,15 +49,15 @@ jobs:
 ---
 ### Action Steps
 
-`steps:` Container which holds all of the steps necessary to perform your action.
-`name:` Step name displayed in the action output
-`uses:` This is the action (predefined) which is run.
-`with:` Parameters that change the way the specific select action needs to perform its work.
-`if:` Conditional step when the event triggering this job is a certain event it will run this step.
+`steps:` Container which holds all of the steps necessary to perform your action.  
+`name:` Step name displayed in the action output.  
+`uses:` This is the action (predefined) which is run.  
+`with:` Parameters that change the way the specific select action needs to perform its work.  
+`if:` Conditional step when the event triggering this job is a certain event it will run this step.  
 
-`login-uuid` this is auto generated at the time of action creation
-`metada-uuid` this is auto generated at the time of action creation
-`build-uuid` this is auto generated at the time of action creation
+`login-uuid` this is auto generated at the time of action creation  
+`metada-uuid` this is auto generated at the time of action creation  
+`build-uuid` this is auto generated at the time of action creation  
 
 ```yml
 steps:
@@ -96,20 +96,13 @@ steps:
 ---
 ### All Actions - Usage
 
-`uses: actions/checkout@v3` This action does what it says checks out to the agent all of the repository code.
-
-`uses: actions/setup-node@v3` This action will setup node.js on the agent so you can perform node/npm commands successfully
-
-`run: npm install` running npm install from the supplied package.json file in the repository
-
-`run: npm run build` build my react website (Typescript). 
-
-`uses: docker/setup-buildx-action@<buildx-uuid>` setup the buildx on the agent. This will give the agent access to build a new docker container.
-
-`uses: docker/login-action@<login-uuid>` Login to the repository. I use this because these actions are triggered and stored into a private github repository.
-
-`uses: docker/metadata-action@<metada-uuid>` This action gathers information about the docker container, for tagging and metadata storage.
-
+`uses: actions/checkout@v3` This action does what it says checks out to the agent all of the repository code.  
+`uses: actions/setup-node@v3` This action will setup node.js on the agent so you can perform node/npm commands successfully.  
+`run: npm install` running npm install from the supplied package.json file in the repository.  
+`run: npm run build` build my react website (Typescript).  
+`uses: docker/setup-buildx-action@<buildx-uuid>` setup the buildx on the agent. This will give the agent access to build a new docker container.  
+`uses: docker/login-action@<login-uuid>` Login to the repository. I use this because these actions are triggered and stored into a private github repository.  
+`uses: docker/metadata-action@<metada-uuid>` This action gathers information about the docker container, for tagging and metadata storage.  
 `uses: docker/build-push-action@<build-uuid>` Action for building the docker container from the supplied Dockerfile. The dockerfile needs to be in the root of the repository, and needs to reference any and all folders explicitly.
 
 ---
