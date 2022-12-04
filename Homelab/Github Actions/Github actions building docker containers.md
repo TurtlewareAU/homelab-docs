@@ -129,7 +129,7 @@ With my repository being private the containers are only available when you auth
 On your docker host login to ghcr.io as your username. You will need to have generated a PAT token to login which has package read access at a bare minimum. PAT can be generated here https://github.com/settings/tokens. 
 
 ![](Pasted%20image%2020221204112026.png)
-_Image for Permissions settings._
+
 
 Docker Login command:
 ```bash
