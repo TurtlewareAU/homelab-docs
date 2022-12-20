@@ -13,3 +13,11 @@ echo "smtp.ventraip.email homelab@turtlez.au:<password>" > /etc/postfix/sasl_pas
 ```bash
 postmap hash:/etc/postfix/sasl_passwd
 ```
+
+```bash
+chmod 600 /etc/postfix/sasl_passwd
+```
+
+```bash
+
+```
