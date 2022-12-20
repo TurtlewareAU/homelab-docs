@@ -25,3 +25,7 @@ postfix reload
 ```bash
 apt install postfix-pcre
 ```
+
+```bash
+nano /etc/postfix/smtp_header_checks
+```
