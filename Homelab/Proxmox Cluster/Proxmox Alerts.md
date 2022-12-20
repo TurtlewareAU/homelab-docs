@@ -19,5 +19,9 @@ chmod 600 /etc/postfix/sasl_passwd
 ```
 
 ```bash
+postfix reload
+```
+
+```bash
 
 ```
