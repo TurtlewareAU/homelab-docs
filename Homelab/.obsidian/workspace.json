@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "708de8f3673039e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxmox Cluster/Proxmox Alerts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c963a5b4bd88d15a",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Actions/Github actions building docker containers.md",
+                "file": "Proxmox Cluster/Proxmox Alerts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Actions/Github actions building docker containers.md",
+                "file": "Proxmox Cluster/Proxmox Alerts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Actions/Github actions building docker containers.md"
+                "file": "Proxmox Cluster/Proxmox Alerts.md"
               }
             }
           }
@@ -137,11 +149,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "afc0fa30aea95968",
+  "active": "708de8f3673039e4",
   "lastOpenFiles": [
+    "Github Actions/Github actions building docker containers.md",
     "SonarQube/Sonarqube Setup.md",
     "SonarQube/Setup Jenkins For SonarQube.md",
-    "Github Actions/Github actions building docker containers.md",
     "Proxmox Cluster/Proxmox Cluster Setup.md",
     "SonarQube/Pasted image 20221201141600.png",
     "Pasted.md",
