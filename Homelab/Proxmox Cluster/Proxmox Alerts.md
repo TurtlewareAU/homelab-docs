@@ -29,3 +29,11 @@ apt install postfix-pcre
 ```bash
 nano /etc/postfix/smtp_header_checks
 ```
+
+```bash
+postmap hash:/etc/postfix/smtp_header_checks
+```
+
+```bash
+postfix reload
+```
