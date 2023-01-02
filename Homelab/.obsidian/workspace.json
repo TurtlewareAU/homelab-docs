@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "191b2d285fb45170",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "708de8f3673039e4",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "191b2d285fb45170",
   "lastOpenFiles": [
     "Github Actions/Github actions building docker containers.md",
     "SonarQube/Sonarqube Setup.md",
