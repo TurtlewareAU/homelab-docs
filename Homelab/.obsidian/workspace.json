@@ -40,9 +40,21 @@
                 "currentVersion": "1.1.8"
               }
             }
+          },
+          {
+            "id": "2abf4105c0f83c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bitwarden/Installation Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox Cluster/Proxmox Alerts.md",
+                "file": "Bitwarden/Installation Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxmox Cluster/Proxmox Alerts.md",
+                "file": "Bitwarden/Installation Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proxmox Cluster/Proxmox Alerts.md"
+                "file": "Bitwarden/Installation Guide.md"
               }
             }
           }
@@ -169,15 +181,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "191b2d285fb45170",
+  "active": "2abf4105c0f83c2d",
   "lastOpenFiles": [
+    "Pasted.md",
+    "Pasted image 20221201141506.png",
     "Github Actions/Github actions building docker containers.md",
     "SonarQube/Sonarqube Setup.md",
     "SonarQube/Setup Jenkins For SonarQube.md",
     "Proxmox Cluster/Proxmox Cluster Setup.md",
     "SonarQube/Pasted image 20221201141600.png",
-    "Pasted.md",
-    "Pasted image 20221201141506.png",
     "SonarQube/Setup Jenkins For Github.md",
     "Proxmox Cluster/Proxmox Terraform.md",
     "Robot Framework/Running Code.md"
