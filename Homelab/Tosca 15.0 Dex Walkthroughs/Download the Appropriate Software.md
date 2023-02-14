@@ -8,3 +8,4 @@ Tosca Server 15.2 Patch 4
 Install Tosca Server 15.2 Patch 4 First 
 
 
+![[Pasted image 20230215104938.png]]
