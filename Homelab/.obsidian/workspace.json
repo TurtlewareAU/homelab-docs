@@ -1,39 +1,74 @@
 {
   "main": {
-    "id": "870cf2ba11ab8345",
+    "id": "b109295e00b37776",
     "type": "split",
     "children": [
       {
-        "id": "ca385c6aae9ff544",
+        "id": "ebdcccdded20fb1c",
         "type": "tabs",
         "children": [
           {
-            "id": "bebcde1d04e63065",
+            "id": "afc0fa30aea95968",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Download the Appropriate Software.md",
+                "file": "Github Actions/Github actions building docker containers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "708de8f3673039e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxmox Cluster/Proxmox Alerts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "191b2d285fb45170",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
+          },
+          {
+            "id": "2abf4105c0f83c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bitwarden/Installation Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b8875146d6d5df3b",
+    "id": "4f2baed948f13fb9",
     "type": "split",
     "children": [
       {
-        "id": "f7060b518d143f3a",
+        "id": "a436862fa5a13ef7",
         "type": "tabs",
         "children": [
           {
-            "id": "9adc06c70433bcb5",
+            "id": "a1919a8fc4d6a0f2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +78,7 @@
             }
           },
           {
-            "id": "70ce55ca3e6b44b6",
+            "id": "4a42ee9f9d4e3f26",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +93,7 @@
             }
           },
           {
-            "id": "c0455179e3f4a642",
+            "id": "aea6c382d227f2ff",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +104,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "19cd6035bae339f7",
+    "id": "c963a5b4bd88d15a",
     "type": "split",
     "children": [
       {
-        "id": "725f919ca78793ea",
+        "id": "49fa7aa583f718d1",
         "type": "tabs",
         "children": [
           {
-            "id": "ec01c1a0556857da",
+            "id": "270163854d36063e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Download the Appropriate Software.md",
+                "file": "Bitwarden/Installation Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +132,19 @@
             }
           },
           {
-            "id": "9ebef140406868bb",
+            "id": "f4aa8f94e52e4668",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Download the Appropriate Software.md",
+                "file": "Bitwarden/Installation Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6300b9d51c93e903",
+            "id": "6f249dfbdac6ae8e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +155,12 @@
             }
           },
           {
-            "id": "5217a961a5a9f000",
+            "id": "a3ab63fa53f44ea3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Download the Appropriate Software.md"
+                "file": "Bitwarden/Installation Guide.md"
               }
             }
           }
@@ -146,6 +181,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bebcde1d04e63065",
-  "lastOpenFiles": []
+  "active": "2abf4105c0f83c2d",
+  "lastOpenFiles": [
+    "Pasted.md",
+    "Pasted image 20221201141506.png",
+    "Github Actions/Github actions building docker containers.md",
+    "SonarQube/Sonarqube Setup.md",
+    "SonarQube/Setup Jenkins For SonarQube.md",
+    "Proxmox Cluster/Proxmox Cluster Setup.md",
+    "SonarQube/Pasted image 20221201141600.png",
+    "SonarQube/Setup Jenkins For Github.md",
+    "Proxmox Cluster/Proxmox Terraform.md",
+    "Robot Framework/Running Code.md"
+  ]
 }
