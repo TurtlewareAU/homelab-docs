@@ -34,9 +34,11 @@ In Bound HTTP/HTTPS - Here we will want the specific ports to match, I created t
 
 ![](Pasted%20image%2020230216092115.png)
 
-Allow the connection
+Allow the connection if not already selected. This permits the ports to be opened on the machine
 
 ![](Pasted%20image%2020230216092135.png)
+
+Select the rule apply on, I have selected all as I am runniong fr
 
 ![](Pasted%20image%2020230216092148.png)
 
