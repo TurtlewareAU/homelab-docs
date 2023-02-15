@@ -8,19 +8,8 @@
 | 80 | Inbound |
 | 443 | Outbound |
 | 443 | Inbound|
-| 5005
+| 5005 | Inbound |
+| 5002 | Inbound |
+| 5003 | Inbound |
+| 5000 | Inbound |
 
-
-
-80
-5005
-Inbound
-
-5002
-Inbound
-
-5003
-Inbound
-
-5000
-Inbound
