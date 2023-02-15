@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bebcde1d04e63065",
+            "id": "c6338301c24caa6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +16,6 @@
                 "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Commander 15.2 Patch 5.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e93488e53117a433",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/commander.png"
               }
             }
           }
@@ -156,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bebcde1d04e63065",
+  "active": "c6338301c24caa6c",
   "lastOpenFiles": [
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-install.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-vission-ai.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-data-integrity.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-update-service.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-diagnostics.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/installer-type.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-install-location.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-type.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-prerequisites.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/commander-splash.png"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Commander 15.2 Patch 5.md",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Server 15.2 Patch 4.md",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/installer-type.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-install.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-vission-ai.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-data-integrity.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-update-service.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-diagnostics.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-install-location.png"
   ]
 }

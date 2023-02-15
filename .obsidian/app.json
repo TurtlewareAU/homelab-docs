@@ -1,4 +1,5 @@
 {
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "Homelab/Tosca 15.0 Dex Walkthroughs/img"
 }
