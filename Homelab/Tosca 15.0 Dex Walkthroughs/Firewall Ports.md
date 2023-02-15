@@ -24,3 +24,11 @@ Search For the Windws Defender Firewall
 
 In Bound HTTP/HTTPS
 ![](Pasted%20image%2020230216092115.png)
+
+Allow the connection
+
+![](Pasted%20image%2020230216092135.png)
+
+![](Pasted%20image%2020230216092148.png)
+
+![](Pasted%20image%2020230216092210.png)
