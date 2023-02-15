@@ -14,4 +14,7 @@ Once you have everything setup accordingly you will then need to download and cr
 
 Load Tosca Commander
 
-![](Pasted%20image%2020230216103656.png)
+Click on the Create New button to create a new workspace
+![](tosca-landing.png)
+
+![](tosca-new-workspace.png)
