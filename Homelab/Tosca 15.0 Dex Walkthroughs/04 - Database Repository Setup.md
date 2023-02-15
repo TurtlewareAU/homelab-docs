@@ -10,4 +10,8 @@ https://documentation.tricentis.com/tosca/1510/en/content/installation_tosca/pre
 
 Once you have everything setup accordingly you will then need to download and create a new workspace
 
-#### C
+#### Creating a new Repository For Tosca.
+
+Load Tosca Commander
+
+![](Pasted%20image%2020230216103656.png)
