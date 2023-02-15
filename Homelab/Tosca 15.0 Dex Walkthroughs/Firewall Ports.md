@@ -2,7 +2,9 @@
 
 ## Tosca Administration Console
 
-
+| Port Number | Direction |
+|---|---|
+|
 80
 443
 Outbound
@@ -47,98 +49,14 @@ Inbound
 443
 Inbound
 
-Yes
-
 5005
-
-TCP
-
-HTTP, HTTPS
-
 Inbound
-
-Yes
-
-## Tricentis Service Discovery
-
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tricentis Service Discovery
 
 5002
-
-TCP
-
-HTTP, HTTPS
-
 Inbound
-
-Yes
-
-## Tricentis Project Service
-
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tricentis Project Service
 
 5003
-
-TCP
-
-HTTP, HTTPS
-
 Inbound
-
-Yes
-
-## Tricentis Authentication Service
-
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tricentis Authentication Service
 
 5000
-
-TCP
-
-HTTP, HTTPS
-
 Inbound
-
-Yes
