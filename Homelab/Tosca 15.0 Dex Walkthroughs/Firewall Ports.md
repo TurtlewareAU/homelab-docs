@@ -2,109 +2,26 @@
 
 ## Tosca Administration Console
 
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tosca Administration Console
 
 80
-
 443
+Outbound
 
-TCP
+80
+443
+Inbound
 
-HTTP, HTTPS
+
+
+80
+443
 
 Outbound
 
-Yes
-
-MigrationService
-
 80
-
 443
-
-TCP
-
-HTTP, HTTPS
-
 Inbound
 
-Yes
-
-## Tosca Distributed Execution Monitor
-
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tosca DEX Monitor
-
-80
-
-443
-
-TCP
-
-HTTP, SOAP, HTTPS
-
-Outbound
-
-Yes
-
-Tosca Distribution Server
-
-80
-
-443
-
-TCP
-
-HTTP, SOAP, HTTPS
-
-Inbound
-
-Yes, via the Tosca Distribution Server
-
-## Tosca Distribution Server
-
-     
-
-Product/Feature
-
-Default Port
-
-Transport Protocol
-
-Application Protocol
-
-Direction
-
-Configurable
-
-Tosca DEX Monitor
 
 80
 
