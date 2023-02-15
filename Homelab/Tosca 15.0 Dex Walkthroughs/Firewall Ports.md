@@ -19,8 +19,11 @@ Search For the Windws Defender Firewall and select it from the menu
 
 ![](Pasted%20image%2020230216092021.png)
 
-Next you will want to follow these steps for all por
+Next you will want to follow these steps for all ports. Start by clicking on the Inbound Rules item. Click on the New Rule item from the Actions tab on the right of the window
+
 ![](Pasted%20image%2020230216091939.png)
+
+Select the rule type of Port as we will want to open TCP Ports to this machine for the network
 
 ![](Pasted%20image%2020230216092045.png)
 
