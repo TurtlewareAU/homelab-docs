@@ -46,6 +46,6 @@ Give the rule a name.
 
 80,443 - inbound - Tosca Web Access
 80,443 - outbound - Tosca External We Access
-5000,5002,5003,5005 - inbou
+5000,5002,5003,5005 - inbound - Tosca Services
 
 ![](Pasted%20image%2020230216092210.png)
