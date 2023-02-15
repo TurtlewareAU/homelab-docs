@@ -15,9 +15,11 @@
 
 #### Open Ports With Windows
 
-Search For the Windws Defender Firewall
+Search For the Windws Defender Firewall and select it from the menu
+
 ![](Pasted%20image%2020230216092021.png)
 
+Next you will want to follow these steps for all por
 ![](Pasted%20image%2020230216091939.png)
 
 ![](Pasted%20image%2020230216092045.png)
