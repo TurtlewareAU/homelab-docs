@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Pasted image 20230215122302.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Server 15.2 Patch 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Pasted image 20230215122302.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Server 15.2 Patch 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Pasted image 20230215122302.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Server 15.2 Patch 4.md"
               }
             }
           }
