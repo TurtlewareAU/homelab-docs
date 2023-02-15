@@ -17,7 +17,7 @@
 
 Search For the Windws Defender Firewall and select it from the menu
 
-![](Pasted%20image%2020230216092021.png)
+![](windows-search-firewall.png)
 
 Next you will want to follow these steps for all ports. Start by clicking on the Inbound Rules item. Click on the New Rule item from the Actions tab on the right of the window
 
@@ -25,22 +25,22 @@ Next you will want to follow these steps for all ports. Start by clicking on the
 
 Select the rule type of Port as we will want to open TCP Ports to this machine for the network
 
-![](Pasted%20image%2020230216092045.png)
+![](firewall-rule-type.png)
 
 In Bound HTTP/HTTPS - Here we will want the specific ports to match, I created two inbound rules, 
 
 > Firstly for Web Access (80, 443) - inbound
 > Secondly for Services Access(5000, 5002, 5003, 5005) - inbound
 
-![](Pasted%20image%2020230216092115.png)
+![](firewall-protocols-ports.png)
 
 Allow the connection if not already selected. This permits the ports to be opened on the machine
 
-![](Pasted%20image%2020230216092135.png)
+![](firewall-actions.png)
 
 Select the rule apply on, I have selected all as I am running from a local personal network
 
-![](Pasted%20image%2020230216092148.png)
+![](firewall-Profile.png)
 
 Give the rule a name. 
 

@@ -49,7 +49,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216092148.png"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216092148.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216092148.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216092148.png"
               }
             }
           }
@@ -183,15 +183,15 @@
   },
   "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall-actions.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall-protocols-ports.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall-rule-type.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/windows-search-firewall.png",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/firewall.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/Firewall Ports.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Server 15.2 Patch 4.md",
     "conflict-files-obsidian-git.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/Tosca Commander 15.2 Patch 5.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/installer-type.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-install.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-vission-ai.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-data-integrity.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-update-service.png"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander.png"
   ]
 }
