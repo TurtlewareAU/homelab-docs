@@ -15,6 +15,11 @@ Once you have everything setup accordingly you will then need to download and cr
 Load Tosca Commander
 
 Click on the Create New button to create a new workspace
-![](tosca-landing.png)
 
-![](tosca-new-workspace.png)
+![](./img/tosca-landing.png)
+
+Fill in the appropriate information
+
+Select Repository Type - MS SQL Server
+Use Existing Repositry - Uncheck (create new workspace, and n)
+![](./img/tosca-new-workspace.png)
