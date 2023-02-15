@@ -17,30 +17,30 @@
 
 Search For the Windws Defender Firewall and select it from the menu
 
-![](windows-search-firewall.png)
+![](./img/windows-search-firewall.png)
 
 Next you will want to follow these steps for all ports. Start by clicking on the Inbound Rules item. Click on the New Rule item from the Actions tab on the right of the window
 
-![](firewall.png)
+![](./img/firewall.png)
 
 Select the rule type of Port as we will want to open TCP Ports to this machine for the network
 
-![](firewall-rule-type.png)
+![](./img/firewall-rule-type.png)
 
 In Bound HTTP/HTTPS - Here we will want the specific ports to match, I created two inbound rules, 
 
 > Firstly for Web Access (80, 443) - inbound
 > Secondly for Services Access(5000, 5002, 5003, 5005) - inbound
 
-![](firewall-protocols-ports.png)
+![](./img/firewall-protocols-ports.png)
 
 Allow the connection if not already selected. This permits the ports to be opened on the machine
 
-![](firewall-actions.png)
+![](./img/firewall-actions.png)
 
 Select the rule apply on, I have selected all as I am running from a local personal network
 
-![](firewall-Profile.png)
+![](./img/firewall-profile.png)
 
 Give the rule a name. 
 
@@ -48,4 +48,4 @@ Give the rule a name.
 80,443 - outbound - Tosca External We Access
 5000,5002,5003,5005 - inbound - Tosca Services
 
-![](Pasted%20image%2020230216092210.png)
+![](./img/firewall-name.png)
