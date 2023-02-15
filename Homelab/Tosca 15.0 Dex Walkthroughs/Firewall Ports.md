@@ -27,7 +27,10 @@ Select the rule type of Port as we will want to open TCP Ports to this machine f
 
 ![](Pasted%20image%2020230216092045.png)
 
-In Bound HTTP/HTTPS
+In Bound HTTP/HTTPS - Here we will want the specific ports to match, I created two inbound rules, 
+
+> Firstly for Web Access (80, 443) - inbound
+>?Secondly for Services Access(5000, 5002, 5003, 5005) - inbound
 ![](Pasted%20image%2020230216092115.png)
 
 Allow the connection
