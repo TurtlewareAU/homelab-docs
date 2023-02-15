@@ -4,51 +4,15 @@
 
 | Port Number | Direction |
 |---|---|
-|
-80
-443
-Outbound
-
-80
-443
-Inbound
+| 80 | Outbound |
+| 80 | Inbound |
+| 443 | Outbound |
+| 443 | Inbound|
+| 5005
 
 
 
 80
-443
-
-Outbound
-
-80
-443
-Inbound
-
-
-80
-443
-Inbound
-
-9000
-Outbound
-
-
-80
-443
-Inbound
-
-
-80
-443
-Inbound
-
-80
-Inbound
-
-80
-443
-Inbound
-
 5005
 Inbound
 
