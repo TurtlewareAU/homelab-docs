@@ -19,3 +19,8 @@ Search For the Windws Defender Firewall
 ![](Pasted%20image%2020230216092021.png)
 
 ![](Pasted%20image%2020230216091939.png)
+
+![](Pasted%20image%2020230216092045.png)
+
+In Bound HTTP/HTTPS
+![](Pasted%20image%2020230216092115.png)
