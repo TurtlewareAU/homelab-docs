@@ -38,8 +38,14 @@ Allow the connection if not already selected. This permits the ports to be opene
 
 ![](Pasted%20image%2020230216092135.png)
 
-Select the rule apply on, I have selected all as I am runniong fr
+Select the rule apply on, I have selected all as I am running from a local personal network
 
 ![](Pasted%20image%2020230216092148.png)
+
+Give the rule a name. 
+
+80,443 - inbound - Tosca Web Access
+80,443 - outbound - Tosca External We Access
+5000,5002,5003,5005 - inbou
 
 ![](Pasted%20image%2020230216092210.png)
