@@ -13,3 +13,9 @@
 | 5003 | Inbound |
 | 5000 | Inbound |
 
+#### Open Ports With Windows
+
+Search For the Windws Defender Firewall
+![](Pasted%20image%2020230216092021.png)
+
+![](Pasted%20image%2020230216091939.png)
