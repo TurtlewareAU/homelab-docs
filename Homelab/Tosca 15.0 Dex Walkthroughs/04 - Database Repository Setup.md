@@ -26,6 +26,6 @@ Fill in the appropriate information
 | Use Existing Repositry | Uncheck (create new workspace, and new repository in msssql)|
 | Connection string | Server=ServerName;Database=DatabaseName;User Id=UserName;Password=password; (No Quotes are needed here)|
 | Select Namespace | Name Tosca |
-
+| Use Workspace Template | Check (This will add standard modules (tbox) ) |
 
 ![](./img/tosca-new-workspace.png)
