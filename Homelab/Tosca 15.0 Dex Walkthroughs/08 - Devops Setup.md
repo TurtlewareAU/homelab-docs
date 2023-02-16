@@ -123,10 +123,37 @@ Jenkins pipeline jobs are yml based jobs which can perform the same steps as a f
 
 Here is the GUI setup for the Pipeline Job
 
-Everything we need is setup in the one step, we select `Pipeline script from SCM` this will link our git repository to the job, and then d
+Everything we need is setup in the one step, we select `Pipeline script from SCM` this will link our git repository to the job, and then download the Jenkinsfile, and perform the steps. 
 
 ![](./img/Pasted%20image%2020230217101430.png)
 
+Our Pipeline file is in the following structure.
+
+```yml
+node {
+	stage('SCM') {
+		checkout scm
+	}
+	stage('Perform Test Execution') {
+		sh 'chmod +x tosca.sh'
+		sh './tosca.sh --toscaServerUrl http://10.0.44.40 --projectName tosca_demo --eventsConfigFilePath test.json'
+
+}
+
+stage('Publish Test Results') {
+
+junit 'results/*_results.xml'
+
+}
+
+stage('Clean Workspace') {
+
+cleanWs deleteDirs: true, notFailBuild: true
+
+}
+
+}
+```
 
 
 
