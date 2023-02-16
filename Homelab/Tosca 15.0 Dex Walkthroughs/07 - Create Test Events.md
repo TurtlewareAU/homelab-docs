@@ -62,10 +62,11 @@ Right Click on the Tosca Demo Event, and select the Execute Now item. This will 
 
 ![](./img/Pasted%20image%2020230216133338.png)
 
-Now we will want to navigate to the following url `http://localhost/Monitor`, this will return the following page where we can see our test run waiting to download the ne
+Now we will want to navigate to the following url `http://localhost/Monitor`, this will return the following page where we can see our test run waiting to download the necessary resources.
 
 ![](./img/Pasted%20image%2020230216133523.png)
 
+When we click on the currently awiting test case we are shown this modal pop up which will give use general information about the current test run. Here was can see progress as it happens. As test cases run and pass or fail the mode
 ![](./img/Pasted%20image%2020230216133543.png)
 
 ![](./img/Pasted%20image%2020230216133627.png)
