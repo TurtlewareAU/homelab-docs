@@ -1,6 +1,7 @@
 
 When you want to run the Dev Ops pipelines for Tosca Automation the base script you need is located: `https://github.com/Tricentis/ToscaExecutionClient` this github repository has both windows and linux agent files which can be used to run from any agent and trigger on any other machine.
 
+---
 #### Azure DevOps Setup
 
 Create a repository with the following structure
@@ -14,11 +15,13 @@ Create a repository with the following structure
 | tosca.ps1 | ToscaExecutionClient which will call the appropriate server for automation execution |
 
 
+---
 ##### Tosca.ps1
 To provide value to this file navigate to the following url and copy paste the code into your .ps1 or .sh file based on your operating system. `https://raw.githubusercontent.com/Tricentis/ToscaExecutionClient/main/tosca_execution_client.ps1`
 
 Once you have the execution file created you will want to create a dummy test file for checking your pipeline connectivity.
 
+---
 ##### test.json
 Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList for the lists. In the properties tab, after clicking on the test event(s) you want to fire, copy the UniqueId and create a new json file similar to the example below. Image of where to find the UniqueId is after the json file example
 
@@ -29,3 +32,6 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 ```
 
 ![](./img/Pasted%20image%2020230216154022.png)
+
+---
+##### azur
