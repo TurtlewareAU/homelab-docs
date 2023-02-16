@@ -5,23 +5,23 @@ Locate the ToscaDistributionAgent
 
 Navigate to ```C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\DistributedExecution```
 
-![](dex-exe.png)
+![](./img/dex-exe.png)
 
 Right click the ToscaDistributionAgent.exe and select run as administrator. The Agent will then start and become active
 
-![](dex-agent-active.png)
+![](./img/dex-agent-active.png)
 
 Right click on the agent and select configure agent
 
-![](dex-right-click-menu.png)
+![](./img/dex-right-click-menu.png)
 
 Enter the Machine details, these will determine how Tosca will filter agents for test events. As you can select agents for a test event based on the information stored in this screen. These are not mandatory or require changing, however will only match when these values are selected in tosca. will be covered later in the test event setup.
 
-![](dex-config-machine.png)
+![](./img/dex-config-machine.png)
 
 Setup the workspace details. Click the ... button and navigate the the `*.tws` file which Tosca created for the repository back in the 04 - Database Repository Setup
 
-![](dex-config-workspace.png)
+![](./img/dex-config-workspace.png)
 
 Next Check that the Connect To Server is returning a green tick this means everything is sorted for the communication service.
 
