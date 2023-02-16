@@ -112,4 +112,6 @@ Finally we want to add a Post-Build Action which will take our output .xml and p
 
 ![](./img/Pasted%20image%2020230217100823.png)
 
+Below is the outcome of the Freestyle Project. The dashboard for the Freestyle Project shows the junit test case results.
+
 ![](./img/Pasted%20image%2020230217092808.png)
