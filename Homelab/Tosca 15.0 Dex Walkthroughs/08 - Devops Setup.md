@@ -131,10 +131,10 @@ Our Pipeline file is in the following structure.
 
 ```yml
 node {
-	stage('SCM') {
-		checkout scm
-	}
-	stage('Perform Test Execution') {
+  stage('SCM') {
+    checkout scm
+  }
+stage('Perform Test Execution') {
 		sh 'chmod +x tosca.sh'
 		sh './tosca.sh --toscaServerUrl http://10.0.44.40 --projectName tosca_demo --eventsConfigFilePath test.json'
 	}
