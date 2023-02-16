@@ -15,4 +15,4 @@ Create a repository with the following structure
 
 
 ##### Tosca.ps1
-To provide value to this file navigate to the following
+To provide value to this file navigate to the following url and copy paste the code into your .ps1 or .sh file based on your operating system. 
