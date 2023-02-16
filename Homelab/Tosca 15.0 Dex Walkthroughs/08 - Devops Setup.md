@@ -22,6 +22,10 @@ Once you have the execution file created you will want to create a dummy test fi
 ##### test.json
 Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList for the lists. In the properties tab, after clicking on the test event(s) you want to fire, copy the UniqueId and create a new json file similar to the example below. Image of where to find the UniqueId is after the json file example
 
-``
+```json
+[
+	"3a0969e7-2c45-625c-1811-188b59e051a6"
+]
+```
 
-![](Pasted%20image%2020230216154022.png)
+![](./img/Pasted%20image%2020230216154022.png)
