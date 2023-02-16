@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Untitled.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Untitled.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Untitled.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/Untitled.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md"
               }
             }
           }
