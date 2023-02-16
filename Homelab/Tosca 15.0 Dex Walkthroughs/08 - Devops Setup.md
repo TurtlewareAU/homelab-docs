@@ -7,4 +7,7 @@ Create a repository with the following structure
 
 ![](./img/Pasted%20image%2020230216151221.png)
 
-Here 
+| File | Description |
+|---|---|
+| azure-pipelines.yml elines.yml as our pipeline code, and this will handle the work necessary to bring down our repo, and perform any file changes needed
+
