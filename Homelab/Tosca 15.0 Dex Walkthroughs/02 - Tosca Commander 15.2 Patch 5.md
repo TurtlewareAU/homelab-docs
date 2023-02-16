@@ -28,3 +28,6 @@ Next is the Tricentis Vision AI engine, for this demonstration this will be disa
 Lastly you will see the Summary page. Here we will click on the install button and let Tosca Commander be installed to the local machine.
 
 ![](./img/commander-install.png)
+
+---
+[Next Steps : 03 - Tosca Server 15.2 Patch 4](03%20-%20Tosca%20Server%2015.2%20Patch%204.md)
