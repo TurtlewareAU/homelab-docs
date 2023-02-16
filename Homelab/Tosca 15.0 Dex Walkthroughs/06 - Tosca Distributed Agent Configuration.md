@@ -5,7 +5,7 @@ Locate the ToscaDistributionAgent
 
 Navigate to ```C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\DistributedExecution```
 
-![](./img/Pasted%20image%2020230216113750.png)
+![](dex-exe.png)
 
 Right click the ToscaDistributionAgent.exe and select run as administrator. The Agent will then start and become active
 
@@ -13,7 +13,7 @@ Right click the ToscaDistributionAgent.exe and select run as administrator. The 
 
 Right click on the agent and select configure agent
 
-![](./img/Pasted%20image%2020230216114003.png)
+![](dex-right-click-menu.png)
 
 Enter the Machine details, these will determine how Tosca will filter agents for test events. As you can select agents for a test event based on the information stored in this screen. These are not mandatory or require changing, however will only match when these values are selected in tosca. will be covered later in the test event setup.
 
