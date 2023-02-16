@@ -123,6 +123,9 @@ Jenkins pipeline jobs are yml based jobs which can perform the same steps as a f
 
 Here is the GUI setup for the Pipeline Job
 
+Everything we need is setup in the one step, we select `Pipeline script from SCM` this will link our git repository to the job, and then d
+
+![](./img/Pasted%20image%2020230217101430.png)
 
 
 
