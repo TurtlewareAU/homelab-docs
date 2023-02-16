@@ -1,2 +1,0 @@
-
-#### Tosca Configuration
