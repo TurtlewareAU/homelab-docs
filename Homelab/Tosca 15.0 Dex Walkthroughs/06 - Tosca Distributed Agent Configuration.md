@@ -18,11 +18,16 @@ Enter the Machine details, these will determine how Tosca will filter agents for
 
 ![](./img/Pasted%20image%2020230216114034.png)
 
-Setup the workspace details. Click the ... button and navigate the the `*.tws` file which Tosca created for the repository back in the 04 - Database
+Setup the workspace details. Click the ... button and navigate the the `*.tws` file which Tosca created for the repository back in the 04 - Database Repository Setup
 
 ![](./img/Pasted%20image%2020230216114119.png)
 
+Next Check that the Connect To Server is returning a green tick this means everything is sorted for the communication service.
+
 ![](./img/Pasted%20image%2020230216114135.png)
+
+Next if there is a neew
+
 
 ![](./img/Pasted%20image%2020230216114151.png)
 
