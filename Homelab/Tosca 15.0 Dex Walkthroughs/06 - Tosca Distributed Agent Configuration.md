@@ -9,7 +9,7 @@ Navigate to ```C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\DistributedExecu
 
 Right click the ToscaDistributionAgent.exe and select run as administrator. The Agent will then start and become active
 
-![](./img/Pasted%20image%2020230216115047.png)
+![](dex-agent-active.png)
 
 Right click on the agent and select configure agent
 
@@ -37,9 +37,9 @@ Next Unattended execution is where you put in remote desktop information. this w
 
 Setup logging is the last section and this will allow you to see the log location, as well as changing the logging message type.
 
-![](./img/Pasted%20image%2020230216114226.png)
+![](dex-config-logging.png)
 
 Clicking on the save button will save the configuration to the machine and allow the agent to be set to active status.
 
 left click on the agent icon in the taskbar try, this will show the agent details
-![](./img/Pasted%20image%2020230216115029.png)
+![](dex-active-status.png)
