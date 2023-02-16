@@ -137,24 +137,18 @@ node {
 	stage('Perform Test Execution') {
 		sh 'chmod +x tosca.sh'
 		sh './tosca.sh --toscaServerUrl http://10.0.44.40 --projectName tosca_demo --eventsConfigFilePath test.json'
-
-}
-
-stage('Publish Test Results') {
-
-junit 'results/*_results.xml'
-
-}
-
-stage('Clean Workspace') {
-
-cleanWs deleteDirs: true, notFailBuild: true
-
-}
-
+	}
+	stage('Publish Test Results') {
+		junit 'results/*_results.xml'
+	}
+	stage('Clean Workspace') {
+	cleanWs deleteDirs: true, notFailBuild: true
+	}
 }
 ```
 
+![](./img/Pasted%20image%2020230217101656.png)
 
+Below is an example output on the Pipeline Dashboard for a given pipeline.
 
 ![](./img/Pasted%20image%2020230217101315.png)
