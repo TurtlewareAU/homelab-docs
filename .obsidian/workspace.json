@@ -8,88 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6338301c24caa6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/02 - Tosca Commander 15.2 Patch 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2896e68c567987d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61ab3370ff57ee31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52d32e067e2acb2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39f64ef502d78a49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cca6e4064dd7edd0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/aos-outcome.png"
-              }
-            }
-          },
-          {
-            "id": "4c9dccafbda29cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f0999df00ee54c61",
             "type": "leaf",
             "state": {
@@ -101,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
