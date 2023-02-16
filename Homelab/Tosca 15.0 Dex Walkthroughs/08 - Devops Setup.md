@@ -61,4 +61,7 @@ steps:
 
 When you want to run the Dev Ops pipelines for Tosca Automation the base script you need is located: [`https://github.com/Tricentis/ToscaExecutionClient`](https://github.com/Tricentis/ToscaExecutionClient) this github repository has both windows and linux agent files which can be used to run from any agent and trigger on any other machine.
 
-For my Jenkins setup I pull commits directly from Github, via a private organization and perform the pipel
+For my Jenkins setup I pull commits directly from Github, via a private organization and perform the pipeline runs in my internal network. 
+
+##### Github Repository Layout
+![](./img/Pasted%20image%2020230217091224.png)
