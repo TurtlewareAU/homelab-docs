@@ -75,4 +75,4 @@ Once the test event has run we can see the modal updates a final time to show th
 ![](./img/Pasted%20image%2020230216133627.png)
 
 Lastly we can open Tosca Commander and check the status is correctly reported back to Tosca Commander Execution List.
-
+![](./img/Pasted%20image%2020230216134212.png)
