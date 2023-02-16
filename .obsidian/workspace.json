@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "f6fed97eb7ad4811",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
@@ -156,7 +157,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/01 - Firewall Ports.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216113920.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 01 - Azure DevOps Outputs.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216113920.png"
   ]
 }

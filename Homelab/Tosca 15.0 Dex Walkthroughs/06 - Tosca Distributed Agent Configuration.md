@@ -43,3 +43,6 @@ Clicking on the save button will save the configuration to the machine and allow
 
 left click on the agent icon in the taskbar try, this will show the agent details
 ![](./img/dex-active-status.png)
+
+---
+[Next Steps : 07 - Create Test Events](07%20-%20Create%20Test%20Events.md)
