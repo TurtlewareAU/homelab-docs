@@ -1,6 +1,7 @@
 #### Tosca Commander Settings
 
 Add to the tosca configuration settings. Project -> Settings
+
 ![](./img/Pasted%20image%2020230216120032.png)
 
 Navigate to the Settings -> Commander -> DistributedExecution -> Monitor URL add in your Monitor url for tosca server with port 5007 and urui /Monitor
