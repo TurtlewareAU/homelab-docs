@@ -18,3 +18,6 @@ Create a repository with the following structure
 To provide value to this file navigate to the following url and copy paste the code into your .ps1 or .sh file based on your operating system. `https://raw.githubusercontent.com/Tricentis/ToscaExecutionClient/main/tosca_execution_client.ps1`
 
 Once you have the execution file created you will want to create a dummy test file for checking your pipeline connectivity.
+
+##### test.json
+Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList for the lists 
