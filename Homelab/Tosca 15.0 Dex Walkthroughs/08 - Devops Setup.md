@@ -2,7 +2,7 @@
 When you want to run the Dev Ops pipelines for Tosca Automation the base script you need is located: [`https://github.com/Tricentis/ToscaExecutionClient`](https://github.com/Tricentis/ToscaExecutionClient) this github repository has both windows and linux agent files which can be used to run from any agent and trigger on any other machine.
 
 ---
-#### Azure DevOps Setup
+## Azure DevOps Setup
 
 Create a repository with the following structure
 
@@ -57,7 +57,7 @@ steps:
 ![](./img/Pasted%20image%2020230216154545.png)
 
 ---
-#### Jenkins Server Setup (Linux Jenkins Agent)
+## Jenkins Server Setup (Linux Jenkins Agent)
 
 When you want to run the Dev Ops pipelines for Tosca Automation the base script you need is located: [`https://github.com/Tricentis/ToscaExecutionClient`](https://github.com/Tricentis/ToscaExecutionClient) this github repository has both windows and linux agent files which can be used to run from any agent and trigger on any other machine.
 
@@ -90,7 +90,7 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 
 
 ---
-#### Jenkins CI Server Setup
+## Jenkins CI Server Setup
 
 For Jenkins I have used the freestyle project and pipeline types. 
 
@@ -115,3 +115,8 @@ Finally we want to add a Post-Build Action which will take our output .xml and p
 Below is the outcome of the Freestyle Project. The dashboard for the Freestyle Project shows the junit test case results.
 
 ![](./img/Pasted%20image%2020230217092808.png)
+
+---
+## Jenkins Pipeline Setup
+
+Jenkins pipeline jobs are yml based jobs which can perform the same steps as a
