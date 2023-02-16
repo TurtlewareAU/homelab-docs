@@ -134,16 +134,16 @@ node {
   stage('SCM') {
     checkout scm
   }
-stage('Perform Test Execution') {
-		sh 'chmod +x tosca.sh'
-		sh './tosca.sh --toscaServerUrl http://10.0.44.40 --projectName tosca_demo --eventsConfigFilePath test.json'
-	}
-	stage('Publish Test Results') {
-		junit 'results/*_results.xml'
-	}
-	stage('Clean Workspace') {
-	cleanWs deleteDirs: true, notFailBuild: true
-	}
+  stage('Perform Test Execution') {
+    sh 'chmod +x tosca.sh'
+    sh './tosca.sh --toscaServerUrl http://10.0.44.40 --projectName tosca_demo --eventsConfigFilePath test.json'
+  }
+  stage('Publish Test Results') {
+	junit 'results/*_results.xml'
+  }
+  stage('Clean Workspace') {
+    cleanWs deleteDirs: true, notFailBuild: true
+  }
 }
 ```
 
