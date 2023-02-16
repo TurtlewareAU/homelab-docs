@@ -46,3 +46,6 @@ When copied we will see the below
 
 Next we will want to make sure we have the required settings fixed, and we are able to run via an agent. To do so we want to check through the execution list configuration tab.
 
+![](./img/Pasted%20image%2020230216133018.png)
+
+Here we will want to perform a right click on the Configuration root element
