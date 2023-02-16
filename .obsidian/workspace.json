@@ -88,9 +88,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0999df00ee54c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -156,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md"
               }
             }
           }
@@ -217,8 +229,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c9dccafbda29cd7",
+  "active": "f0999df00ee54c61",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/aos-outcome.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216111451 1.png",
@@ -226,7 +239,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/aos-distributed-exec.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/aos-workspace.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/aos-landing.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/tosca-new-workspace.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/tosca-landing.png"
   ]
