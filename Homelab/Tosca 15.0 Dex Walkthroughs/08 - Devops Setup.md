@@ -108,6 +108,8 @@ Next we will setup our build step which will be to perform a `chmod +x` on the f
 
 ![](./img/Pasted%20image%2020230217100710.png)
 
-Finally we want 
+Finally we want to add a Post-Build Action which will take our output .xml and publish this to the run dashboard. this will give us a graph to show the recent test execution outcomes.
+
+![](./img/Pasted%20image%2020230217100823.png)
 
 ![](./img/Pasted%20image%2020230217092808.png)
