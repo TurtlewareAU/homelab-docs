@@ -21,8 +21,10 @@ Next will be the Tricentis Update Service, this will help update parts of Tosca 
 
 ![](./img/commander-update-service.png)
 
-Next is the Tricentis Vision AI engine, for this demonstration this wi
+Next is the Tricentis Vision AI engine, for this demonstration this will be disabled.
 
 ![](./img/commander-vission-ai.png)
+
+Lastly you will see the Summary page. Here we will click on the install button and let Tosca Commander be installed to the local machine.
 
 ![](./img/commander-install.png)
