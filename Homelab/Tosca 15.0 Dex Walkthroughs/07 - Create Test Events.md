@@ -33,3 +33,5 @@ To start with we want to check the Test Events Section of the Execution lists ta
 ![](./img/Pasted%20image%2020230216115904.png)
 
 
+Next we will want to add our test cases to the test event
+
