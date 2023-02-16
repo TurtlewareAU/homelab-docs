@@ -1,6 +1,9 @@
 #### Creating Test Events In Tosca Commander
 
-Add to the tosca configuration settings. Project -> 
+Add to the tosca configuration settings. Project -> Settings
+![](./img/Pasted%20image%2020230216120032.png)
+
+
 ![](Pasted%20image%2020230216115937.png)
 
 
