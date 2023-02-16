@@ -18,7 +18,7 @@ Enter the Machine details, these will determine how Tosca will filter agents for
 
 ![](./img/Pasted%20image%2020230216114034.png)
 
-Setup the 
+Setup the workspace details. Click the ... button and navigate the the `*.tws` file which Tosca created for the repository back in the 04 - Database
 
 ![](./img/Pasted%20image%2020230216114119.png)
 
