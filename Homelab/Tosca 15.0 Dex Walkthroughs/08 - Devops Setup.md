@@ -104,6 +104,10 @@ Next We want to clean up the workspace with the following check box, if not we w
 
 ![](./img/Pasted%20image%2020230217100230.png)
 
-Next we will setup our build step which will be to perform a `chmod +x` on the file we just 
+Next we will setup our build step which will be to perform a `chmod +x` on the file we will be using to execute our test cases. Followed by the execution of this file
+
+![](./img/Pasted%20image%2020230217100710.png)
+
+Finally we want 
 
 ![](./img/Pasted%20image%2020230217092808.png)
