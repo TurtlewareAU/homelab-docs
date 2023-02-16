@@ -52,4 +52,8 @@ Here we will want to perform a right click on the Configuration root element, an
 
 ![](Pasted%20image%2020230216133117.png)
 
-We can validate our setup by looking at the agent count in the Details tab
+We can validate our setup by looking at the agent count in the Details tab. Here we can see the one agent we setup earlier ready to accept test cases.
+
+![](./img/Pasted%20image%2020230216133217.png)
+
+We can now checkin the entire project (must be done) or Tosca Dex Agents wont be able to checkout the tests and perform execution
