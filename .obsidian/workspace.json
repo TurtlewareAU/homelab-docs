@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c18bdadcade612cf",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md"
               }
             }
           }
@@ -157,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c18bdadcade612cf",
+  "active": "f6fed97eb7ad4811",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216115743.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216113920.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/Index 01 - Azure DevOps Outputs.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
@@ -167,7 +157,6 @@
     "02.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/00 - Starting Test Run.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216151221.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230216151221.png"
   ]
 }
