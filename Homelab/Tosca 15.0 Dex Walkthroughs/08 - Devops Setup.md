@@ -4,3 +4,7 @@ When you want to run the Dev Ops pipelines for Tosca Automation the base script 
 #### Azure DevOps Setup
 
 Create a repository with the following structure
+
+![](./img/Pasted%20image%2020230216151221.png)
+
+Here 
