@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f6fed97eb7ad4811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/00 - Starting Test Run.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/00 - Starting Test Run.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/00 - Starting Test Run.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/00 - Starting Test Run.md"
               }
             }
           }
@@ -183,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5819e79020fa9526",
+  "active": "f6fed97eb7ad4811",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Setup Tosca Project Configuration.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Enable Dex Server.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
@@ -193,7 +206,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-agent-active.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-active-status.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-config-logging.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-unattended-exec.png",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-config-authenticate.png"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/dex-unattended-exec.png"
   ]
 }
