@@ -14,3 +14,5 @@ Right click on the agent and select configure agent
 
 ![](./img/Pasted%20image%2020230216114003.png)
 
+![](./img/Pasted%20image%2020230216114034.png)
+
