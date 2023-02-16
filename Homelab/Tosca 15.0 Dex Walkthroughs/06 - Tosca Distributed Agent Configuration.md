@@ -25,21 +25,21 @@ Setup the workspace details. Click the ... button and navigate the the `*.tws` f
 
 Next Check that the Connect To Server is returning a green tick this means everything is sorted for the communication service.
 
-![](dex-config-communication.png)
+![](./img/dex-config-communication.png)
 
 Next if there is a need to setup tokens and client secrets they can be done under the authenticate agent section
 
-![](dex-config-authenticate.png)
+![](./img/dex-config-authenticate.png)
 
 Next Unattended execution is where you put in remote desktop information. this will include the user name and password, and the desktop settings to use for the remote connection.
 
-![](dex-unattended-exec.png)
+![](./img/dex-unattended-exec.png)
 
 Setup logging is the last section and this will allow you to see the log location, as well as changing the logging message type.
 
-![](dex-config-logging.png)
+![](./img/dex-config-logging.png)
 
 Clicking on the save button will save the configuration to the machine and allow the agent to be set to active status.
 
 left click on the agent icon in the taskbar try, this will show the agent details
-![](dex-active-status.png)
+![](./img/dex-active-status.png)
