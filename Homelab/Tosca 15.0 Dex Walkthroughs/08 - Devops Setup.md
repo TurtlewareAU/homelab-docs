@@ -57,4 +57,6 @@ steps:
 ![](./img/Pasted%20image%2020230216154545.png)
 
 ---
-#### Jenkins Server Setup
+#### Jenkins Server Setup (Linux Host)
+
+When you want to run the Dev Ops pipelines for Tosca Automation the base script you need is located: [`https://github.com/Tricentis/ToscaExecutionClient`](https://github.com/Tricentis/ToscaExecutionClient) this github repository has both windows and linux agent files which can be used to run from any agent and trigger on any other machine.
