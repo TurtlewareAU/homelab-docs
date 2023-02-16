@@ -100,6 +100,8 @@ Initiate the Git SCM download
 
 ![](./img/Pasted%20image%2020230217100210.png)
 
+Next We want to clean up the workspace with the following check box, if not we will keep accumulating test results and will be reporting incorrectly
 
+![](./img/Pasted%20image%2020230217100230.png)
 
 ![](./img/Pasted%20image%2020230217092808.png)
