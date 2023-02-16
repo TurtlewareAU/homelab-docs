@@ -7,8 +7,11 @@ Navigate to the Settings -> Commander -> DistributedExecution -> Monitor URL add
 http://localhost:5007/Monitor
 ![](./img/Pasted%20image%2020230216120341.png)
 
-Navigate to the Settigns -> Commander -> DistributedExecution -> Server - ensure this is corr
+Navigate to the Settigns -> Commander -> DistributedExecution -> Server
 ![](./img/Pasted%20image%2020230216120707.png)
+ensure this is correct load the url in a browser 
+![](./img/Pasted%20image%2020230216120748.png)
+
 ![](Pasted%20image%2020230216115937.png)
 
 
