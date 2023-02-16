@@ -90,6 +90,9 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 
 
 ---
+#### Jenkins CI Server Setup
+
+For Jenkins I have used the freestyle project and pipeline types. 
 
 
 ![](./img/Pasted%20image%2020230217092808.png)
