@@ -14,8 +14,11 @@ Right click on the agent and select configure agent
 
 ![](./img/Pasted%20image%2020230216114003.png)
 
-Enter the Machine details, these will determine how Tosca will filter agents for test events. As you can select agents
+Enter the Machine details, these will determine how Tosca will filter agents for test events. As you can select agents for a test event based on the information stored in this screen. These are not mandatory or require changing, however will only match when these values are selected in tosca. will be covered later in the test event setup.
+
 ![](./img/Pasted%20image%2020230216114034.png)
+
+Setup the 
 
 ![](./img/Pasted%20image%2020230216114119.png)
 
