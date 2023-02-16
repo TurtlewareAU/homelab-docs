@@ -49,3 +49,5 @@ Give the rule a name.
 5000,5002,5003,5005 - inbound - Tosca Services
 
 ![](./img/firewall-name.png)
+
+![ Next Steps - Install Tosca Commander ](02 - Tosca C)
