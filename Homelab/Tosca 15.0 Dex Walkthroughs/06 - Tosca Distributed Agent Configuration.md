@@ -30,8 +30,12 @@ Next if there is a need to setup tokens and client secrets they can be done unde
 
 ![](./img/Pasted%20image%2020230216114151.png)
 
-Next Unattended execution is where you put in remote desktop information. this will include the user name and password, and the desktop settings 
+Next Unattended execution is where you put in remote desktop information. this will include the user name and password, and the desktop settings to use for the remote connection.
 
 ![](./img/Pasted%20image%2020230216114213.png)
 
+Setup logging is the last section and this will allow you to see the log location, as well as changing the logging message type.
+
 ![](./img/Pasted%20image%2020230216114226.png)
+
+Clicking on the save button will save the configuration to the machine and allow the agent to be set to active status.
