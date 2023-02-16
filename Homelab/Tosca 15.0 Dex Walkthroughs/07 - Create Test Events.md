@@ -4,3 +4,6 @@ To start with we want to check the Test Events Section of the Execution lists ta
 
 ![](./img/testevent-checkout.png)
 
+![](./img/Pasted%20image%2020230216115743.png)
+![](./img/Pasted%20image%2020230216115801.png)
+
