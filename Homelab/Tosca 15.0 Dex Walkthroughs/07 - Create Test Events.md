@@ -33,5 +33,6 @@ To start with we want to check the Test Events Section of the Execution lists ta
 ![](./img/Pasted%20image%2020230216115904.png)
 
 
-Next we will want to add our test cases to the test event
+Next we will want to add our test cases to the test event. to do so we need to checkout our Test Events\Tosca Dex Demo
 
+![](./img/Pasted%20image%2020230216132738.png)
