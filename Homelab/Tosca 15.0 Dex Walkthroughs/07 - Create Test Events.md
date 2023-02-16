@@ -58,7 +58,8 @@ We can validate our setup by looking at the agent count in the Details tab. Here
 
 We can now checkin the entire project (must be done) or Tosca Dex Agents wont be able to checkout the tests and perform execution.
 
-Right Click on the Tosca Demo Event, and select the Execute Now item. This will trigger the Dex Server to
+Right Click on the Tosca Demo Event, and select the Execute Now item. This will trigger the Dex Server to initiate a test case. 
 
 ![](./img/Pasted%20image%2020230216133338.png)
 
+![](Pasted%20image%2020230216133446.png)
