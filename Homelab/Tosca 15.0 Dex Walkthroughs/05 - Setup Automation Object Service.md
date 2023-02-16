@@ -36,3 +36,6 @@ Make any changes as per the following settings.
 Lastly click on the save button. when completed you will see this image when all successfully applied and restarted.
 
 ![](./img/aos-outcome.png)
+
+---
+[Next Steps : 06 - Tosca Distributed Agent Configuration](06%20-%20Tosca%20Distributed%20Agent%20Configuration.md)

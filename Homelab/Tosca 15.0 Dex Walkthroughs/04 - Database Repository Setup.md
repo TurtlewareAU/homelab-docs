@@ -29,3 +29,6 @@ Fill in the appropriate information
 | Use Workspace Template | Check (This will add standard modules (tbox) ) |
 
 ![](./img/tosca-new-workspace.png)
+
+---
+[Next Steps : 05 - Setup Automation Object Service](05%20-%20Setup%20Automation%20Object%20Service.md)
