@@ -11,12 +11,12 @@ Add your workspace details which you saved in step 04 Database Repository Setup.
 
 Next make sure the http settings for the Distributed Execution are set accordingly.
 
-![](./img/Pasted%20image%2020230216111145.png)
+![](aos-distributed-exec.png)
 
 Make any changes as per the following settings.
 
-![](./img/Pasted%20image%2020230216111202.png)
+![](aos-http-settings.png)
 
 Lastly click on the save button. when completed you will see this image when all successfully applied and restarted.
 
-![](./img/Pasted%20image%2020230216111451.png)
+![](aos-outcome.png)
