@@ -62,8 +62,10 @@ Right Click on the Tosca Demo Event, and select the Execute Now item. This will 
 
 ![](./img/Pasted%20image%2020230216133338.png)
 
+Now we will want to navigate to the following url `http://localhost/Monitor`, this will return the following page where we can see our test run waiting to download the ne
+
 ![](./img/Pasted%20image%2020230216133523.png)
 
 ![](./img/Pasted%20image%2020230216133543.png)
 
-![](Pasted%20image%2020230216133446.png)
+![](./img/Pasted%20image%2020230216133627.png)
