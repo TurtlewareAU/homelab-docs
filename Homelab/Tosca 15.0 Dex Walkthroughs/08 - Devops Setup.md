@@ -36,3 +36,20 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 ---
 ##### azure-pipeline.yml
 There is limited items required for the pipeline to run, below you will find an example yml file that will get the test cases run, and results stored back into DevOps.
+
+```yml
+trigger:
+- main
+
+steps:
+- task: PowerShell@2
+  inputs:
+    filePath: 'Tosca.ps1'
+    arguments: '-toscaServerUrl http://localhost -projectName tosca_demo -eventsConfigFilePath test.json'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/*_results.xml'
+```
+
+![](./img/Pasted%20image%2020230216154545.png)
