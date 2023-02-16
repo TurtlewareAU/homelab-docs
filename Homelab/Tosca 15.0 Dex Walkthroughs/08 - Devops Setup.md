@@ -9,5 +9,7 @@ Create a repository with the following structure
 
 | File | Description |
 |---|---|
-| azure-pipelines.yml elines.yml as our pipeline code, and this will handle the work necessary to bring down our repo, and perform any file changes needed
+| azure-pipelines.yml | will handle the work necessary to bring down our repo, and perform any file changes needed|
+| test.json | contains the test case guid for which to perform the automation test execution on |
+| tosca.ps1 | ToscaExecution
 
