@@ -94,5 +94,12 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 
 For Jenkins I have used the freestyle project and pipeline types. 
 
+##### Free Style Project Setup
+
+Initiate the Git SCM download
+
+![](./img/Pasted%20image%2020230217100210.png)
+
+
 
 ![](./img/Pasted%20image%2020230217092808.png)
