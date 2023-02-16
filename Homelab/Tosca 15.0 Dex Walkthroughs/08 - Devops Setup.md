@@ -119,7 +119,11 @@ Below is the outcome of the Freestyle Project. The dashboard for the Freestyle P
 ---
 ## Jenkins Pipeline Setup
 
-Jenkins pipeline jobs are yml based jobs which can perform the same steps as a freestyle project. Instead of using a GUI based building structure you define the steps via code. A pi
+Jenkins pipeline jobs are yml based jobs which can perform the same steps as a freestyle project. Instead of using a GUI based building structure you define the steps via code. A pipeline job provides a much nicer output display then you get with a Freestyle Project.
+
+Here is the GUI setup for the Pipeline Job
+
+
 
 
 
