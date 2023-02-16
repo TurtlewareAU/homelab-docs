@@ -13,12 +13,16 @@ Next you will be shown the installed and required Prerequisites. These will auto
 
 ![](./img/commander-prerequisites.png)
 
-Next is the Tosca Installation location, this is where Tosca will install all of
+Next is the Tosca Installation location, this is where Tosca will install all of its components too.
 
 ![](./img/commander-install-location.png)
-![](./img/commander-diagnostics.png)
+
+Next will be the Tricentis Update Service, this will help update parts of Tosca without the Tosca installer.
+
 ![](./img/commander-update-service.png)
-![](./img/commander-data-integrity.png)
+
+Next is the Tricentis Vision AI engine, for this demonstration this wi
+
 ![](./img/commander-vission-ai.png)
 
 ![](./img/commander-install.png)
