@@ -26,10 +26,11 @@ Next Check that the Connect To Server is returning a green tick this means every
 
 ![](./img/Pasted%20image%2020230216114135.png)
 
-Next if there is a neew
-
+Next if there is a need to setup tokens and client secrets they can be done under the authenticate agent section
 
 ![](./img/Pasted%20image%2020230216114151.png)
+
+Next Unattended execution is where you put in remote desktop information. this will include the user name and password, and the desktop settings 
 
 ![](./img/Pasted%20image%2020230216114213.png)
 
