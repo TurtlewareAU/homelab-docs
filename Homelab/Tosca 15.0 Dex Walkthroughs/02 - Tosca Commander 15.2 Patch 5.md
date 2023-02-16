@@ -3,10 +3,10 @@
 
 ![](./img/commander.png)
 
-![](commander-splash.png)
-![](commander-prerequisites.png)
-![](commander-type.png)
-![](commander-install-location.png)
+![](./img/commander-splash.png)
+![](./img/commander-prerequisites.png)
+![](./img/commander-type.png)
+![](./img/commander-install-location.png)
 ![](commander-diagnostics.png)
 ![](commander-update-service.png)
 ![](commander-data-integrity.png)
