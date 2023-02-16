@@ -50,4 +50,5 @@ Give the rule a name.
 
 ![](./img/firewall-name.png)
 
-![ Next Steps - Install Tosca Commander ](02 - Tosca C)
+---
+[Next Steps : 02 - Tosca Commander 15.2 Patch 5](02%20-%20Tosca%20Commander%2015.2%20Patch%205.md)
