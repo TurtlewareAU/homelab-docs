@@ -8,9 +8,11 @@ Navigate to ```C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\DistributedExecu
 ![](./img/Pasted%20image%2020230216113750.png)
 
 Right click the ToscaDistributionAgent.exe and select run as administrator. The Agent will then start and become active
-![](./img/Pasted%20image%2020230216113920.png)
+
+![](./img/Pasted%20image%2020230216115047.png)
 
 Right click on the agent and select configure agent
+
 
 ![](./img/Pasted%20image%2020230216114003.png)
 
@@ -40,4 +42,5 @@ Setup logging is the last section and this will allow you to see the log locatio
 
 Clicking on the save button will save the configuration to the machine and allow the agent to be set to active status.
 
-left cl
+left click on the agent icon in the taskbar try, this will show the agent details
+![](./img/Pasted%20image%2020230216115029.png)
