@@ -11,5 +11,7 @@ Create a repository with the following structure
 |---|---|
 | azure-pipelines.yml | will handle the work necessary to bring down our repo, and perform any file changes needed|
 | test.json | contains the test case guid for which to perform the automation test execution on |
-| tosca.ps1 | ToscaExecution
+| tosca.ps1 | ToscaExecutionClient which will call the appropriate server for automation execution |
+
+
 
