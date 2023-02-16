@@ -65,3 +65,12 @@ For my Jenkins setup I pull commits directly from Github, via a private organiza
 
 ##### Github Repository Layout
 ![](./img/Pasted%20image%2020230217091224.png)
+
+
+---
+##### Tosca.sh
+To provide value to this file navigate to the following url and copy paste the code into your .sh file
+[`https://raw.githubusercontent.com/Tricentis/ToscaExecutionClient/main/tosca_execution_client.sh`](https://raw.githubusercontent.com/Tricentis/ToscaExecutionClient/main/tosca_execution_client.sh)
+
+
+Once you have the execution file created you will want to create a dummy test file for checking your pipeline connectivity.
