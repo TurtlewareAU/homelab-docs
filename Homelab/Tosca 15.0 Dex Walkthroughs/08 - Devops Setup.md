@@ -34,4 +34,5 @@ Create this file and then check in Tosca -> ExecutionList -> Your ExecutionList 
 ![](./img/Pasted%20image%2020230216154022.png)
 
 ---
-##### azur
+##### azure-pipeline.yml
+There is limited items required for the pipeline to run, below you will find an example yml file that will get the test cases run, and results stored back into DevOps.
