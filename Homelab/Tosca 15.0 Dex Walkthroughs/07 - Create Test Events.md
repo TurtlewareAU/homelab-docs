@@ -66,7 +66,12 @@ Now we will want to navigate to the following url `http://localhost/Monitor`, th
 
 ![](./img/Pasted%20image%2020230216133523.png)
 
-When we click on the currently awiting test case we are shown this modal pop up which will give use general information about the current test run. Here was can see progress as it happens. As test cases run and pass or fail the mode
+When we click on the currently awiting test case we are shown this modal pop up which will give use general information about the current test run. Here was can see progress as it happens. As test cases run and pass or fail the modal will update with the correct information.
+
 ![](./img/Pasted%20image%2020230216133543.png)
 
+Once the test event has run we can see the modal updates a final time to show that the test event has passed successfully, and that the execution has ended.
+
 ![](./img/Pasted%20image%2020230216133627.png)
+
+Lastly w
