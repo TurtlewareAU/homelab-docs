@@ -48,4 +48,8 @@ Next we will want to make sure we have the required settings fixed, and we are a
 
 ![](./img/Pasted%20image%2020230216133018.png)
 
-Here we will want to perform a right click on the Configuration root element
+Here we will want to perform a right click on the Configuration root element, and selecting the menu item Refresh Agents
+
+![](Pasted%20image%2020230216133117.png)
+
+We can validate our setup by looking at the agent count in the Details tab
