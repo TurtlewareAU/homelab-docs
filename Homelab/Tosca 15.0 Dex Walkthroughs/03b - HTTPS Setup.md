@@ -22,6 +22,12 @@ Select the Automatically select the certificate store based on the type of certi
 
 Click the finish button to install the certificate
 
+![](./img/Pasted%20image%2020230217123547.png)
+
+Seeing the above window says the certificate has been setup and install correctly. 
+
+Now we are ready to start the Tosca Server install for HTTPS connections
+
 
 
 ![](Pasted%20image%2020230217122728.png)
