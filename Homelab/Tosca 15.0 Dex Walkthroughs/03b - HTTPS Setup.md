@@ -65,7 +65,9 @@ Click Next on the Tosca Server Diagnotics page to remove the anonymous usage sta
 
 Below we will need to find our Certificate Thumbprint, which can be found by
 
-Double Clicking on our
+Double Clicking on our Certificate.crt file as installed in the step above
+
+
 
 
 ![](Pasted%20image%2020230217122728.png)
