@@ -33,6 +33,7 @@ Now we are ready to start the Tosca Server install for HTTPS connections
 
 --- 
 ### Install Tosca Server (HTTPS)
+
 Launch Tricentis Tosca Server 15.2 Patch <#>.exe
 
 ![](./img/installer.png)
@@ -60,7 +61,7 @@ Here we will uncheck the Anonymous usage stats. Click Next
 
 ![](./img/installer-diagnostics.png)
 
-For the purposes of this install I will be using HTTP as I don't have a valid Certificate Thumprint for the HTTPS instance. Click Next.
+
 
 
 ![](Pasted%20image%2020230217122728.png)
