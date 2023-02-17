@@ -16,6 +16,12 @@ Click on Local Machine and then the next button.
 
 ![](./img/Pasted%20image%2020230217123421.png)
 
-Select the Automatically select the certificate store abs
+Select the Automatically select the certificate store based on the type of certificate radio button
+
+![](./img/Pasted%20image%2020230217123511.png)
+
+Click the finish button to install the certificate
+
+
 
 ![](Pasted%20image%2020230217122728.png)
