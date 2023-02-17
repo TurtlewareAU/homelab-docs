@@ -1,2 +1,2 @@
-Have your certificate issued by your certifica
+Have your certificate issued by your certificate issuer, copt the crt file. The best way to get the certificate installed is to double click on the .crt button 
 ![](Pasted%20image%2020230217122728.png)
