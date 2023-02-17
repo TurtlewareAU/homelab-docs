@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md"
               }
             }
           }
@@ -173,9 +173,9 @@
   },
   "active": "56139b930cbeb5b2",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230217122728.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230217101656.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/Pasted image 20230217122910.png",
