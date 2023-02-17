@@ -32,7 +32,7 @@ Seeing the above window says the certificate has been setup and install correctl
 Now we are ready to start the Tosca Server install for HTTPS connections
 
 --- 
-### 
+### Install Tosca Server (HTTPS)
 Launch Tricentis Tosca Server 15.2 Patch <#>.exe
 
 ![](./img/installer.png)
