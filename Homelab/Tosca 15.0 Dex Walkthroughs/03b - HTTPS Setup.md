@@ -8,6 +8,10 @@ Double clicking the .crt file will show the following window.
 
 ![](./img/Pasted%20image%2020230217123023.png)
 
-Click on the Install Certificate
+Click on the Install Certificate to start the install wizard
+
+![](./img/Pasted%20image%2020230217123337.png)
+
+
 
 ![](Pasted%20image%2020230217122728.png)
