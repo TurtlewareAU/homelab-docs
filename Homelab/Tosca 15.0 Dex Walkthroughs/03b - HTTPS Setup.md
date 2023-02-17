@@ -68,9 +68,8 @@ Below we will need to find our Certificate Thumbprint, which can be found by
 Double Clicking on our Certificate.crt file as installed in the step above
 
 ![](./img/Pasted%20image%2020230217124246.png)
+
 We will need to select and copy the thumbprint, and then paste this into the Tosca Installer. 
 
-You know everything will be fine when you get a green tick. If you started the installer then installed your certificate, cancel out of the installer and reload it. this will validate 
+You know everything will be fine when you get a green tick. If you started the installer then installed your certificate, cancel out of the installer and reload it. this will validate the certificate when you provide the Thumprint again.
 
-
-![](Pasted%20image%2020230217122728.png)
