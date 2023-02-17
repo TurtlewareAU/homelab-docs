@@ -23,9 +23,11 @@
             "id": "00ec8c9ea7a8dc3d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-type.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-type.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-type.png",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-type.png"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md"
               }
             }
           }
@@ -159,6 +161,7 @@
   },
   "active": "00ec8c9ea7a8dc3d",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-type.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-splash.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-prerequisites.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-install-location.png",
@@ -167,7 +170,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/img/commander-data-integrity.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/02 - Tosca Commander 15.2 Patch 5.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md"
   ]
 }
