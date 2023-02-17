@@ -61,7 +61,11 @@ Here we will uncheck the Anonymous usage stats. Click Next
 
 ![](./img/installer-diagnostics.png)
 
+Click Next on the Tosca Server Diagnotics page to remove the anonymous usage statistics. 
 
+Below we will need to find our Certificate Thumbprint, which can be found by
+
+Double Clicking on our
 
 
 ![](Pasted%20image%2020230217122728.png)
