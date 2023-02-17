@@ -75,3 +75,10 @@ You know everything will be fine when you get a green tick. If you started the i
 
 ![](./img/Pasted%20image%2020230217124450.png)
 
+Next we will set the File Server location. Select the location you would like to store this and click next.
+
+![](./img/installer-fileservice.png)
+
+Next is the review page. Here is a list of all the installation items which will be added to the machine. Clicking on the Install button will start the installation process.
+
+![](./img/installer-install.png)
