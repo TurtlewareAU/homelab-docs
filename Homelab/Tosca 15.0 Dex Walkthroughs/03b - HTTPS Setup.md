@@ -1,7 +1,7 @@
 --- 
 ### HTTPS Certificate Installation (Windows)
 
-Have your certificate issued by your certificate issuer, copt the crt file. The best way to get the certificate installed is to double click on the .crt on your computer and install.
+Have your certificate issued by your certificate issuer, copt the crt file. The best way to get the certificate installed is to double click on the .crt on your computer and install. You will also require the .p12 key for Tosca To be happy. You will also need to perform the below install steps via the .p12 certificate also.
 
 Here I have saved the crt file for tosca.turtleware.au to my machine as ToscaServer.crt.
 
