@@ -82,3 +82,6 @@ Next we will set the File Server location. Select the location you would like to
 Next is the review page. Here is a list of all the installation items which will be added to the machine. Clicking on the Install button will start the installation process.
 
 ![](./img/installer-install.png)
+
+---
+[Next Steps : 04 - Database Repository Setup](04%20-%20Database%20Repository%20Setup.md)
