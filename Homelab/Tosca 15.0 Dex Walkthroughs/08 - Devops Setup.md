@@ -204,3 +204,21 @@ Below is an example output on the Pipeline Dashboard for a given pipeline.
 
 ## Jenkins Pipeline with Tosca HTTPS
 
+
+```Jenkinsfile
+node {
+stage('SCM') {
+checkout scm
+}
+stage('Perform Test Execution') {
+sh 'chmod +x tosca.sh'
+sh './tosca.sh --toscaServerUrl https://tosca.turtleware.au --projectName tosca_demo --eventsConfigFilePath test.json -clientId 6Vwyt2JTT0CrfL3JZ0H3iA -clientSecret K3IVICJQRUW9o6_QMsNaiQK1RDVyvP6kaVEyONtoSIfQ'
+}
+stage('Publish Test Results') {
+junit 'results/*_results.xml'
+}
+stage('Clean Workspace') {
+cleanWs deleteDirs: true, notFailBuild: true
+}
+}
+```
