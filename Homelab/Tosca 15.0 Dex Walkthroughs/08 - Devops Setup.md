@@ -71,9 +71,11 @@ when I logged in I saw the following screen
 
 ![](./img/Pasted%20image%2020230221084554.png)
 
-We need to click on the Add New Button next to the tokens, this will provide our user access to the tosca server. Please note this is mandatory for HTTPS to work. After you click on the butto
+We need to click on the Add New Button next to the tokens, this will provide our user access to the tosca server. Please note this is mandatory for HTTPS to work. After you click on the button you will see this pop up.
 
+![](./img/Pasted%20image%2020230221084717.png)
 
+Fill in the information. Mostly just give the token a name and maybe extend the expiration to a different date. You will requir
 
 ```yml
 trigger:
