@@ -55,6 +55,10 @@ steps:
 ```
 
 
+## Azure DevOps HTTPS
+
+For working with Azure Dev Ops and Tosca Server over HTTPS you will need to run a different pipeline yml. The steps above for setting up a new pipeline are the same you just need to provide a few more steps before you can make it all work.
+
 
 
 ---
