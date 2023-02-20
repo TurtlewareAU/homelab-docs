@@ -59,7 +59,21 @@ steps:
 
 For working with Azure Dev Ops and Tosca Server over HTTPS you will need to run a different pipeline yml. The steps above for setting up a new pipeline are the same you just need to provide a few more steps before you can make it all work.
 
+First step is to navig
 
+```yml
+trigger:
+  - main
+steps:
+  - task: PowerShell@2
+    inputs:
+      filePath: 'Tosca.ps1'
+      arguments: '-toscaServerUrl https://tosca.turtleware.au -projectName tosca_demo -eventsConfigFilePath test.json -clientid QFkmQSR1DUykrI5UFYC3Nw -clientSecret zkAwC0eIckOykLnJur73gQz7ShpEd830G0bmubGF1lBQ'
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/*_results.xml'
+```
 
 ---
 
