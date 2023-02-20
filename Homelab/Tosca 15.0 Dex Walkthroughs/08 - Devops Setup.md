@@ -224,5 +224,6 @@ node {
 }
 ```
 
-We need the `--insecure` flag set as there is no certificate installed on the machine and you will get the following error when you run the pipeline.
+We need the `--insecure` flag set as there is no certificate installed on the machine and you will get the following error when you run the pipeline. "curl: 77 error seeti"
 
+![](./img/Pasted%20image%2020230221093538.png)
