@@ -63,7 +63,7 @@ First step is to navigate to your tosca server dash board https://localhost so y
 
 ![](./img/Pasted%20image%2020230221084232.png)
 
-Click on the User Administration link. 
+Click on the User Administration link. The first time I clicked this link I was given a login screen which I 
 
 ```yml
 trigger:
