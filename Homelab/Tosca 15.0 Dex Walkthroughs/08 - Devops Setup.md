@@ -79,7 +79,13 @@ Fill in the information. Mostly just give the token a name and maybe extend the 
 
 ![](./img/Pasted%20image%2020230221084851.png)
 
-Ensure you copy all three tokens as this will be the only time you can see them. Also there is no regenerate, so if you lose this you will have to follow the same process of adding a new token. Once these are saved you can then put the into the pipeline 
+Ensure you copy all three tokens as this will be the only time you can see them. Also there is no regenerate, so if you lose this you will have to follow the same process of adding a new token. Once these are saved you can then put the into the pipeline yml below.
+
+Mainly we need to add the following:
+`-clientId 6Vwyt2JTT0CrfL3JZ0H3iA`
+`-clientSecret K3IVICJQRUW9o6_QMsNaiQK1RDVyvP6kaVEyONtoSIfQ`
+
+With
 
 
 
