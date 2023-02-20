@@ -224,6 +224,12 @@ node {
 }
 ```
 
-We need the `--insecure` flag set as there is no certificate installed on the machine and you will get the following error when you run the pipeline. "curl: 77 error seeti"
+We need the `--insecure` flag set as there is no certificate installed on the machine and you will get the following error when you run the pipeline. "curl: 77 error setting certificate verify"
 
 ![](./img/Pasted%20image%2020230221093538.png)
+
+---
+
+## Jenkins Freestyle Project
+
+For the freestyle project we need to change the line were we call the tosca.sh file and perform the same execution with the new HTTPS 
