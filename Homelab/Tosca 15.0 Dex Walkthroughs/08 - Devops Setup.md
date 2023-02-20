@@ -67,7 +67,13 @@ Click on the User Administration link. The first time I clicked this link I was 
 username: `Admin`
 password: `Admin`
 
-when I logged in I saw the foll
+when I logged in I saw the following screen
+
+![](./img/Pasted%20image%2020230221084554.png)
+
+We need to click on the Add New Button next to the tokens, this will provide our user access to the tosca server. Please note this is mandatory for HTTPS to work. After you click on the butto
+
+
 
 ```yml
 trigger:
