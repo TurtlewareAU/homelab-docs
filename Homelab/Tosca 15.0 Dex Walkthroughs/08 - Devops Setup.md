@@ -75,7 +75,12 @@ We need to click on the Add New Button next to the tokens, this will provide our
 
 ![](./img/Pasted%20image%2020230221084717.png)
 
-Fill in the information. Mostly just give the token a name and maybe extend the expiration to a different date. You will requir
+Fill in the information. Mostly just give the token a name and maybe extend the expiration to a different date. You will require Full Access for the user. Once completed click Generate Token. Then the next pop up will display.
+
+![](Pasted%20image%2020230221084851.png)
+
+
+
 
 ```yml
 trigger:
