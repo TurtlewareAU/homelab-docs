@@ -204,7 +204,7 @@ Below is an example output on the Pipeline Dashboard for a given pipeline.
 
 ## Jenkins Pipeline with Tosca HTTPS
 
-Below is the pipeline yml required for a Jenkinsfile using the HTTPS connection. Here the yml is
+Below is the pipeline yml required for a Jenkinsfile using the HTTPS connection. Here the yml is being run on a linux agent
 
 ```yml
 node {
@@ -223,3 +223,6 @@ node {
   }
 }
 ```
+
+We need the `--insecure` flag set as there is no certificate installed on the machine and you will get the following error when you run the pipeline.
+
