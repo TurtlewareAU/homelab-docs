@@ -232,4 +232,11 @@ We need the `--insecure` flag set as there is no certificate installed on the ma
 
 ## Jenkins Freestyle Project
 
-For the freestyle project we need to change the line were we call the tosca.sh file and perform the same execution with the new HTTPS 
+For the freestyle project we need to change the line were we call the tosca.sh file and perform the same execution with the new HTTPS Url.
+
+```bash
+sudo chmod +x tosca.sh
+./tosca.sh --toscaServerUrl https://tosca.turtleware.au --projectName tosca_demo --eventsConfigFilePath test.json --clientId 6Vwyt2JTT0CrfL3JZ0H3iA --clientSecret K3IVICJQRUW9o6_QMsNaiQK1RDVyvP6kaVEyONtoSIfQ --insecure
+```
+
+![](./img/Pasted%20image%2020230221093752.png)
