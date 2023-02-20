@@ -85,9 +85,7 @@ Mainly we need to add the following:
 `-clientId 6Vwyt2JTT0CrfL3JZ0H3iA`
 `-clientSecret K3IVICJQRUW9o6_QMsNaiQK1RDVyvP6kaVEyONtoSIfQ`
 
-With
-
-
+With all of this setup, make sure the server you are pointing to is the correct url, or your certificate validation will fail and no tests will run.
 
 ```yml
 trigger:
