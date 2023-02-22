@@ -84,7 +84,19 @@ Next is the review page. Here is a list of all the installation items which will
 ![](./img/installer-install.png)
 
 ---
-## HTTPS - Login Issues Through Tosca Server Dashbo
+## HTTPS - Login Issues Through Tosca Server Dashboard
+
+When using HTTPS for your server most of the pages below will link to a new page and generate an unauthorized message, then drop you into a login screen. Use the below user details to authenticate.
+
+![](./img/Pasted%20image%2020230221084232.png)
+
+Click on the User Administration link. The first time I clicked this link I was given a login screen. I used the following
+username: `Admin`
+password: `Admin`
+
+when I logged in I saw the following screen
+
+![](./img/Pasted%20image%2020230221084554.png)
 
 ---
 [Next Steps : 04 - Database Repository Setup](04%20-%20Database%20Repository%20Setup.md)
