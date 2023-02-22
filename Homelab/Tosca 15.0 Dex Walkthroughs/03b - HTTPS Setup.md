@@ -84,4 +84,7 @@ Next is the review page. Here is a list of all the installation items which will
 ![](./img/installer-install.png)
 
 ---
+## HTTPS - Login Issues Through Tosca Server Dashbo
+
+---
 [Next Steps : 04 - Database Repository Setup](04%20-%20Database%20Repository%20Setup.md)
