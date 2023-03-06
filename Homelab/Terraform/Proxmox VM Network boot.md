@@ -42,3 +42,6 @@ from above we have the terraform plugin setup script, this will tell terraform t
 
 ![](Pasted%20image%2020230306143117.png)
 ![](Pasted%20image%2020230306143131.png)
+
+`pm_tls_insecure` is set to true so terraform will bypass the self signed certificate and perform the work as per your requests. so to make all this happy we want to following provider
+
