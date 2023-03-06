@@ -5,3 +5,5 @@ I have my server already setup check out backlink to install for installation st
 
 ![](./img/maas-dashboard.png)
 
+Once this is setup correctly we will want to allow this server for network booting via pfSense gui. Login to your pfSense GUI.
+
