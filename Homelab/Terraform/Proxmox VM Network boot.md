@@ -114,7 +114,7 @@ The next few items are default and required
 
 ### Optional - but recommended
 
-
+These next items are optional
 target_node = "venus"
 cores       = 2
 sockets     = 1
@@ -129,5 +129,5 @@ model     = "virtio"
 disk {
 type    = "scsi"
 storage = "vm"
- size    = "32G"
-  }
+size    = "32G"
+}
