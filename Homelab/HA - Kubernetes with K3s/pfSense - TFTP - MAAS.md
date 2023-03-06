@@ -3,4 +3,4 @@ Ubuntu MaaS is software developed by Canonical as a way to provission ubuntu mac
 
 I have my server already setup check out <backlink to install> for installation steps.
 
-![](Pasted%20image%2020230306134401.png)
+![](./img/Pasted%20image%2020230306134433.png)
