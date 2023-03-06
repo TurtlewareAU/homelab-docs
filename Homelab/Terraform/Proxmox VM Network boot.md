@@ -69,4 +69,33 @@ We can then invoke this with `terraform init`. Which ever folder we have this pr
 
 ### Terraform Machine Configuration
 
-To setup a new virtual machine within our proxmox agent or cluster we need a configuration file specific for our netboot needs. below is an example I use to spin up new virtual machines, which will use MaaS netboot/
+To setup a new virtual machine within our proxmox agent or cluster we need a configuration file specific for our netboot needs. below is an example I use to spin up new virtual machines, which will use MaaS netboot/pxe to generate a new clean virtual machine.
+
+```yml
+resource "proxmox_vm_qemu" "K3S-Test-2" {
+  os_type     = "ubuntu"
+  name        = "K3S-Test-2"
+  agent       = 0
+  boot        = "ndc"
+  onboot      = true
+  pxe         = true
+  target_node = "venus"
+  cores       = 2
+  sockets     = 1
+  cpu         = "host"
+  memory      = 2048
+  network {
+    bridge   = "vmbr0"
+    firewall  = false
+    link_down = false
+    model     = "virtio"
+  }
+  disk {
+    type    = "scsi"
+    storage = "vm"
+    size    = "32G"
+  }
+}
+```
+
+Lets Break this yml
