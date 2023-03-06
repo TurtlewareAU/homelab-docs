@@ -5,5 +5,7 @@ I have my server already setup check out backlink to install for installation st
 
 ![](./img/maas-dashboard.png)
 
-Once this is setup correctly we will want to allow this server for network booting via pfSense gui. Login to your pfSense GUI.
+Once this is setup correctly we will want to allow this server for network booting via pfSense gui. Login to your pfSense GUI. Click on the Services > DHCP Server menu item. You should land on this page.
+
+![](Pasted%20image%2020230306135111.png)
 
