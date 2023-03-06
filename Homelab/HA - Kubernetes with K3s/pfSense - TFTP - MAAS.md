@@ -29,4 +29,4 @@ If you are doing uefi network booting then you will need to check these are corr
 With all these changes / modifications made you can save the DHCP Server details. 
 ![](Pasted%20image%2020230306135608.png)
 
-You ma
+No you can follow ![Terraform - Proxmox - VM Create Network Boot]()
