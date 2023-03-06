@@ -116,7 +116,7 @@ The next few items are default and required
 ### Optional - but recommended
 
 These next items are optional
-`cores       = 2`
+`cores       = 2` - Virtual Machine Cores To Provision
 `sockets     = 1`
 `cpu         = "host"`
 `memory      = 2048`
