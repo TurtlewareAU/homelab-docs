@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e540f3cd15a04735",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d99408c8f280cc8",
+  "active": "e540f3cd15a04735",
   "lastOpenFiles": [
     "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
