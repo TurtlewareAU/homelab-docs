@@ -9,15 +9,15 @@ I am using Ubuntu Maas to provission new virtual machines. To do so I run a new 
 ```bash
 curl -sfL https://get.k3s.io | sh -s - server \
 --token="" \
---tls-san https://dev.kube.turtleware.au --tls-san 10.0.44.144 \
+--tls-san https://dev.kube.turtleware.au --tls-san 0.0.0.0 \
 --cluster-init
 ```
 
 ```bash
 curl -sfL https://get.k3s.io | sh -s - server \
 --token="" \
---tls-san https://dev.kube.turtleware.au --tls-san 10.0.44.144 \
---server https://10.0.44.144:6443
+--tls-san https://dev.kube.turtleware.au --tls-san 0.0.0.0 \
+--server https://0.0.0.0:6443
 ```
 
 ### Uninstall
