@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/pFsense.md",
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/pFsense.md",
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/pFsense.md",
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/pFsense.md"
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "active": "99ef468518669c65",
   "lastOpenFiles": [
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
-    "Homelab/HA - Kubernetes with K3s/pFsense.md",
+    "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
