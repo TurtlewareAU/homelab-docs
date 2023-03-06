@@ -111,11 +111,12 @@ The next few items are default and required
 
 `onboot      = true` - This needs to be set to true/false based on if you want this machine to boot when the host is powered on, and quoram is reached.
 `pxe         = true` - This needs to be true, as we are setting up a pxe virtual machine. 
+`target_node = "venus"` - The node to run the machine on is also required. This only needs the node name inside of the cluster.
 
 ### Optional - but recommended
 
 These next items are optional
-target_node = "venus"
+
 cores       = 2
 sockets     = 1
 cpu         = "host"
