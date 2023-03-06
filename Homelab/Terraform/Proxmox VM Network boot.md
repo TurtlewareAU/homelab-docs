@@ -116,19 +116,18 @@ The next few items are default and required
 ### Optional - but recommended
 
 These next items are optional
-
-cores       = 2
-sockets     = 1
-cpu         = "host"
-memory      = 2048
-network {
-bridge   = "vmbr0"
-firewall  = false
-link_down = false
-model     = "virtio"
-}
-disk {
-type    = "scsi"
-storage = "vm"
-size    = "32G"
-}
+`cores       = 2`
+`sockets     = 1`
+`cpu         = "host"`
+`memory      = 2048`
+`network {`
+`bridge   = "vmbr0"`
+`firewall  = false`
+`link_down = false`
+`model     = "virtio"`
+`}`
+`disk {`
+`type    = "scsi"`
+`storage = "vm"`
+`size    = "32G"`
+`}`
