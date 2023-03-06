@@ -123,9 +123,9 @@ These next items are optional
 
 ##### Network Section
 `network {`
-`bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, h
-`firewall  = false`
-`link_down = false`
+`bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, however if its been changed this will most likely be wrong. Check the entwork section of your host.
+`firewall  = false` - This sets the firewall active/disabled based on true/false
+`link_down = false` - This will force the network link to be down on startup, we wont like that for network booting. :(
 `model     = "virtio"`
 `}`
 `disk {`
