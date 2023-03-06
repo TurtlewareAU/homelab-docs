@@ -17,6 +17,8 @@ Set the TFTP Server to your Ubuntu MaaS server ip address.
 
 Next set Enables network booting check box to see the fields below.
 
-> `
+> `Next Server` is the location of your MaaS server same as above
+> `default BIOS file name` needs to be set to pxelinux.0
+> `uefi 32 bit file name` 
 
 ![](Pasted%20image%2020230306135228.png)
