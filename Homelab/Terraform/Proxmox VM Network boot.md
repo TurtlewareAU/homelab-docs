@@ -29,3 +29,5 @@ provider "proxmox" {
   pm_tls_insecure     = true
 }
 ```
+
+from above we have the terraform plugin setup script, this will tell terraform to download the plugin 
