@@ -19,6 +19,9 @@ Next set Enables network booting check box to see the fields below.
 
 > `Next Server` is the location of your MaaS server same as above
 > `default BIOS file name` needs to be set to pxelinux.0
-> `uefi 32 bit file name` 
+> `uefi 32 bit file name` was part of a walkthrough I saw when you are doing uefi booting.
+> `uefi 64 bit fil name` same as above
+
+If you are doing uefi network booting then you will need to check these are correct. I have not 
 
 ![](Pasted%20image%2020230306135228.png)
