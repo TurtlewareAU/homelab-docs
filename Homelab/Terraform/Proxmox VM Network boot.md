@@ -67,4 +67,6 @@ provider "proxmox" {
 
 We can then invoke this with `terraform init`. Which ever folder we have this provider file in we can start generating new machines, modify current ones, or remove no longer needed machines.
 
-To setup a new virtual ma
+### Terraform Machine Configuration
+
+To setup a new virtual machine within our proxmox agent or cluster we need a configuration file specific for our netboot needs. below is an example I use to spin up new virtual machines, which will use MaaS netboot/
