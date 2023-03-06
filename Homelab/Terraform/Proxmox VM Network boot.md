@@ -109,5 +109,25 @@ The next few items are default and required
 `boot        = "ndc"` - This is the most important part. I tried many ways to get this to work, and this is the only way I have found for the pxe booting to work. `ndc` or network, disk, cdrom as per the default in the documentation
 ![](Pasted%20image%2020230306145438.png)
 
-`onboot      = true` - This needs to be set to true/false based on if you want this machine to boot when the host is powered on, and quoram is reac
-`pxe         = true`
+`onboot      = true` - This needs to be set to true/false based on if you want this machine to boot when the host is powered on, and quoram is reached.
+`pxe         = true` - This needs to be true, as we are setting up a pxe virtual machine. 
+
+### Optional - but recommended
+
+
+target_node = "venus"
+cores       = 2
+sockets     = 1
+cpu         = "host"
+memory      = 2048
+network {
+bridge   = "vmbr0"
+firewall  = false
+link_down = false
+model     = "virtio"
+}
+disk {
+type    = "scsi"
+storage = "vm"
+ size    = "32G"
+  }
