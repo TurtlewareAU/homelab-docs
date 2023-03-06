@@ -66,3 +66,5 @@ provider "proxmox" {
 ```
 
 We can then invoke this with `terraform init`. Which ever folder we have this provider file in we can start generating new machines, modify current ones, or remove no longer needed machines.
+
+To setup a new virtual ma
