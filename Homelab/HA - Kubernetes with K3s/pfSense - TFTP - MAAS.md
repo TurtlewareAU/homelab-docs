@@ -11,4 +11,12 @@ Once this is setup correctly we will want to allow this server for network booti
 
 From this page scroll all the way down to the other options section of the page and locate
 
-![](Pasted%20image%2020230306135214.png)
+![](./img/Pasted%20image%2020230306135214.png)
+
+Set the TFTP Server to your Ubuntu MaaS server ip address.
+
+Next set Enables network booting check box to see the fields below.
+
+> `
+
+![](Pasted%20image%2020230306135228.png)
