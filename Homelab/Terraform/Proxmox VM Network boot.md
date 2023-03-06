@@ -106,6 +106,6 @@ The next few items are default and required
 `os_type     = "ubuntu"` - this is the type of operating system we will be deploying. I believe this is default for linux, as we can also select centos or cloud-init
 `name        = "K3S-Test-2"` - this is the name we will setup proxmox with. ![](Pasted%20image%2020230306144851.png)
 `agent       = 0` - This has failed in the past so setting the qemu_guest_agent to off helps with successfully installing. this can be changed after the fact to allow agent monitoring.
-`boot        = "ndc"` - This is the most important part. I tried many ways to get this to work, and this is the only way I have found for the pxe booting to work. `ndc` or 
+`boot        = "ndc"` - This is the most important part. I tried many ways to get this to work, and this is the only way I have found for the pxe booting to work. `ndc` or network, d
 `onboot      = true`
 `pxe         = true`
