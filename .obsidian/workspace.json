@@ -23,9 +23,11 @@
             "id": "99ef468518669c65",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/maas-dashboard.png"
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/maas-dashboard.png",
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/maas-dashboard.png",
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/maas-dashboard.png"
+                "file": "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md"
               }
             }
           }
@@ -159,8 +161,8 @@
   },
   "active": "99ef468518669c65",
   "lastOpenFiles": [
-    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/HA - Kubernetes with K3s/img/maas-dashboard.png",
+    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/HA - Kubernetes with K3s/pfSense - TFTP - MAAS.md",
     "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230306134433.png",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
