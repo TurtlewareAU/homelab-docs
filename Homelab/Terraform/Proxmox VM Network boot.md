@@ -34,6 +34,6 @@ from above we have the terraform plugin setup script, this will tell terraform t
 
 `pm_api_url` this needs to be either you only proxmox node, or a node that is connected to your cluster. an example would be `https://192.168.1.2:8006/api2/json` this will be where Terraform invokes its vm create, modify and destroy commands.
 
-`pm_api_token_id` this is the id you gave to a new user for api access
+`pm_api_token_id` this is the id you gave to a new user for api access as per the image below you will need the username@realm so for me its packer@pam
 
-![](Pasted%20image%2020230306142720.png)
+![](Pasted%20image%2020230306142951.png)
