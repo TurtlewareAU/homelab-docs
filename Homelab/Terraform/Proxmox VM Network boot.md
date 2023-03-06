@@ -117,9 +117,9 @@ The next few items are default and required
 
 These next items are optional
 `cores       = 2` - Virtual Machine Cores To Provision
-`sockets     = 1`
-`cpu         = "host"`
-`memory      = 2048`
+`sockets     = 1` - Virtual Machine CPU Sockets (on multiple servers you can give this cores on different sockets)
+`cpu         = "host"` - The CPU Type - safe to pick host, some linux apps require specific cpu features.
+`memory      = 2048` - 1024 * 2 simply 
 `network {`
 `bridge   = "vmbr0"`
 `firewall  = false`
