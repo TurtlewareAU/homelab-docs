@@ -46,7 +46,7 @@ from above we have the terraform plugin setup script, this will tell terraform t
 
 `pm_tls_insecure` is set to true so terraform will bypass the self signed certificate and perform the work as per your requests. so to make all this happy we want to following provider
 
-```yml
+```yaml
 terraform {
   required_version = ">=1.1.0"
   required_providers {
@@ -71,7 +71,7 @@ We can then invoke this with `terraform init`. Which ever folder we have this pr
 
 To setup a new virtual machine within our proxmox agent or cluster we need a configuration file specific for our netboot needs. below is an example I use to spin up new virtual machines, which will use MaaS netboot/pxe to generate a new clean virtual machine.
 
-```yml
+```yaml
 resource "proxmox_vm_qemu" "K3S-Test-2" {
   os_type     = "ubuntu"
   name        = "K3S-Test-2"
