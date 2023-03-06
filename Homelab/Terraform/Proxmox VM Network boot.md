@@ -115,16 +115,22 @@ The next few items are default and required
 
 ### Optional - but recommended
 
-These next items are optional
+These next items are 
+
 `cores       = 2` - Virtual Machine Cores To Provision
+
 `sockets     = 1` - Virtual Machine CPU Sockets (on multiple servers you can give this cores on different sockets)
+
 `cpu         = "host"` - The CPU Type - safe to pick host, some linux apps require specific cpu features.
+
 `memory      = 2048` - 1024 * 2 simply the size of the ram you want to allocate
 
 ##### Network Section
 `network {`
 `bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, however if its been changed this will most likely be wrong. Check the entwork section of your host.
+
 `firewall  = false` - This sets the firewall active/disabled based on true/false
+
 `link_down = false` - This will force the network link to be down on startup, we wont like that for network booting. :(
 `model     = "virtio"` - This is the network model type, this again is default. 
 `}`
