@@ -132,6 +132,7 @@ These next items are
 `firewall  = false` - This sets the firewall active/disabled based on true/false
 
 `link_down = false` - This will force the network link to be down on startup, we wont like that for network booting. :(
+
 `model     = "virtio"` - This is the network model type, this again is default. 
 `}`
 
@@ -140,6 +141,8 @@ Operating system disks I thoughy we were network booting. we are doing that but 
 
 `disk {`
 `type    = "scsi"` - This is the default disk type for most of proxmox.
+
 `storage = "vm"` - This is the storage device name. On all my hosts I have one single drive called vm. where all my vm's store their operating disks. I do nightly backups for each machine. so to me this is safe. Also it means I can offline and Online Migrate to any host without needing to switch devices.
+
 `size    = "32G"` - This is the size I want my linux vm's to have. So far I have not had issues with vm size.
 `}`
