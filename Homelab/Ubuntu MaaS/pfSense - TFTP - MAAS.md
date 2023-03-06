@@ -3,15 +3,15 @@ Ubuntu MaaS is software developed by Canonical as a way to provission ubuntu mac
 
 I have my server already setup check out backlink to install for installation steps. The main dashboard looks like the image below. 
 
-![](./img/maas-dashboard.png)
+![](maas-dashboard.png)
 
 Once this is setup correctly we will want to allow this server for network booting via pfSense gui. Login to your pfSense GUI. Click on the Services > DHCP Server menu item. You should land on this page.
 
-![](./img/Pasted%20image%2020230306135111.png)
+![](Pasted%20image%2020230306135111.png)
 
 From this page scroll all the way down to the other options section of the page and locate
 
-![](./img/Pasted%20image%2020230306135214.png)
+![](Pasted%20image%2020230306135214.png)
 
 Set the TFTP Server to your Ubuntu MaaS server ip address.
 
