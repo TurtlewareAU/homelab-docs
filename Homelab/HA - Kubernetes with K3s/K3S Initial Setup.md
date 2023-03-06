@@ -34,6 +34,13 @@ sudo k3s kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/a
 ```bash
 sudo k3s kubectl get pods -n argocd
 ```
+
+```bash
+sudo k3s kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+```
+
+
+
 ### Uninstall
 ```
 /usr/local/bin/k3s-uninstall.sh
