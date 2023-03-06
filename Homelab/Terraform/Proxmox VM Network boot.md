@@ -104,10 +104,10 @@ Lets Break this yml down.
 
 The next few items are default and required
 `os_type     = "ubuntu"` - this is the type of operating system we will be deploying. I believe this is default for linux, as we can also select centos or cloud-init
-`name        = "K3S-Test-2"` - this is the name we will setup proxmox with. ![](Pasted%20image%2020230306144851.png)
+`name        = "K3S-Test-2"` - this is the name we will setup proxmox with. ![](./img/Pasted%20image%2020230306144851.png)
 `agent       = 0` - This has failed in the past so setting the qemu_guest_agent to off helps with successfully installing. this can be changed after the fact to allow agent monitoring.
 `boot        = "ndc"` - This is the most important part. I tried many ways to get this to work, and this is the only way I have found for the pxe booting to work. `ndc` or network, disk, cdrom as per the default in the documentation
-![](Pasted%20image%2020230306145438.png)
+![](./img/Pasted%20image%2020230306145438.png)
 
 `onboot      = true` - This needs to be set to true/false based on if you want this machine to boot when the host is powered on, and quoram is reached.
 `pxe         = true` - This needs to be true, as we are setting up a pxe virtual machine. 
@@ -126,7 +126,8 @@ These next items are
 `memory      = 2048` - 1024 * 2 simply the size of the ram you want to allocate
 
 ##### Network Section
-`network {`
+`network { }`
+
 `bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, however if its been changed this will most likely be wrong. Check the entwork section of your host.
 
 `firewall  = false` - This sets the firewall active/disabled based on true/false
@@ -134,15 +135,14 @@ These next items are
 `link_down = false` - This will force the network link to be down on startup, we wont like that for network booting. :(
 
 `model     = "virtio"` - This is the network model type, this again is default. 
-`}`
 
 ##### Operating System Disks
 Operating system disks I thoughy we were network booting. we are doing that but MaaS network boots, does some checks then lets you deploy Ubuntu to the machines disk, there by imaging a new vm, physical hardware without needing to install the operating system yourself.
 
-`disk {`
+`disk { }`
+
 `type    = "scsi"` - This is the default disk type for most of proxmox.
 
 `storage = "vm"` - This is the storage device name. On all my hosts I have one single drive called vm. where all my vm's store their operating disks. I do nightly backups for each machine. so to me this is safe. Also it means I can offline and Online Migrate to any host without needing to switch devices.
 
 `size    = "32G"` - This is the size I want my linux vm's to have. So far I have not had issues with vm size.
-`}`
