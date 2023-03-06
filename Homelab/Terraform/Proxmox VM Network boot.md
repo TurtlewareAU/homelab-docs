@@ -98,4 +98,6 @@ resource "proxmox_vm_qemu" "K3S-Test-2" {
 }
 ```
 
-Lets Break this yml
+Lets Break this yml down. 
+
+`resource "proxmox_vm_qemu" "K3S-Test-2"` This is the initial setup for the resource. we have the type of object we will work with proxmox_vm_qemu is 
