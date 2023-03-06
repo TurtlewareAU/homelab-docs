@@ -27,10 +27,13 @@ curl -sfL https://get.k3s.io | sh -s - server \
 sudo k3s kubectl create namespace argocd
 ```
 
-```
+```bash
 sudo k3s kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
+```bash
+sudo k3s kubectl get pods -n argocd
+```
 ### Uninstall
 ```
 /usr/local/bin/k3s-uninstall.sh
