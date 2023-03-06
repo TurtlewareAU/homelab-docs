@@ -126,8 +126,11 @@ These next items are optional
 `bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, however if its been changed this will most likely be wrong. Check the entwork section of your host.
 `firewall  = false` - This sets the firewall active/disabled based on true/false
 `link_down = false` - This will force the network link to be down on startup, we wont like that for network booting. :(
-`model     = "virtio"`
+`model     = "virtio"` - This is the network model type, this again is default. 
 `}`
+
+##### Operating System Disks
+Operating system disks I thoughy we were network booting. we are doing that but MaaS network boots, does some checks then lets you deploy Ubuntu to the machines disk
 `disk {`
 `type    = "scsi"`
 `storage = "vm"`
