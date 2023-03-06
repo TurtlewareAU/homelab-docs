@@ -30,4 +30,6 @@ provider "proxmox" {
 }
 ```
 
-from above we have the terraform plugin setup script, this will tell terraform to download the plugin 
+from above we have the terraform plugin setup script, this will tell terraform to download the plugin source `telmate/proxmox`, with version `2.9.11` and then set some provide details.
+
+``
