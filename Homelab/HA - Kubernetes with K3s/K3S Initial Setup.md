@@ -39,6 +39,11 @@ sudo k3s kubectl get pods -n argocd
 sudo k3s kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 ```
 
+```bash
+sudo k3s kubectl get all -n argocd
+```
+
+Copy the port for the dashboard
 
 
 ### Uninstall
