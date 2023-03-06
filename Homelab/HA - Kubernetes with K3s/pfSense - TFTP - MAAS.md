@@ -22,6 +22,11 @@ Next set Enables network booting check box to see the fields below.
 > `uefi 32 bit file name` was part of a walkthrough I saw when you are doing uefi booting.
 > `uefi 64 bit fil name` same as above
 
-If you are doing uefi network booting then you will need to check these are correct. I have not 
+If you are doing uefi network booting then you will need to check these are correct. I have not properly tested uefi booting for my purposes.
 
 ![](Pasted%20image%2020230306135228.png)
+
+With all these changes / modifications made you can save the DHCP Server details. 
+![](Pasted%20image%2020230306135608.png)
+
+You ma
