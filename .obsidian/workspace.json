@@ -66,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89a56635a037ad01",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -195,7 +205,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6f398057841fbc6",
+  "active": "89a56635a037ad01",
   "lastOpenFiles": [
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
