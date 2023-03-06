@@ -104,8 +104,8 @@ Lets Break this yml down.
 
 The next few items are default and required
 `os_type     = "ubuntu"` - this is the type of operating system we will be deploying. I believe this is default for linux, as we can also select centos or cloud-init
-`name        = "K3S-Test-2"`
-`agent       = 0`
+`name        = "K3S-Test-2"` - this is the name we will setup proxmox with. ![](Pasted%20image%2020230306144851.png)
+`agent       = 0` - This has failed in the past so setting the qemu_guest_agent to off helps with successfully installing. this c
 `boot        = "ndc"`
 `onboot      = true`
 `pxe         = true`
