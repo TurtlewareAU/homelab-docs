@@ -130,9 +130,10 @@ These next items are optional
 `}`
 
 ##### Operating System Disks
-Operating system disks I thoughy we were network booting. we are doing that but MaaS network boots, does some checks then lets you deploy Ubuntu to the machines disk
+Operating system disks I thoughy we were network booting. we are doing that but MaaS network boots, does some checks then lets you deploy Ubuntu to the machines disk, there by imaging a new vm, physical hardware without needing to install the operating system yourself.
+
 `disk {`
-`type    = "scsi"`
-`storage = "vm"`
+`type    = "scsi"` - This is the default disk type for most of proxmox.
+`storage = "vm"` - This is the storage device name. On all my hosts I have one single drive called vm. where all 
 `size    = "32G"`
 `}`
