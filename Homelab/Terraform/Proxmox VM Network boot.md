@@ -42,6 +42,7 @@ from above we have the terraform plugin setup script, this will tell terraform t
 
 ![](Pasted%20image%2020230306143117.png)
 ![](Pasted%20image%2020230306143131.png)
+`these were deleted before writing this document :)`
 
 `pm_tls_insecure` is set to true so terraform will bypass the self signed certificate and perform the work as per your requests. so to make all this happy we want to following provider
 
@@ -64,4 +65,4 @@ provider "proxmox" {
 }
 ```
 
-We can then invoke this with `terraform init`. Which ever folder we have this provider file in we can sta
+We can then invoke this with `terraform init`. Which ever folder we have this provider file in we can start generating new machines, modify current ones, or remove no longer needed machines.
