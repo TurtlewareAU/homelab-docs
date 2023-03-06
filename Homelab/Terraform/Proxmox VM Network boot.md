@@ -119,9 +119,11 @@ These next items are optional
 `cores       = 2` - Virtual Machine Cores To Provision
 `sockets     = 1` - Virtual Machine CPU Sockets (on multiple servers you can give this cores on different sockets)
 `cpu         = "host"` - The CPU Type - safe to pick host, some linux apps require specific cpu features.
-`memory      = 2048` - 1024 * 2 simply 
+`memory      = 2048` - 1024 * 2 simply the size of the ram you want to allocate
+
+##### Network Section
 `network {`
-`bridge   = "vmbr0"`
+`bridge   = "vmbr0"` - This is the host machines network physical port to connect to. This is usually the default name, h
 `firewall  = false`
 `link_down = false`
 `model     = "virtio"`
