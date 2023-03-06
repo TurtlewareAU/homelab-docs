@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md"
+                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "1d99408c8f280cc8",
   "lastOpenFiles": [
+    "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
     "Homelab/Terraform/img/Pasted image 20230306142720.png",
@@ -158,8 +159,6 @@
     "Homelab/Terraform/img/Pasted image 20230306145438.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135214.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
-    "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img",
     "Homelab/Ubuntu MaaS",
