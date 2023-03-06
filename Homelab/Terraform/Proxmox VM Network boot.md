@@ -102,3 +102,10 @@ Lets Break this yml down.
 
 `resource "proxmox_vm_qemu" "K3S-Test-2"` This is the initial setup for the resource. we have the type of object we will work with proxmox_vm_qemu is the vm portion of proxmox and will create a new virtual machine, proxmox_lxc can also be used in terraform via telmate to spin up new lxc containers from Terraform. I have chose vm creation.
 
+The next few items are default and required
+`os_type     = "ubuntu"` - this is the type of o
+`name        = "K3S-Test-2"`
+`agent       = 0`
+`boot        = "ndc"`
+`onboot      = true`
+`pxe         = true`
