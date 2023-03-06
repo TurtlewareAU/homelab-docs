@@ -45,6 +45,9 @@ sudo k3s kubectl get all -n argocd
 
 Copy the port for the dashboard
 
+```bash
+
+```
 
 ### Uninstall
 ```
