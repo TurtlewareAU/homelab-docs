@@ -11,8 +11,12 @@
             "id": "da23bcdf52dde136",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Homelab/Terraform/Proxmox VM Network boot.md"
+              }
             }
           }
         ]
@@ -138,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "da23bcdf52dde136",
   "lastOpenFiles": [
+    "Homelab/Terraform/Proxmox VM Network boot.md",
+    "Homelab/Terraform/img",
     "Homelab/Terraform",
     "().md",
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
