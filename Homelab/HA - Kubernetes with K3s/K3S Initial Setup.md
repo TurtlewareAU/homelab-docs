@@ -46,7 +46,7 @@ sudo k3s kubectl get all -n argocd
 Copy the port for the dashboard
 
 ```bash
-
+sudo k3s kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
 ### Uninstall
