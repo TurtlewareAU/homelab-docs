@@ -9,4 +9,4 @@ With Ubuntu MaaS setup and tftp settings setup to allow you to network boot any 
 
 #### Configuring Terraform with Proxmox
 
-As of the last update to 
+As of the last update to this documentation the most recent Telmate/Proxmox plugin version for terraform is `2.9.11`. 
