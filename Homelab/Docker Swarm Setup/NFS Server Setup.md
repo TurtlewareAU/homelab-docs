@@ -39,3 +39,7 @@ sudo ufw allow from 10.0.44.0/24 to any port nfs
 ```bash
 sudo ufw enable
 ```
+
+```bash
+mount -t nfs 10.0.44.187:/var/nfs/docker /mnt/docker
+```
