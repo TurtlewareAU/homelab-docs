@@ -28,3 +28,9 @@ sudo nano /etc/exports
 sudo systemctl restart nfs-kernel-server
 ```
 
+```bash
+sudo ufw allow ssh
+```
+
+```bash
+```
