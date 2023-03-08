@@ -33,4 +33,9 @@ sudo ufw allow ssh
 ```
 
 ```bash
+sudo ufw allow from 10.0.44.0/24 to any port nfs
+```
+
+```bash
+sudo ufw enable
 ```
