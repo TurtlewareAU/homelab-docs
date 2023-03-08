@@ -43,3 +43,4 @@ sudo ufw enable
 ```bash
 mount -t nfs 10.0.44.187:/var/nfs/docker /mnt/docker
 ```
+
