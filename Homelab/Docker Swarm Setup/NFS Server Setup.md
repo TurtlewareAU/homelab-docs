@@ -22,5 +22,9 @@ ls -al
 ```bash
 sudo nano /etc/exports
 ```
+![](Pasted%20image%2020230309095030.png)
 
+```bash
+sudo systemctl restart nfs-kernel-server
+```
 
