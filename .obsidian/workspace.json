@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md"
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md"
               }
             }
           }
@@ -174,7 +174,7 @@
   "active": "51b9a7dc6cdefda3",
   "lastOpenFiles": [
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
-    "Homelab/HA - Kubernetes with K3s/Untitled.md",
+    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
