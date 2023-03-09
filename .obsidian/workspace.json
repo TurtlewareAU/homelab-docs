@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51b9a7dc6cdefda3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md"
+                "file": "Homelab/HA - Kubernetes with K3s/Untitled.md"
               }
             }
           }
@@ -159,13 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63b5fd413addaf6c",
+  "active": "51b9a7dc6cdefda3",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+    "Homelab/HA - Kubernetes with K3s/Untitled.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
-    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
@@ -177,7 +190,6 @@
     "Homelab/Terraform/img/Pasted image 20230306143117.png",
     "Homelab/Terraform/img/Pasted image 20230306143131.png",
     "Homelab/Terraform/img/Pasted image 20230306144851.png",
-    "Homelab/Terraform/img/Pasted image 20230306145438.png",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img",
     "Homelab/Ubuntu MaaS",
