@@ -40,6 +40,7 @@ spec:
         app: stack-api
  ```
 
+Pod Deployment spec. Here we define the container name, and image to select. 
 ``` yaml
     spec:
       containers:
