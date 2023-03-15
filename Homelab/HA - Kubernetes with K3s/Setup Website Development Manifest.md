@@ -38,7 +38,7 @@ spec:
         app: stack-api
  ```
 
-``` 
+``` yaml
     spec:
       containers:
       - name: stack-api
