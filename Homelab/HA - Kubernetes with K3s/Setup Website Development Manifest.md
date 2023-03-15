@@ -16,7 +16,7 @@ Below is an example of how I handle these manifest files within a given project.
 
 ### Deployment setup
 
-default deployment setup. informat
+default deployment setup. Information about the name and namespace and which labels to apply.
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -27,6 +27,7 @@ metadata:
     app: stack-api
 ```
 
+Deployment spec how many replicas to deploy to the cluster. This example will create one pod for the stack-api application.
 ```yaml
 spec:
   replicas: 1
