@@ -27,7 +27,11 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 After this has been applied. We can check what is running. `kubectl get all -n argocd` lets list all the items we have in the argocd namespace.
 
+![](Pasted%20image%2020230315111710.png)
 
+#### Setup External Access
+
+Here we want to patch our server so we can get to it via the NodePorts assigned. This will allow us to get access to the dashboard/
 
 ```bash
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
