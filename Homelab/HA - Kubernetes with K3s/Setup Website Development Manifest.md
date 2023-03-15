@@ -14,7 +14,7 @@ Below is an example of how I handle these manifest files within a given project.
 ![](Pasted%20image%2020230315112504.png)
 
 
-### Deployment
+### Deployment setup
 
 ```yaml
 apiVersion: apps/v1
@@ -24,6 +24,9 @@ metadata:
   namespace: default
   labels:
     app: stack-api
+```
+
+```yaml
 spec:
   replicas: 1
   selector:
@@ -33,6 +36,9 @@ spec:
     metadata:
       labels:
         app: stack-api
+ ```
+
+``` 
     spec:
       containers:
       - name: stack-api
@@ -67,6 +73,7 @@ spec:
               key: database_url
       imagePullSecrets:
       - name: regcred
+```
 
 #### Manifest YAML File Complete Example
 
