@@ -16,6 +16,7 @@ Below is an example of how I handle these manifest files within a given project.
 
 ### Deployment setup
 
+default deployment setup. informat
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
