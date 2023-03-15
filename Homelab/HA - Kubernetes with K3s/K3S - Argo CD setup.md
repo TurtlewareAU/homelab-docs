@@ -19,11 +19,15 @@ You will see the newly created namespace is set.
 
 #### Apply argo manifest (Install)
 ---
-Here we will issue and apply command on the argo install.yml. This file will chang
+Here we will issue and apply command on the argo install.yml. This file will change, check the following link for the most up to date scripts. https://argo-cd.readthedocs.io/en/release-1.8/getting_started/
 
 ```bash
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
+
+After this has been applied. We can check what is running.
+
+
 
 ```bash
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
