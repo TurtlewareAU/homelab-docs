@@ -46,8 +46,10 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}
 ##### Grab the initial password
 ---
 
-The last step when everything is up and running is to get the admin default password. This can be done by issuing the 
+The last step when everything is up and running is to get the admin default password. This can be done by issuing the following command. This will print to the console the username and password.
+
 ```bash
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
+With all the above steps. Head to your Master machines ip:port and you will see the Argocd login page.
