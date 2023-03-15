@@ -55,6 +55,6 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 With all the above steps. Head to your Master machines ip:port and you will see the Argocd login page.
 
 `Note - IP is the ip address of the node you were running the above commands on.`
-`Note - PORT can be found in the kubectl get all -n argocd` 
+`Note - PORT can be found in the kubectl get all -n argocd - service/argo-server` will show two ports, 80:30826, and 443:30872 the 30872 is the port you want to use.  
 
 ![](Pasted%20image%2020230315112058.png)
