@@ -25,7 +25,7 @@ Here we will issue and apply command on the argo install.yml. This file will cha
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
-After this has been applied. We can check what is running.
+After this has been applied. We can check what is running. `kubectl get all -n argocd` lets list all the items we have in the argocd namespace.
 
 
 
