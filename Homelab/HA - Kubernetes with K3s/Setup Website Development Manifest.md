@@ -40,7 +40,7 @@ spec:
         app: stack-api
  ```
 
-Pod Deployment spec. Here we define the container name, and image to select. We have also setup some readiness and liveness probes, these will make sure the container is up and running before saying everything is healthy.  These probe checks will be useful in argo to show a deployment was successfully or in error. Resources 
+Pod Deployment spec. Here we define the container name, and image to select. We have also setup some readiness and liveness probes, these will make sure the container is up and running before saying everything is healthy.  These probe checks will be useful in argo to show a deployment was successfully or in error. Resources have been added to limit the containers memory usage. These api's are internal use only and very rarely used, so the memory provided is fine.
 ``` yaml
     spec:
       containers:
