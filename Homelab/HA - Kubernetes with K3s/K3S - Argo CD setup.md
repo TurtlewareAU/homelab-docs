@@ -30,12 +30,15 @@ After this has been applied. We can check what is running. `kubectl get all -n a
 ![](Pasted%20image%2020230315111710.png)
 
 #### Setup External Access
+---
 
-Here we want to patch our server so we can get to it via the NodePorts assigned. This will allow us to get access to the dashboard/
+Here we want to patch our server so we can get to it via the NodePorts assigned. This will allow us to get access to the dashboard/application from any ip on our network.
 
 ```bash
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 ```
+
+##### Grab the initial password
 
 ```bash
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
