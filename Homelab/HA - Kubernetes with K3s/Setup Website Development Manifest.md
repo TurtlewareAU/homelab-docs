@@ -3,7 +3,10 @@
 
 Here is a walk through on how to setup all of the necessary components to have dns validation working for a given website application. Development will be either in React, Svelte, or Next Js. This will be a basic overview of the manifest files needed for deploying a new nginx based website.
 
-### File Str
+### Folder Structure.
+
+I have 2 local clusters which are currently setup as a 3 node k3s cluster [K3S Initial Setup](K3S%20Initial%20Setup.md)
+
 
 #### Manifest YAML Files
 
