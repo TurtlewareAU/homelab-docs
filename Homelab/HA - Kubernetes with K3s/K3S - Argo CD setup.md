@@ -9,7 +9,10 @@ Firstly start by creating the argocd namespace inside of the container
 kubectl create namespace argocd
 ```
 
-Verify by : `ku`
+Verify by : `kubectl get ns`
+![](Pasted%20image%2020230315111335.png)
+
+You will see the newly created namespace 
 
 ```bash
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
