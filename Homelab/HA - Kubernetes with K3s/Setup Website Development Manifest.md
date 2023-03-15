@@ -5,7 +5,7 @@ Here is a walk through on how to setup all of the necessary components to have d
 
 ### Folder Structure.
 
-I have 2 local clusters which are currently setup as a 3 node k3s cluster setup instructions can be found here [K3S Initial Setup](K3S%20Initial%20Setup.md). These clusters have had argo cd deployed to them 
+I have 2 local clusters which are currently setup as a 3 node k3s cluster setup instructions can be found here [K3S Initial Setup](K3S%20Initial%20Setup.md). These clusters have had argo cd [K3S - Argo CD setup](K3S%20-%20Argo%20CD%20setup.md) deployed to them. These man
 
 
 #### Manifest YAML Files
