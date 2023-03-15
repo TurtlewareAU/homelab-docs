@@ -80,6 +80,7 @@ Pod Deployment spec. Here we define the container name, and image to select. We 
 
 #### Manifest YAML File Complete Example
 
+The file manifest file containing all elements of the deployable application.
 
 ```yaml
 apiVersion: apps/v1
