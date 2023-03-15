@@ -40,7 +40,7 @@ spec:
         app: stack-api
  ```
 
-Pod Deployment spec. Here we define the container name, and image to select. 
+Pod Deployment spec. Here we define the container name, and image to select. We have also setup some readiness and liveness probes, these will make sure the container is up and running
 ``` yaml
     spec:
       containers:
