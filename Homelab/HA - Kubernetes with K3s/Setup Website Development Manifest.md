@@ -9,6 +9,10 @@ I have 2 local clusters which are currently setup as a 3 node k3s cluster setup 
 
 The files are all the items you would need to make sure kubernetes could start, and connect your application to any internal containers, and external access via ingress / nodeports.
 
+Below is an example of how I handle these manifest files within a given project. I create an argo folder which then has a folder for the environment each manifest will work with. Inside the environment f
+
+![](Pasted%20image%2020230315112504.png)
+
 
 #### Manifest YAML Files
 
