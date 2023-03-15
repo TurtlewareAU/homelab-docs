@@ -9,12 +9,66 @@ I have 2 local clusters which are currently setup as a 3 node k3s cluster setup 
 
 The files are all the items you would need to make sure kubernetes could start, and connect your application to any internal containers, and external access via ingress / nodeports.
 
-Below is an example of how I handle these manifest files within a given project. I create an argo folder which then has a folder for the environment each manifest will work with. Inside the environment f
+Below is an example of how I handle these manifest files within a given project. I create an argo folder which then has a folder for the environment each manifest will work with. Inside the environment folder is a single manifest file.
 
 ![](Pasted%20image%2020230315112504.png)
 
 
-#### Manifest YAML Files
+### Deployment
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stack-api
+  namespace: default
+  labels:
+    app: stack-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stack-api
+  template:
+    metadata:
+      labels:
+        app: stack-api
+    spec:
+      containers:
+      - name: stack-api
+        image: turtlez/stackapi:1.0.0
+        ports:
+        - containerPort: 4400
+        readinessProbe:
+          initialDelaySeconds: 5
+          periodSeconds: 20
+          httpGet:
+            path: /ping
+            port: 4400
+        livenessProbe:
+          initialDelaySeconds: 5
+          periodSeconds: 20
+          httpGet:
+            path: /ping
+            port: 4400
+        securityContext:
+          readOnlyRootFilesystem: true
+          allowPrivilegeEscalation: false
+        resources:
+          limits:
+            memory: "128Mi"
+          requests:
+            memory: "128Mi"
+        env:
+        - name: MONGO_DB
+          valueFrom:
+            configMapKeyRef:
+              name: mongo-connection-configmap
+              key: database_url
+      imagePullSecrets:
+      - name: regcred
+
+#### Manifest YAML File Complete Example
 
 
 ```yaml
