@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "619c832edf995f0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md"
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md"
               }
             }
           }
@@ -146,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff9eb5597acaf6d6",
+  "active": "619c832edf995f0b",
   "lastOpenFiles": [
+    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
@@ -159,7 +174,6 @@
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
-    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
