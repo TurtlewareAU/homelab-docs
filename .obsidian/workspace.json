@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5ae54f8208b26340",
+        "id": "5a7812c5dd3af75b",
         "type": "tabs",
         "children": [
           {
-            "id": "1d99408c8f280cc8",
+            "id": "ff9eb5597acaf6d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63b5fd413addaf6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51b9a7dc6cdefda3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Github Actions/Github actions building docker containers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8796c18b6cba05e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Github Actions/Github Runners.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Github Actions/Github Runners.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Github Actions/Github Runners.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Github Actions/Github Runners.md"
+                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md"
               }
             }
           }
@@ -183,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8796c18b6cba05e",
+  "active": "ff9eb5597acaf6d6",
   "lastOpenFiles": [
-    "Homelab/Github Actions/Github actions building docker containers.md",
+    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/Github Actions/Github Runners.md",
+    "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
