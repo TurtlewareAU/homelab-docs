@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5a7812c5dd3af75b",
+        "id": "62035ec4bcc2a08a",
         "type": "tabs",
         "children": [
           {
-            "id": "ff9eb5597acaf6d6",
+            "id": "ab0a46a7dd2b1b17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "619c832edf995f0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,16 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "619c832edf995f0b",
+  "active": "ab0a46a7dd2b1b17",
   "lastOpenFiles": [
-    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
+    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315112504.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315112058.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315111710.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315111335.png",
-    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
