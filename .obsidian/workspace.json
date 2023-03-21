@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md"
+                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "ab0a46a7dd2b1b17",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
@@ -159,7 +160,6 @@
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315111335.png",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
-    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
