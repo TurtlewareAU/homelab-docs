@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Ultra Lobster"
+  "cssTheme": "Ultra Lobster",
+  "interfaceFontFamily": "FiraCode Nerd Font Mono",
+  "baseFontSize": 13
 }
