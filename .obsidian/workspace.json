@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62035ec4bcc2a08a",
+        "id": "8adc4ce07104f205",
         "type": "tabs",
         "children": [
           {
-            "id": "ab0a46a7dd2b1b17",
+            "id": "e81d55661c19fc29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -145,6 +141,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
+  },
+  "floating": {
+    "id": "6c3d34b3f00996af",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9f4da69fa1157de7",
+        "type": "window",
+        "children": [
+          {
+            "id": "067d2c8def13eb8f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ab0a46a7dd2b1b17",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 884,
+        "y": 321,
+        "width": 648,
+        "height": 744,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "ab0a46a7dd2b1b17",
   "lastOpenFiles": [
