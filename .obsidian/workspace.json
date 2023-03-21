@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8adc4ce07104f205",
+        "id": "ca8450adca7c3948",
         "type": "tabs",
         "children": [
           {
-            "id": "e81d55661c19fc29",
+            "id": "a2e5fdbaba0bb4e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "file": "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md",
+                "file": "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Terraform/Proxmox VM Network boot.md"
+                "file": "Homelab/Ubuntu/How to remove ubuntu default DNS.md"
               }
             }
           }
@@ -142,45 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "6c3d34b3f00996af",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9f4da69fa1157de7",
-        "type": "window",
-        "children": [
-          {
-            "id": "067d2c8def13eb8f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ab0a46a7dd2b1b17",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Homelab/Terraform/Proxmox VM Network boot.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 884,
-        "y": 321,
-        "width": 648,
-        "height": 744,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "ab0a46a7dd2b1b17",
+  "active": "a2e5fdbaba0bb4e1",
   "lastOpenFiles": [
+    "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
+    "Homelab/Ubuntu",
+    "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Bitwarden/Installation Guide.md",
@@ -200,7 +170,6 @@
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
-    "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
     "Homelab/Terraform/img/Pasted image 20230306142720.png",
@@ -221,7 +190,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/Index 01 - Azure DevOps Outputs.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 02 - Possible Way To Generate A Valid Cert.md",
-    "readme.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 02 - Possible Way To Generate A Valid Cert.md"
   ]
 }
