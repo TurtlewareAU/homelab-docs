@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md"
+                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "a2e5fdbaba0bb4e1",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/Docker Setup.md",
+    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Ubuntu",
     "Homelab/Terraform/Proxmox VM Network boot.md",
@@ -157,7 +159,6 @@
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315112504.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315112058.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230315111710.png",
@@ -167,7 +168,6 @@
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
-    "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
