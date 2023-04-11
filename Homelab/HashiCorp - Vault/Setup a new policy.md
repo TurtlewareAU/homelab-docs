@@ -38,7 +38,7 @@ path "secret/data/obsidian" {
 }
 ```
 
-Creating a new T
+Creating a new Token for the policy above.
 
 Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
 
