@@ -5,8 +5,9 @@ Nodes:
 
 |node name| IP address|
 |---|---|
-|**Mercury**|10.0.44.15|
-|**Jupiter**|10.0.44.16|
+|**Mercury**|10.0.0.15|
+|**Jupiter**|10.0.0.16|
+
 
 Node Information:
 |Node Name|Version|Boot|Storage|Storage Drive|Sata1|Sata2|Sata3|sata4|
