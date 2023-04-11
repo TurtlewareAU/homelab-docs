@@ -56,4 +56,4 @@ Having two users logged in we can see the difference.
 
 Below you can see that the root user can see a lot more then the proxmox user can see. Having this separation works well as you know the proxmox user is not able to edit,update any other secrets in the vault.
 
-![](./img/Pasted%20image%2020230411194614.png)
+![](vault-root-obsidian-difference.png)
