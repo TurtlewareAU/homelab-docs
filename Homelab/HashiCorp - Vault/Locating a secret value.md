@@ -4,6 +4,8 @@ API Url: `http://servername:8200/v1/secret/data` this is the base url
 Secret Path: `obsidian`
 header: X-Vault-Token = "token created earlier"
 
-In postman I perform the call in the following fashion. the full end
+In postman I perform the call in the following fashion. the full endpoint `http://servername:8200/v1/secret/data/obsidian`
 
-![](postman-get-secret.png)
+![](./img/postman-get-secret.png)
+
+From here you can see the secret key and value returned from the vault. This could be used in any application with an api call to grab data. because we have a token whic
