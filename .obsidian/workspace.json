@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
+                "file": "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md"
+              }
             }
           }
         ]
@@ -142,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "effc91069ec18b07",
   "lastOpenFiles": [
+    "Homelab/Proxmox Cluster/Proxmox Alerts.md",
+    "img/vault-proxmox-list.png.md",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
@@ -170,7 +176,6 @@
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
-    "img/vault-proxmox-list.png.md",
     "img",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
