@@ -11,7 +11,7 @@ The files are all the items you would need to make sure kubernetes could start, 
 
 Below is an example of how I handle these manifest files within a given project. I create an argo folder which then has a folder for the environment each manifest will work with. Inside the environment folder is a single manifest file.
 
-![](Pasted%20image%2020230315112504.png)
+![](k3s-argo-folder-structure.png)
 
 
 ### Deployment setup

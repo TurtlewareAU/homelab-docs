@@ -23,9 +23,11 @@
             "id": "8fec97623e49c164",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png"
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png"
+                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md"
               }
             }
           }
@@ -157,19 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "8fec97623e49c164",
   "lastOpenFiles": [
+    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
+    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+    "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
+    "Homelab/NFS Setup for Docker/Pasted image 20230309094818.png",
+    "Homelab/NFS Setup for Docker/img",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
+    "Homelab/NFS Setup for Docker/Pasted image 20230309094835.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
+    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+    "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-get-all-namespace-argocd.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-get-namespace.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-docker-nfs-setup.png",
-    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
-    "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135214.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
@@ -187,19 +194,14 @@
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Bitwarden/Installation Guide.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
-    "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
-    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
-    "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/Ubuntu MaaS/img",
     "Homelab/Ubuntu MaaS",
     "Homelab/Terraform/img",
     "Homelab/Terraform",
     "().md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-    "Homelab/HA - Kubernetes with K3s/img",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
