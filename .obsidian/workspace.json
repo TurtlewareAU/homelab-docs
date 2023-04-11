@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
+                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
+                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
+                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md"
+                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "8fec97623e49c164",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/postman-vault-data.png",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
+    "Homelab/HashiCorp - Vault/img/postman-vault-data.png",
     "Homelab/HashiCorp - Vault/img/postman-get-secret.png",
     "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/img/vault-root-obsidian-difference.png",
