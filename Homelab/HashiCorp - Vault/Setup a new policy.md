@@ -44,13 +44,9 @@ I used the auth token create end point which is `http://servername:8200/v1/auth/
 
 ![](postman-create-token.png)
 
-Copying the client_token and logging into the ui you can find the secrets. Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
+Copying the client_token and logging into the ui you can find the secrets. Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible. If you type in proxmox into the secret path we can see the secrets we are after and only those. 
 
-![](./img/vault-proxmox-list.png)
-
-If you type in proxmox into the secret path we can see the secrets we are after and only those. 
-
-![](./img/Pasted%20image%2020230411194348.png)
+![](vault-obsidian-search.png)
 
 Clicking on the view secret will load the secret, only if we have visibility to it.
 
