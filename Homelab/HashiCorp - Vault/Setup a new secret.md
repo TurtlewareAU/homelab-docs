@@ -15,4 +15,12 @@ From the create screen you can enter the path, this is the name stored on the se
 
 ![](./img/vault-secret-obsidian.png)
 
-From here you can click on the save but
+From here you can click on the save button. If you prefer to enter the data into the system as a json obect then you can click the json toggle and enter in the following details to get the same results.
+
+```json
+{
+  "testing": "some-super-fancy-secure-data"
+}
+```
+
+![](Pasted%20image%2020230411192114.png)

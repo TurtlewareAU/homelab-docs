@@ -23,11 +23,9 @@
             "id": "effc91069ec18b07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
-                "mode": "source",
-                "source": false
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md"
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png"
               }
             }
           }
@@ -161,8 +159,9 @@
   },
   "active": "effc91069ec18b07",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
+    "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
+    "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-page.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-link.png",
@@ -188,7 +187,6 @@
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img",
