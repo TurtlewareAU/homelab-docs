@@ -30,4 +30,6 @@ Because this token does not have the appropriate information to list all the sec
 
 ![](./img/vault-proxmox-list.png)
 
-If you type in proxmox
+If you type in proxmox into the secret path we can see the secrets we are after and only those. 
+![](./img/vault-proxmox-path-search.png)
+
