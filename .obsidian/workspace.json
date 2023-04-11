@@ -25,7 +25,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png"
+                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
+                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
+                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png"
+                "file": "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png"
               }
             }
           }
@@ -159,17 +159,17 @@
   },
   "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
+    "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
+    "Homelab/HA - Kubernetes with K3s/img/k3s-get-all-namespace-argocd.png",
+    "Homelab/HA - Kubernetes with K3s/img/k3s-get-namespace.png",
+    "Homelab/HA - Kubernetes with K3s/img/k3s-docker-nfs-setup.png",
+    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
-    "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
-    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315111335.png",
-    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315111710.png",
-    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315112058.png",
-    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315112504.png",
+    "Homelab/HA - Kubernetes with K3s/img/Pasted image 20230315112504.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135214.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
@@ -181,7 +181,6 @@
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Ubuntu",
     "Homelab/Terraform/Proxmox VM Network boot.md",

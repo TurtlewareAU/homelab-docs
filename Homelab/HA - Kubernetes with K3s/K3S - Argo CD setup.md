@@ -15,7 +15,7 @@ kubectl create namespace argocd
 ```
 
 Verify by : `kubectl get ns`
-![](Pasted%20image%2020230315111335.png)
+![](k3s-get-namespace.png)
 
 You will see the newly created namespace is set.
 
@@ -30,7 +30,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 After this has been applied. We can check what is running. `kubectl get all -n argocd` lets list all the items we have in the argocd namespace.
 
-![](Pasted%20image%2020230315111710.png)
+![](k3s-get-all-namespace-argocd.png)
 
 
 #### Setup External Access
@@ -57,4 +57,4 @@ With all the above steps. Head to your Master machines ip:port and you will see 
 `Note - IP is the ip address of the node you were running the above commands on.`
 `Note - PORT can be found in the kubectl get all -n argocd - service/argo-server` will show two ports, 80:30826, and 443:30872 the 30872 is the port you want to use.  
 
-![](Pasted%20image%2020230315112058.png)
+![](k3s-argocd-login.png)
