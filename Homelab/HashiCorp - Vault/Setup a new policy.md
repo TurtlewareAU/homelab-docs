@@ -36,3 +36,9 @@ If you type in proxmox into the secret path we can see the secrets we are after 
 Clicking on the view secret will load the secret, only if we have visibility to it.
 
 ![](./img/vault-proxmox-visible-list.png)
+
+Having two users logged in we can see the difference. 
+
+Below you can see that the root user can see a lot more then the proxmox user can see. Hai
+
+![](./img/vault-side-by-side.png)
