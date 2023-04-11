@@ -173,8 +173,9 @@
   },
   "active": "acd7f17db42491c3",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
+    "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
+    "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-visible-list.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
@@ -184,7 +185,6 @@
     "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-page.png",
-    "Homelab/HashiCorp - Vault/img/vault-secret-link.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",

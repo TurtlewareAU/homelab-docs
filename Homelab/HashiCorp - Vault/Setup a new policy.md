@@ -1,5 +1,11 @@
 Policies can be used to limit visibility of secrets, and system tools for a given user. There are many capabilities that can be applied an example for my usage is below. Here I have created a new policy by which I will connect via token to the api. 
 
+To add a new policy click on the Policies Link and you are shown all of the ACL Policies visible within the Vault.
+
+![](./img/vault-policies-page.png)
+
+From here we will click on the Create ACL Poli
+
 The token can:
 > read its own token information.
 > renew its token
