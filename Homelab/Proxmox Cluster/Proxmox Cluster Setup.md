@@ -15,8 +15,8 @@ Node Information:
 |---|---|---|---|---|---|---|---|---|
 |**Venus**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
 |**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
-|**Earth**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
-|**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
+|**Earth**|pve(7.3-1)|128gb Toshiba SSD|500Gb BX500|||||
+|**Saturn**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
 
 
 Node Physical
