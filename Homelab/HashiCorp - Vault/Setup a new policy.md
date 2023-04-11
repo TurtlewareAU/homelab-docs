@@ -26,4 +26,8 @@ path "secret/data/proxmox" {
 }
 ```
 
-Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the 
+Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
+
+![](./img/vault-proxmox-list.png)
+
+If you type in proxmox
