@@ -23,9 +23,11 @@
             "id": "effc91069ec18b07",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png"
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png"
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md"
               }
             }
           }
@@ -159,8 +161,8 @@
   },
   "active": "effc91069ec18b07",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/img/vault-secret-obsidian-json.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
-    "Homelab/HashiCorp - Vault/img/Pasted image 20230411192114.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-page.png",

@@ -23,4 +23,7 @@ From here you can click on the save button. If you prefer to enter the data into
 }
 ```
 
-![](Pasted%20image%2020230411192114.png)
+![](./img/vault-secret-obsidian-json.png)
+
+From here we have all the items we need and can click on the save button. This will store the secret for us and we can then perform a get on the api end point.
+
