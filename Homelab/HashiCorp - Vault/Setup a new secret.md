@@ -27,3 +27,4 @@ From here you can click on the save button. If you prefer to enter the data into
 
 From here we have all the items we need and can click on the save button. This will store the secret for us and we can then perform a get on the api end point.
 
+![](vault-secret-obsidian-visible.png)
