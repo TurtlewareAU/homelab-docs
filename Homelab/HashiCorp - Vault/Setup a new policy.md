@@ -44,20 +44,20 @@ I used the auth token create end point which is `http://servername:8200/v1/auth/
 
 ![](postman-create-token.png)
 
-Copying the client_token and logging into the ui, you will see the secret section is empty as per the below image.
-Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
+Copying the client_token and logging into the ui you can find the secrets. Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
 
 ![](./img/vault-proxmox-list.png)
 
 If you type in proxmox into the secret path we can see the secrets we are after and only those. 
-![](./img/vault-proxmox-path-search.png)
+
+![](./img/Pasted%20image%2020230411194348.png)
 
 Clicking on the view secret will load the secret, only if we have visibility to it.
 
-![](./img/vault-proxmox-visible-list.png)
+
 
 Having two users logged in we can see the difference. 
 
 Below you can see that the root user can see a lot more then the proxmox user can see. Having this separation works well as you know the proxmox user is not able to edit,update any other secrets in the vault.
 
-![](./img/vault-side-by-side.png)
+
