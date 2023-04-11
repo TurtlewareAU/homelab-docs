@@ -33,3 +33,6 @@ Because this token does not have the appropriate information to list all the sec
 If you type in proxmox into the secret path we can see the secrets we are after and only those. 
 ![](./img/vault-proxmox-path-search.png)
 
+Clicking on the view secret will load the secret, only if we have visibility to it.
+
+![](./img/vault-proxmox-visible-list.png)
