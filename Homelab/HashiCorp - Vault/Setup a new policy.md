@@ -25,3 +25,5 @@ path "secret/data/proxmox" {
     capabilities = ["create", "read", "list"]
 }
 ```
+
+Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the 
