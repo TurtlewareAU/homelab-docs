@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8fec97623e49c164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md"
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md"
               }
             }
           }
@@ -146,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "8fec97623e49c164",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/Setup a new policy.md",
+    "Homelab/HashiCorp - Vault/Locating a secret value.md",
     "Homelab/HashiCorp - Vault/img/vault-root-obsidian-difference.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/img/vault-obsidian-visible.png",
-    "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "img/vault-proxmox-list.png.md",
     "img",
     "Homelab/HashiCorp - Vault/img/vault-obsidian-search.png",
@@ -163,7 +177,6 @@
     "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
     "Homelab/HashiCorp - Vault/img/vault-policies-updated-obsidian.png",
-    "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",

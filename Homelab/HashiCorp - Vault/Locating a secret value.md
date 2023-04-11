@@ -1,0 +1,1 @@
+When you have created your first secret and policy, and generated a new token for that policy. you 
