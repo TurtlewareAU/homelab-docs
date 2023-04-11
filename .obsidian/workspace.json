@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8fec97623e49c164",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -157,13 +142,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fec97623e49c164",
+  "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
-    "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
+    "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135214.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
+    "Homelab/Ubuntu MaaS/img/maas-dashboard.png",
+    "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
+    "Homelab/Bitwarden/Installation Guide.md",
+    "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
+    "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
-    "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/img",
     "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
@@ -171,15 +165,8 @@
     "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/NFS Setup for Docker/img",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
-    "Homelab/HA - Kubernetes with K3s/img/k3s-get-all-namespace-argocd.png",
-    "Homelab/HA - Kubernetes with K3s/img/k3s-get-namespace.png",
-    "Homelab/HA - Kubernetes with K3s/img/k3s-docker-nfs-setup.png",
-    "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
@@ -188,11 +175,9 @@
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",
-    "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Ubuntu",
     "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
-    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Ubuntu MaaS/img",
