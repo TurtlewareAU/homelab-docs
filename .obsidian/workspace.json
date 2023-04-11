@@ -23,11 +23,9 @@
             "id": "8fec97623e49c164",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
-                "mode": "source",
-                "source": false
+                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md"
+                "file": "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png"
               }
             }
           }
@@ -159,23 +157,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fec97623e49c164",
+  "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
+    "Homelab/HA - Kubernetes with K3s/Pasted image 20230309095030.png",
+    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315111335.png",
+    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315111710.png",
+    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315112058.png",
+    "Homelab/HA - Kubernetes with K3s/Pasted image 20230315112504.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135214.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
+    "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
+    "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
+    "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
-    "Homelab/HashiCorp - Vault/Setup a new secret.md",
-    "Homelab/HashiCorp - Vault/img/postman-vault-data.png",
-    "Homelab/HashiCorp - Vault/img/postman-get-secret.png",
-    "Homelab/HashiCorp - Vault/img/postman-create-token.png",
-    "Homelab/HashiCorp - Vault/img/vault-root-obsidian-difference.png",
-    "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
-    "Homelab/HashiCorp - Vault/img/vault-policies-updated-obsidian.png",
-    "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
-    "Homelab/HashiCorp - Vault/img/vault-obsidian-visible.png",
-    "Homelab/HashiCorp - Vault/img/vault-obsidian-search.png",
     "img/vault-proxmox-list.png.md",
     "img",
-    "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
@@ -194,7 +194,6 @@
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
-    "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img",
     "Homelab/Ubuntu MaaS",
     "Homelab/Terraform/img",
