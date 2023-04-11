@@ -5,4 +5,9 @@ Click on the secret link to open the secret section of the vault
 
 you will be greeted with the following page which you can see previously created secrets, as well as a button to add/create a new secret.
 
-![](vault-secret-page.png)
+![](./img/vault-secret-page.png)
+
+From here select the Create Secret + button to create a new secret
+
+![](./img/vault-secret-create-new.png)
+
