@@ -11,10 +11,12 @@ Nodes:
 |**Venus**|10.0.0.20|
 
 Node Information:
-|Node Name|Version|Boot|Storage|Storage Drive|Sata1|Sata2|Sata3|sata4|
+|Node Name|Version|Boot|VM Storage Drive|Sata1|Sata2|Sata3|sata4|
 |---|---|---|---|---|---|---|---|---|
-|**Saturn**|pve(7.3-1)|240gb NVME - WD Green|disks|500Gb NVME - Crucial P2|||||
-|**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|disks|500Gb NVME - Crucial P2|||||
+|**Venus**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
+|**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
+|**Earth**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
+|**Jupiter**|pve(7.3-1)|240gb NVME - WD Green|500Gb NVME - Crucial P2|||||
 
 
 Node Physical
