@@ -3,4 +3,6 @@ Login in to the vault ui via the servername:8200/ui with the correct root token,
 Click on the secret link to open the secret section of the vault
 ![](./img/vault-secret-link.png)
 
-you will be greeted with the following 
+you will be greeted with the following page which you can see previously created secrets, as well as a button to add/create a new secret.
+
+![](vault-secret-page.png)
