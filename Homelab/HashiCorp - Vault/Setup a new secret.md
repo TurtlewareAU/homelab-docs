@@ -1,1 +1,1 @@
-Login in to the vault ui via the servername:8200/ui
+Login in to the vault ui via the servername:8200/ui with the correct root token, this will allow you to perform all of the steps necessary to add a  new secret. Click on the secrets link and you will be shown the cubbyhole, and secret sections. Cubbyhole is only visible to the l
