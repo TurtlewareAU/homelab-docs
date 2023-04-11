@@ -38,6 +38,8 @@ path "secret/data/obsidian" {
 }
 ```
 
+Creating a new T
+
 Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
 
 ![](./img/vault-proxmox-list.png)
