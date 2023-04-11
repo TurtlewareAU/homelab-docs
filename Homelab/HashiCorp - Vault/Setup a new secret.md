@@ -12,3 +12,7 @@ From here select the Create Secret + button to create a new secret
 ![](./img/vault-secret-create-new.png)
 
 From the create screen you can enter the path, this is the name stored on the secret, and if using the api will be the `/secret/data/:path` section `/secret/data/obsidian`
+
+![](./img/vault-secret-obsidian.png)
+
+From here you can click on the save but

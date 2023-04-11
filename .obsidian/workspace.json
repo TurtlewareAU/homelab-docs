@@ -161,8 +161,9 @@
   },
   "active": "effc91069ec18b07",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
+    "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
+    "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-page.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-link.png",
     "Homelab/Image",
@@ -188,7 +189,6 @@
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
     "Homelab/Ubuntu MaaS/img",
