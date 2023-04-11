@@ -39,6 +39,6 @@ Clicking on the view secret will load the secret, only if we have visibility to 
 
 Having two users logged in we can see the difference. 
 
-Below you can see that the root user can see a lot more then the proxmox user can see. Hai
+Below you can see that the root user can see a lot more then the proxmox user can see. Having this separation works well as you know the proxmox user is not able to edit,update any other secrets in the vault.
 
 ![](./img/vault-side-by-side.png)
