@@ -1,4 +1,8 @@
-Policies can be used to limit visibility of secrets, and system tools for a given user. There are many capabilities that can be applied an example for my usage is below. Here I have created a 
+Policies can be used to limit visibility of secrets, and system tools for a given user. There are many capabilities that can be applied an example for my usage is below. Here I have created a new policy by which I will connect via token to the api. The token can 
+> read its own token information.
+> renew its token
+> revoke its token
+> create|
 
 ```json
 path "auth/token/lookup-self" {
