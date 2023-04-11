@@ -40,7 +40,7 @@ path "secret/data/obsidian" {
 
 Creating a new Token for the policy above.
 
-I used the auth token create end point
+I used the auth token create end point which is `http://servername:8200/v1/`
 
 ![](postman-create-token.png)
 
