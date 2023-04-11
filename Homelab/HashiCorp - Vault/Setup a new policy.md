@@ -6,7 +6,11 @@ To add a new policy click on the Policies Link and you are shown all of the ACL 
 
 From here we will click on the Create ACL Policy + button to add a new policy
 
-![](vault-policiy-obsidian-example.png)
+![](./img/vault-policiy-obsidian-example.png)
+
+To complete the process we click on the create policy button to lock down our secret to root, and anyone who will have the obsidian policy.
+
+![](Pasted%20image%2020230411193513.png)
 
 The token can:
 > read its own token information.
