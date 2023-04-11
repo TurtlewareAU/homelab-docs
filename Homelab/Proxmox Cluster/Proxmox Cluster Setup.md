@@ -19,8 +19,11 @@ Node Information:
 |**Saturn**|pve(7.3-1)|120gb Kingston|128gb Toshiba SSD|||||
 
 Node Physical
-|NodeName|CPU|RAM|
+|NodeName|CPU|RAM|Core
 |---|---|---|
-|**Mercury**|AMD Ryzen 7 5700G|32gb Kingston Fury (2x16gb)|
-|**Jupiter**|AMD Ryzen 7 5700G|32gb Kingston Fury (2x16gb)|
+|**Venus**|AMD Ryzen 7 3700X|64gb Kingston Fury (4x16gb)|
+|**Jupiter**|AMD Ryzen 7 5700G|64gb Kingston Fury (4x16gb)|
+|**Jupiter**|AMD Ryzen 7 5700G|64gb Kingston Fury (4x16gb)|
+|**Jupiter**|AMD Ryzen 7 5700G|64gb Kingston Fury (4x16gb)|
+
 
