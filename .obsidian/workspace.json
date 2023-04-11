@@ -146,23 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "effc91069ec18b07",
+  "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/img/Pasted image 20230411194614.png",
+    "Homelab/HashiCorp - Vault/Setup a new secret.md",
+    "Homelab/HashiCorp - Vault/img/vault-obsidian-visible.png",
+    "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "img/vault-proxmox-list.png.md",
     "img",
     "Homelab/HashiCorp - Vault/img/vault-obsidian-search.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-list.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-visible-list.png",
-    "Homelab/HashiCorp - Vault/Setup a new policy.md",
-    "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/HashiCorp - Vault/img/postman-create-token2.png",
     "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
     "Homelab/HashiCorp - Vault/img/vault-policies-updated-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
-    "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",
@@ -192,7 +193,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/01 - Firewall Ports.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/01 - Firewall Ports.md"
   ]
 }
