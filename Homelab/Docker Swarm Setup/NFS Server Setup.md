@@ -14,7 +14,7 @@ sudo mkdir /var/nfs/<folder> -p
 ```bash
 sudo chown nobody:nogroup /var/nfs/<folder>
 ```
-![](Pasted%20image%2020230309094835.png)
+![](ubuntu-list-folder-items.png)
 ```bash
 ls -al
 ```

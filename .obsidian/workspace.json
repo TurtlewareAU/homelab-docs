@@ -23,11 +23,9 @@
             "id": "8fec97623e49c164",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
-                "mode": "source",
-                "source": false
+                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
+                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md"
+                "file": "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png"
               }
             }
           }
@@ -161,17 +159,21 @@
   },
   "active": "8fec97623e49c164",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
+    "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
+    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
+    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+    "Homelab/Docker Swarm Setup/Docker Setup.md",
+    "Homelab/Docker Swarm Setup/img",
+    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
+    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/HA - Kubernetes with K3s/K3S Initial Setup.md",
     "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
-    "Homelab/NFS Setup for Docker/Pasted image 20230309094818.png",
     "Homelab/NFS Setup for Docker/img",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135228.png",
-    "Homelab/NFS Setup for Docker/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
-    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-get-all-namespace-argocd.png",
@@ -183,23 +185,19 @@
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "img/vault-proxmox-list.png.md",
     "img",
-    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",
-    "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Ubuntu",
     "Homelab/Terraform/Proxmox VM Network boot.md",
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
-    "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Ubuntu MaaS/img",
     "Homelab/Ubuntu MaaS",
     "Homelab/Terraform/img",
-    "Homelab/Terraform",
     "().md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
