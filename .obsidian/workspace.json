@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "effc91069ec18b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md"
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2e5fdbaba0bb4e1",
+  "active": "effc91069ec18b07",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+    "Homelab/HashiCorp - Vault/Setup a new secret.md",
+    "Homelab/HashiCorp - Vault",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
@@ -168,7 +184,6 @@
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309095030.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094835.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230309094818.png",
-    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
     "Homelab/Terraform/img/Pasted image 20230306145557.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
@@ -189,7 +204,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/01 - Firewall Ports.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 01 - Azure DevOps Outputs.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 02 - Possible Way To Generate A Valid Cert.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/Index 01 - Azure DevOps Outputs.md"
   ]
 }

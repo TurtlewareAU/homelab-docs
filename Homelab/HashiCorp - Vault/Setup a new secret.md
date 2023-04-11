@@ -1,0 +1,1 @@
+Login in to the vault ui via the servername:8200/ui
