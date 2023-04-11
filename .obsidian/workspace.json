@@ -161,8 +161,9 @@
   },
   "active": "8fec97623e49c164",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/postman-get-secret.png",
+    "Homelab/HashiCorp - Vault/img/postman-vault-data.png",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
+    "Homelab/HashiCorp - Vault/img/postman-get-secret.png",
     "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/img/vault-root-obsidian-difference.png",
     "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
@@ -175,7 +176,6 @@
     "img/vault-proxmox-list.png.md",
     "img",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
-    "Homelab/HashiCorp - Vault/img/vault-proxmox-list.png",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
