@@ -40,7 +40,9 @@ path "secret/data/obsidian" {
 
 Creating a new Token for the policy above.
 
-![](./img/Pasted%20image%2020230411193904.png)
+I used the auth token create end point
+
+![](postman-create-token.png)
 
 Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
 

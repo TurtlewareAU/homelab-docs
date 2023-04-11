@@ -37,7 +37,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193904.png"
+                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png"
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193904.png",
+                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193904.png",
+                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193904.png"
+                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png"
               }
             }
           }
@@ -171,8 +171,9 @@
   },
   "active": "acd7f17db42491c3",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/img/postman-create-token2.png",
+    "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
-    "Homelab/HashiCorp - Vault/img/Pasted image 20230411193904.png",
     "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
     "Homelab/HashiCorp - Vault/img/vault-policies-updated-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
@@ -182,7 +183,6 @@
     "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-list.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-obsidian-visible.png",
-    "Homelab/HashiCorp - Vault/img/vault-secret-obsidian-json.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
