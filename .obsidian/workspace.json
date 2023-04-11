@@ -23,9 +23,11 @@
             "id": "8fec97623e49c164",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png"
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png",
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png",
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/img/postman-create-token.png"
+                "file": "Homelab/HashiCorp - Vault/Locating a secret value.md"
               }
             }
           }
@@ -159,6 +161,7 @@
   },
   "active": "8fec97623e49c164",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/HashiCorp - Vault/img/vault-root-obsidian-difference.png",
     "Homelab/HashiCorp - Vault/img/vault-policiy-obsidian-example.png",
     "Homelab/HashiCorp - Vault/img/vault-policies-updated-obsidian.png",
@@ -175,7 +178,6 @@
     "Homelab/HashiCorp - Vault/img/vault-proxmox-visible-list.png",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/HashiCorp - Vault/img/postman-create-token2.png",
-    "Homelab/HashiCorp - Vault/img/postman-create-token.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/HashiCorp - Vault",
