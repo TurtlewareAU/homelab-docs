@@ -4,7 +4,9 @@ To add a new policy click on the Policies Link and you are shown all of the ACL 
 
 ![](./img/vault-policies-page.png)
 
-From here we will click on the Create ACL Poli
+From here we will click on the Create ACL Policy + button to add a new policy
+
+![](vault-policiy-obsidian-example.png)
 
 The token can:
 > read its own token information.
@@ -27,7 +29,7 @@ path "auth/token/revoke-self" {
     capabilities = ["update"]
 }
 
-path "secret/data/proxmox" {
+path "secret/data/obsidian" {
     capabilities = ["create", "read", "list"]
 }
 ```

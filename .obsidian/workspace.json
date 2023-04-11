@@ -35,11 +35,9 @@
             "id": "acd7f17db42491c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
-                "mode": "source",
-                "source": false
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193401.png"
               }
             }
           }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193401.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md",
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193401.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HashiCorp - Vault/Setup a new policy.md"
+                "file": "Homelab/HashiCorp - Vault/img/Pasted image 20230411193401.png"
               }
             }
           }
@@ -173,8 +171,9 @@
   },
   "active": "acd7f17db42491c3",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
+    "Homelab/HashiCorp - Vault/img/Pasted image 20230411193401.png",
+    "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
     "Homelab/HashiCorp - Vault/img/vault-side-by-side.png",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-visible-list.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
@@ -184,7 +183,6 @@
     "Homelab/HashiCorp - Vault/img/vault-secret-obsidian-json.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-obsidian.png",
     "Homelab/HashiCorp - Vault/img/vault-secret-create-new.png",
-    "Homelab/HashiCorp - Vault/img/vault-secret-page.png",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
