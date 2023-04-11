@@ -4,5 +4,6 @@ API Url: `http://servername:8200/v1/secret/data` this is the base url
 Secret Path: `obsidian`
 header: X-Vault-Token = "token created earlier"
 
-In postman I perform the call in the following fashion.
+In postman I perform the call in the following fashion. the full end
 
+![](postman-get-secret.png)
