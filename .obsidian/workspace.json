@@ -23,9 +23,11 @@
             "id": "effc91069ec18b07",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Homelab/Ubuntu MaaS/img/Pasted image 20230411191452.png"
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Ubuntu MaaS/img/Pasted image 20230411191452.png",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Ubuntu MaaS/img/Pasted image 20230411191452.png",
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Ubuntu MaaS/img/Pasted image 20230411191452.png"
+                "file": "Homelab/HashiCorp - Vault/Setup a new secret.md"
               }
             }
           }
@@ -159,9 +161,10 @@
   },
   "active": "effc91069ec18b07",
   "lastOpenFiles": [
+    "Homelab/HashiCorp - Vault/img/vault-secret-link.png",
+    "Homelab/Image",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/img",
-    "Homelab/Ubuntu MaaS/img/Pasted image 20230411191452.png",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/HashiCorp - Vault",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
