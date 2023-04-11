@@ -20,7 +20,7 @@ The token can:
 
 Below is the complete polic in HCL format.
 
-```json
+```bash
 path "auth/token/lookup-self" {
     capabilities = ["read"]
 }
