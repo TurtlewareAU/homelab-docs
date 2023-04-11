@@ -44,6 +44,7 @@ I used the auth token create end point which is `http://servername:8200/v1/auth/
 
 ![](postman-create-token.png)
 
+Copying the client_token and logging into the ui, you will see the secret section is empty as per the below image.
 Because this token does not have the appropriate information to list all the secrets. When login as this user via the ui, and visiting the secrets page. I see no secrets visible
 
 ![](./img/vault-proxmox-list.png)
