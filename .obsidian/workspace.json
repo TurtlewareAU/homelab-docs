@@ -161,8 +161,9 @@
   },
   "active": "8fec97623e49c164",
   "lastOpenFiles": [
-    "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
+    "Homelab/HashiCorp - Vault/Setup a new policy.md",
+    "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/img/postman-vault-data.png",
     "Homelab/HashiCorp - Vault/img/postman-get-secret.png",
     "Homelab/HashiCorp - Vault/img/postman-create-token.png",
@@ -172,7 +173,6 @@
     "Homelab/HashiCorp - Vault/img/vault-policies-page.png",
     "Homelab/HashiCorp - Vault/img/vault-obsidian-visible.png",
     "Homelab/HashiCorp - Vault/img/vault-obsidian-search.png",
-    "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "img/vault-proxmox-list.png.md",
     "img",
     "Homelab/HashiCorp - Vault/img/vault-proxmox-path-search.png",
