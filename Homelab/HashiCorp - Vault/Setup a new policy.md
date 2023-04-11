@@ -40,7 +40,7 @@ path "secret/data/obsidian" {
 
 Creating a new Token for the policy above.
 
-I used the auth token create end point which is `http://servername:8200/v1/`
+I used the auth token create end point which is `http://servername:8200/v1/auth/token/create` from here I provided the json body of { "policies": "obsidian"}. The response gave me a client_token which will be used to login. The accessor is used for further access to other parts of Vault.
 
 ![](postman-create-token.png)
 
