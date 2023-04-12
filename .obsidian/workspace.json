@@ -148,6 +148,8 @@
   },
   "active": "effc91069ec18b07",
   "lastOpenFiles": [
+    "Homelab/Proxmox Cluster/Proxmox Terraform.md",
+    "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
     "Homelab/Proxmox Cluster/Proxmox Alerts.md",
     "img/vault-proxmox-list.png.md",
     "Homelab/Ubuntu MaaS/pfSense - TFTP - MAAS.md",
@@ -191,8 +193,6 @@
     "().md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md"
+    "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md"
   ]
 }

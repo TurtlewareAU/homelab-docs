@@ -23,8 +23,9 @@ Node Physical
 |---|---|---|---|
 |**Venus**|AMD Ryzen 7 3700X|64gb Kingston Fury (4x16gb)| 8/16 |
 |**Jupiter**|AMD Ryzen 7 5700G|64gb Kingston Fury (4x16gb)| 8/16 |
-|**Saturn**|Intel i7-4770|16gb Samsung (4x4gb)| |
-|**Jupiter**|Intel Xeon E5-2470|64gb d (4x16gb)||
+|**Saturn**|Intel i7-4770|16gb Samsung (4x4gb)| 4/8 |
+|**Jupiter**|Intel Xeon E5-2470|64gb ddr3 ECC (2x16gb, 4x8gb)| 10/20 |
+
 
 
 
