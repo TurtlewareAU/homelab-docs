@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md"
+                "file": "Homelab/SonarQube/Sonarqube Setup.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "166e82f5144cf170",
   "lastOpenFiles": [
+    "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
+    "Homelab/SonarQube/Setup Jenkins For Github.md",
+    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Tosca Mobile App Testing/Tosca App Testing Dumping ground.md",
     "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
     "Homelab/Tosca Mobile App Testing/img",
@@ -176,7 +179,6 @@
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
     "Homelab/Ubuntu MaaS/img/maas-dashboard.png",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
-    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
@@ -204,8 +206,6 @@
     "Homelab/Github Actions/Github Runners.md",
     "Homelab/Github Actions/Github actions building docker containers.md",
     "Homelab/Ubuntu MaaS/img",
-    "().md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md"
+    "().md"
   ]
 }
