@@ -4,4 +4,8 @@ install bind on the servers
 ansible-playbook -i inventory.yml setup.yml
 ```
 
-setup a  
+setup a new tsig-key.yml
+
+```bash
+ansible-playbook -i inventory.yml tsig.yml
+```
