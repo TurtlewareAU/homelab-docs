@@ -4,13 +4,13 @@ install bind on the servers
 ansible-playbook -i inventory.yml setup.yml
 ```
 
-setup a new tsig-key.yml
+setup a new `tsig-key.yml`
 
 ```bash
 ansible-playbook -i inventory.yml tsig.yml
 ```
 
-take the tsig-key, and append to the config/named.conf file under the ansible project folder.
+take the tsig-key, and append to the config/named.conf file under the Ansible project folder.
 
 ```bash
 key "tsig-key" {
@@ -19,14 +19,14 @@ key "tsig-key" {
 };
 
 acl internal {
-    192.0.44.0/24;
-    192.0/16;
+    192.168.1.0/24;
+    192.168/16;
 };
 
 options {
     forwarders {
-        10.0.44.104;
-        10.0.44.94;
+        192.168.1.104;
+        192.168.1.94;
     };
     allow-query { internal; };
 };
@@ -36,5 +36,10 @@ zone "turtleware.au" IN {
     file "/etc/bind/turtleware.au.zone";
     update-policy { grant tsig-key zonesub any; };
 };
+```
+
+Create the necessary zone files.
+
+```bash
 
 ```
