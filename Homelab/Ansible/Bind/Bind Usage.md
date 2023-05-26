@@ -65,17 +65,17 @@ sudo mkdir /var/cache/bind/custom
 
 Here we will save our zone file
 ```bash
-$ORIGIN turtleware.au.
+$ORIGIN domain.tld.
 $TTL 300;
-@                       IN SOA  ns.domain.tldu. turtle.turtleware.com.au. (
+@                       IN SOA  ns.domain.tld. emailuser.domain.tld. (
                                 2023010601 ; serial
                                 43200      ; refresh (12 hours)
                                 900        ; retry (15 minutes)
                                 1814400    ; expire (3 weeks)
                                 7200       ; minimum (2 hours)
                                 )
-                        IN NS   ns.turtleware.au.
-ns                      A       10.0.44.33
-ns                      A       10.0.44.34
-firewall                IN  A   10.0.44.1
+                        IN NS   ns.domain.tld.
+ns                      A       192.168.1.2
+ns                      A       192.168.1.3
+firewall                IN  A   192.168.1.1
 ```
