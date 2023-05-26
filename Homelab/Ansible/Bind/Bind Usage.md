@@ -59,3 +59,23 @@ options {
 ```
 
 create new folder in var/cache
+```bash
+sudo mkdir /var/cache/bind/custom
+```
+
+Here we will save our zone file
+```bash
+$ORIGIN turtleware.au.
+$TTL 300;
+@                       IN SOA  ns.domain.tldu. turtle.turtleware.com.au. (
+                                2023010601 ; serial
+                                43200      ; refresh (12 hours)
+                                900        ; retry (15 minutes)
+                                1814400    ; expire (3 weeks)
+                                7200       ; minimum (2 hours)
+                                )
+                        IN NS   ns.turtleware.au.
+ns                      A       10.0.44.33
+ns                      A       10.0.44.34
+firewall                IN  A   10.0.44.1
+```
