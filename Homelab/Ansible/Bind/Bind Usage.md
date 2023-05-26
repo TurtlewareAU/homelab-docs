@@ -104,4 +104,6 @@ named-checkconf
 if no failures
 
 restart bind9
-
+```bash
+sudo systemctl restart bind9
+```
