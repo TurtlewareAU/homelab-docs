@@ -65,8 +65,9 @@ sudo mkdir /var/cache/bind/custom
 
 change owner
 ```bash
-
+sudo chown bind:bind /var/cache/bind/custom
 ```
+
 Here we will save our zone file
 ```bash
 $ORIGIN domain.tld.
@@ -94,4 +95,13 @@ Nameserver address details required in this format.
                         IN NS   ns.domain.tld.
 ns                      A       192.168.1.2
 ```
+
+check for errors in configuration
+```bash
+named-checkconf
+```
+
+if no failures
+
+restart bind9
 
