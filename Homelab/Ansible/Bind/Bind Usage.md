@@ -19,7 +19,21 @@ key "tsig-key" {
 };
 ```
 
+create a new file config/named.conf.local
 
+```bash
+include "/etc/bind/tsig.key"
+
+zone "turtleware.au" IN {
+    type master;
+    file "/var/cache/bind/custom/turtleware.au.zone";
+    update-policy { grant tsig-key. zonesub any; };
+    allow-transfer { 10.0.44.33; };
+};
+
+```
+
+create a new file 
 
 ```bash
 key "tsig-key" {
