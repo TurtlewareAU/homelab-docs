@@ -79,3 +79,6 @@ ns                      A       192.168.1.2
 ns                      A       192.168.1.3
 firewall                IN  A   192.168.1.1
 ```
+
+`domain.tld` : the domain you expect to get answers for. firewall.homelab.local
+`emailuser`: your email 
