@@ -81,4 +81,6 @@ firewall                IN  A   192.168.1.1
 ```
 
 `domain.tld` : the domain you expect to get answers for. firewall.homelab.local
-`emailuser`: your email 
+`emailuser`: your email user id
+`domain.tld`: your email domain
+`john@gmail.com` == `john.gmail.com` : this is how
