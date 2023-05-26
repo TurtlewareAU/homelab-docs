@@ -4,13 +4,15 @@ install bind on the servers
 ansible-playbook -i inventory.yml setup.yml
 ```
 
+
+
+
 setup a new `tsig-key.yml`
 
 ```bash
 ansible-playbook -i inventory.yml tsig.yml
 ```
 
-take the tsig-key, and append to the config/named.conf file under the Ansible project folder.
 
 ```bash
 key "tsig-key" {
