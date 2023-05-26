@@ -83,4 +83,10 @@ firewall                IN  A   192.168.1.1
 `domain.tld` : the domain you expect to get answers for. firewall.homelab.local
 `emailuser`: your email user id
 `domain.tld`: your email domain
-`john@gmail.com` == `john.gmail.com` : this is how
+`john@gmail.com` == `john.gmail.com` : this is how dns stores email addresses.
+
+Nameserver address details required in this format.
+```
+                        IN NS   ns.domain.tld.
+ns                      A       192.168.1.2
+```
