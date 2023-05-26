@@ -5,13 +5,20 @@ ansible-playbook -i inventory.yml setup.yml
 ```
 
 
-
-
 setup a new `tsig-key.yml`
 
 ```bash
 ansible-playbook -i inventory.yml tsig.yml
 ```
+
+create a new file config/tsig.key
+```bash
+key "tsig-key" {
+        algorithm hmac-sha256;
+        secret "/w5ByTflpaiOzgU2j9JQtZtkWx8Zenk7k0yP6u2UL4A=";
+};
+```
+
 
 
 ```bash
