@@ -33,36 +33,29 @@ zone "turtleware.au" IN {
 
 ```
 
-create a new file 
-
+create a new file config/named.conf.options
 ```bash
-key "tsig-key" {
-        algorithm hmac-sha256;
-        secret "/w5ByTflpaiOzgU2j9JQtZtkWx8Zenk7k0yP6u2UL4A=";
-};
-
-acl internal {
-    192.168.1.0/24;
-    192.168/16;
+acl "trusted" {
+        10.0.44.34;
+        10.0.44.33;
+        10.0.44.1;
+        10.0.44.0/24;
 };
 
 options {
-    forwarders {
-        192.168.1.104;
-        192.168.1.94;
-    };
-    allow-query { internal; };
+        directory "/var/cache/bind";
+        recursion yes;
+        allow-recursion { trusted; };
+        listen-on { 10.0.44.34; };
+        allow-transfer { none; };
+        forwarders {
+                10.0.44.104;
+                10.0.44.94;
+        };
+        dnssec-validation auto;
+        listen-on-v6 { any; };
 };
 
-zone "turtleware.au" IN {
-    type master;
-    file "/etc/bind/turtleware.au.zone";
-    update-policy { grant tsig-key zonesub any; };
-};
 ```
 
-Create the necessary zone files.
-
-```bash
-
-```
+create new folder in var/cache
