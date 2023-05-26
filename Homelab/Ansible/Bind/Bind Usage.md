@@ -63,6 +63,10 @@ create new folder in var/cache
 sudo mkdir /var/cache/bind/custom
 ```
 
+change owner
+```bash
+
+```
 Here we will save our zone file
 ```bash
 $ORIGIN domain.tld.
@@ -90,3 +94,4 @@ Nameserver address details required in this format.
                         IN NS   ns.domain.tld.
 ns                      A       192.168.1.2
 ```
+
