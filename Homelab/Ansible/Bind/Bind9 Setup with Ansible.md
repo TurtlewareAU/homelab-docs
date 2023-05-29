@@ -2,4 +2,4 @@ Using Ansible I wanted to build a primary and secondary DNS structure for my loc
 
 ## Section 1 - Setup New Virtual Machines
 
-My network stack is currently running 4 
+My network stack is currently running 4 machines in a proxmox cluster. I wanted to look for something semi/fully automated when creating new virtual machines. I landed on using templates and terraform to build new cloned vm's
