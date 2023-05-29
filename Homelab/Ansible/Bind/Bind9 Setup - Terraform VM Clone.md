@@ -64,20 +64,17 @@ resource "proxmox_vm_qemu" "<resourcename>" {
 ```
 
 Information about the above resource structure.
-`resource "proxmox_vm_qemu" "<resourcename>"` 
-```hcl
-resource "proxmox_vm_qemu" "<resourcename>" {
-  target_node = "<ProxmoxHostName>"
-  name        = "<ProxmoxGuestName>"
-  desc        = "<ProxmoxGuestDescription>"
-  onboot      = true
-  full_clone  = true
-  boot        = "order=ide2;scsi0;net0;ide0"
-  clone       = "<TemplateName>"
-  agent       = 0
-  cores       = 1
-  sockets     = 1
-  cpu         = "host"
-  memory      = 2048
-  ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"
-```
+
+`resource "proxmox_vm_qemu" "<resourcename>"` defines our resource type and name.
+`target_node = "<ProxmoxHostName>"`
+`name        = "<ProxmoxGuestName>"`
+`desc        = "<ProxmoxGuestDescription>"` `onboot      = true`
+  `full_clone  = true`
+  `boot        = "order=ide2;scsi0;net0;ide0"`
+  `clone       = "<TemplateName>"`
+  `agent       = 0`
+  `cores       = 1`
+  `sockets     = 1`
+  `cpu         = "host"`
+  `memory      = 2048`
+  `ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"`
