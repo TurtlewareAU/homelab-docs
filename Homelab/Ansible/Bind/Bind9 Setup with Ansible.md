@@ -6,4 +6,5 @@ My network stack is currently running 4 machines in a proxmox cluster. I wanted 
 
 Please check this page <> for the terraform setup of my two dns servers. If you don't have terraform setup, and are doing things manually. you will need to have.
 
-- 2 Virtual/Physical machines - 
+- 2 Virtual/Physical machines - `I am running ubuntu 22.04 on these machines`
+- 
