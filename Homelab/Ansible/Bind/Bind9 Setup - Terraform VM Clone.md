@@ -8,7 +8,7 @@ The first step of my Terraform projects is to create a new folder for the system
 In the folder I will create a new provider file `provider.tf` and here I will store the provider necessary to build and clone a new virtual machine. The provider file looks like
 
 
-```yml
+```hcl
 terraform {
   required_version = ">=1.1.0"
   required_providers {
@@ -30,5 +30,10 @@ pm_tls_insecure = true
 
 After this I like to create the necessary machine `.tf` files for this I will create a primary and a secondary machine.
 
-- I created `dns01.tf`
-- 
+- First machine file is `dns01.tf`
+- Second machine file is `dns02.tf`
+
+Basic machine structure for both files:
+```hcl
+
+```
