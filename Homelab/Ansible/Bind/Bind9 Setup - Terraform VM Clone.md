@@ -3,4 +3,4 @@ Here I will show you have to build two new virtual machines with Proxmox as your
 ---
 ### Defining Provider File
 
-The first step of my Terraform projects is to 
+The first step of my Terraform projects is to create a new folder for the 
