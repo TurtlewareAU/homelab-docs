@@ -35,14 +35,14 @@ After this I like to create the necessary machine `.tf` files for this I will cr
 
 Basic machine structure for both files:
 ```hcl
-resource "proxmox_vm_qemu" "<reso" {
-  target_node = "venus"
-  name        = "BIND-DNS01"
-  desc        = "BIND - Server 02"
+resource "proxmox_vm_qemu" "<resourcename>" {
+  target_node = "<ProxmoxHostName>"
+  name        = "<ProxmoxGuestName>"
+  desc        = "<ProxmoxGuestDescription>"
   onboot      = true
   full_clone  = true
   boot        = "order=ide2;scsi0;net0;ide0"
-  clone       = "ubuntu-template"
+  clone       = "<TemplateName>"
   agent       = 0
   cores       = 1
   sockets     = 1
