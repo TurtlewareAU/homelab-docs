@@ -68,9 +68,9 @@ Information about the above resource structure.
 `resource "proxmox_vm_qemu" "<resourcename>"` defines our resource type and name.
 `target_node = "<ProxmoxHostName>"` defines the Proxmox node we want our virtual machine to be cloned to.
 `name        = "<ProxmoxGuestName>"` defines the Proxmox guest name, Shown in the GUI of proxmox next to the vm id
-`desc        = "<ProxmoxGuestDescription>"` defines the description text, can be viewed in the 
-`onboot      = true`
-`full_clone  = true`
+`desc        = "<ProxmoxGuestDescription>"` defines the description text, can be viewed in the GUI when looking at the specific machine.
+`onboot      = true` sets the start on boot to yes 
+`full_clone  = true` sets the machine to be a full clone
 `boot        = "order=ide2;scsi0;net0;ide0"`
 `clone       = "<TemplateName>"`
 `agent       = 0`
