@@ -74,8 +74,9 @@ Information about the above resource structure.
 `boot        = "order=ide2;scsi0;net0;ide0"` sets the virtual machine boot order.
 `clone       = "<TemplateName>"` This is the template on the node we want to use.
 `agent       = 0` sets the agent allowed flag to 0, my template does not have it installed by default, and so need is set to off for Terraform to succeed, and not destroy the vm.
-`cores       = 1` sets the cpu cores for
-`sockets     = 1`
-`cpu         = "host"`
-`memory      = 2048`
-`ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"`
+`cores       = 1` sets the cpu cores for the machine
+`sockets     = 1` sets how many of the underlying sockets can be used
+`cpu         = "host"` sets the cpu generation type
+`memory      = 2048` sets the vm memory (2 - GiB)
+`ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"` sets the gateway and static ip address for the virtual machine.
+
