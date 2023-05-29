@@ -71,8 +71,8 @@ Information about the above resource structure.
 `desc        = "<ProxmoxGuestDescription>"` defines the description text, can be viewed in the GUI when looking at the specific machine.
 `onboot      = true` sets the start on boot to yes 
 `full_clone  = true` sets the machine to be a full clone
-`boot        = "order=ide2;scsi0;net0;ide0"`
-`clone       = "<TemplateName>"`
+`boot        = "order=ide2;scsi0;net0;ide0"` sets the virtual machine boot order.
+`clone       = "<TemplateName>"` This is the template on th
 `agent       = 0`
 `cores       = 1`
 `sockets     = 1`
