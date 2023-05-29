@@ -7,4 +7,6 @@ My network stack is currently running 4 machines in a proxmox cluster. I wanted 
 Please check this page <> for the Terraform setup of my two DNS servers. If you don't have Terraform setup, and are doing things manually. you will need to have.
 
 - 2 Virtual/Physical machines - `I am running ubuntu 22.04 on these machines`
-- 
+- Install bind9 `sudo apt install bind9 bind9utils`
+
+## Section 2 - Ansible S
