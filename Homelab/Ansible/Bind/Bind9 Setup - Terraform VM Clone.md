@@ -35,27 +35,31 @@ After this I like to create the necessary machine `.tf` files for this I will cr
 
 Basic machine structure for both files:
 ```hcl
-resource "proxmox_vm_qemu" "dns01" {
+resource "proxmox_vm_qemu" "<reso" {
   target_node = "venus"
   name        = "BIND-DNS01"
   desc        = "BIND - Server 02"
   onboot      = true
   full_clone  = true
   boot        = "order=ide2;scsi0;net0;ide0"
-  clone = "ubuntu-template"
-  agent = 0
-  cores = 1
-  sockets = 1
-  cpu = "host"
-  memory = 2048
-  ipconfig0 = "gw=10.0.44.1,ip=10.0.44.33/24"
-vga {
-type = "serial0"
-}
-network {
-bridge = "vmbr0"
-model = "virtio"
-}
-os_type = "ubuntu"
+  clone       = "ubuntu-template"
+  agent       = 0
+  cores       = 1
+  sockets     = 1
+  cpu         = "host"
+  memory      = 2048
+  ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"
+  
+  vga {
+    type = "serial0"
+  }
+  
+  network {
+    bridge = "vmbr0"
+    model = "virtio"
+  }
+  
+  os_type = "ubuntu"
 }
 ```
+
