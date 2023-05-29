@@ -5,4 +5,25 @@ Here I will show you have to build two new virtual machines with Proxmox as your
 
 The first step of my Terraform projects is to create a new folder for the system I am looking to spin up a new machine for. Here I will create a new folder `bind`.
 
-In the folder I will create a new provider file `provider.tf` and here I will store the provider necessary to build and clone a new virtual machine. The provider file 
+In the folder I will create a new provider file `provider.tf` and here I will store the provider necessary to build and clone a new virtual machine. The provider file looks like
+
+
+```yml
+terraform {
+  required_version = ">=1.1.0"
+  required_providers {
+    proxmox = {
+      source = "telmate/proxmox"
+      version = "2.9.11"
+    }
+  }
+} 
+
+provider "proxmox" {
+pm_api_url = "https://10.0.44.16:8006/api2/json"
+pm_api_token_id = "packer@pam!packer"
+pm_api_token_secret = "xx"
+pm_tls_insecure = true
+
+}
+```
