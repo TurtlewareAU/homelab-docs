@@ -3,4 +3,6 @@ Here I will show you have to build two new virtual machines with Proxmox as your
 ---
 ### Defining Provider File
 
-The first step of my Terraform projects is to create a new folder for the 
+The first step of my Terraform projects is to create a new folder for the system I am looking to spin up a new machine for. Here I will create a new folder `bind`.
+
+In the folder I will create a new provide
