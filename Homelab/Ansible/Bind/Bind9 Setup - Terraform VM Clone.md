@@ -1,1 +1,1 @@
-Here I will show you have to build two new virtual machines with Proxmox as your hypervisor and an already built ubuntu 22.04 template. 
+Here I will show you have to build two new virtual machines with Proxmox as your hypervisor and an already built ubuntu 22.04 template. If you need to build a new proxmox clone I followed Learn Linux TV's video
