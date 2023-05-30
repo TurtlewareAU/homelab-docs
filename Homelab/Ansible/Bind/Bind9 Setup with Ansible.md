@@ -106,4 +106,4 @@ key "tsig-key" {
 
 ## Create Options File
 
-The named.conf.options file allows you 
+The named.conf.options file allows you to change the named configuration based on your need. Here I will show my file
