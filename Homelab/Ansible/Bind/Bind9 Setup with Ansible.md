@@ -303,4 +303,8 @@ We have now come to the part where we will run our scripts and perform the work 
 
 - `ansible-playbook -i inventory.yml setup.yml` - installing bind9 and utils
 - `ansible-playbook -i inventiry.yml tsig.yml` - Grab this an place it into the zone file.
-- `ansible-playbook -i inventory.yml bindconfigs.yml` - setup leader configs
+- `ansible-playbook -i inventory.yml bindconfigs.yml` - setup leader configs on NS1
+- `ansible-playbook -i inventory.yml bindconfigs-slave.yml` - setup the secondary NS2 machine.
+
+From here we should be able to get results back from nslookup for our internal hostnames.
+
