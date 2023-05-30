@@ -183,22 +183,22 @@ zone "turtleware.au" IN {
   become: true
   tasks:
     - name: Backup named.conf.options
-    ansible.builtin.copy:
-    remote_src: true
-src: "/etc/bind/named.conf.options"
-dest: "/etc/bind/named.conf.options.back"
-mode: "644"
-- name: Copy named.conf to "/etc/bind/named.conf.options"
-ansible.builtin.copy:
-src: "config/named.conf.options"
-dest: "/etc/bind/named.conf.options"
-mode: "644"
-- name: Backup named.conf.local
-ansible.builtin.copy:
-remote_src: true
-src: "/etc/bind/named.conf.local"
-dest: "/etc/bind/named.conf.local.back"
-mode: "644"
+      ansible.builtin.copy:
+        remote_src: true
+        src: "/etc/bind/named.conf.options"
+        dest: "/etc/bind/named.conf.options.back"
+        mode: "644"
+    - name: Copy named.conf to "/etc/bind/named.conf.options"
+      ansible.builtin.copy:
+        src: "config/named.conf.options"
+        dest: "/etc/bind/named.conf.options"
+        mode: "644"
+    - name: Backup named.conf.local
+      ansible.builtin.copy:
+        remote_src: true
+        src: "/etc/bind/named.conf.local"
+        dest: "/etc/bind/named.conf.local.back"
+        mode: "644"
 - name: Copy named.conf to "/etc/bind/named.conf.local"
 ansible.builtin.copy:
 src: "config/named.conf.local"
