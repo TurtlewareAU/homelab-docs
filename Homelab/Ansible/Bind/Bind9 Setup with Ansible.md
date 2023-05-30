@@ -219,4 +219,37 @@ zone "turtleware.au" IN {
         state: restarted
 ```
 
-## Create Bind Config Follower (Ansibler)
+## Create Bind Config Follower (Ansible)
+
+```
+```
+
+```yml
+zone "turtleware.au" IN {
+    type slave;
+    file "/var/cache/bind/custom/turtleware.au.zone";
+    masters { 10.0.44.33; };
+};
+```
+
+```yml
+acl "trusted" {
+        10.0.44.34;
+        10.0.44.33;
+        10.0.44.1;
+        10.0.44.0/24;
+};
+
+options {
+        directory "/var/cache/bind";
+        recursion yes;
+        allow-recursion { trusted; };
+        listen-on { 10.0.44.34; };
+        forwarders {
+                10.0.44.104;
+                10.0.44.94;
+        };
+        dnssec-validation auto;
+        listen-on-v6 { any; };
+};
+```
