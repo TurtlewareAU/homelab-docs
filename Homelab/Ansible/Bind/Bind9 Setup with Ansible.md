@@ -4,7 +4,7 @@ Using Ansible I wanted to build a primary and secondary DNS structure for my loc
 
 My network stack is currently running 4 machines in a proxmox cluster. I wanted to look for something semi/fully automated when creating new virtual machines. I landed on using templates and Terraform to build new cloned vm's.
 
-Please check this page <> for the Terraform setup of my two DNS servers. If you don't have Terraform setup, and are doing things manually. you will need to have.
+Please check this page <[Bind9 Setup - Terraform VM Clone](Bind9%20Setup%20-%20Terraform%20VM%20Clone.md)> for the Terraform setup of my two DNS servers. If you don't have Terraform setup, and are doing things manually. you will need to have.
 
 - 2 Virtual/Physical machines - `I am running ubuntu 22.04 on these machines`
 - Install bind9 `sudo apt install bind9 bind9utils`
