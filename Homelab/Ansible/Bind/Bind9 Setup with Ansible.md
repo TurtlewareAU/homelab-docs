@@ -14,4 +14,8 @@ Here you should have 2 Virtual/physical machines setup with the same version of 
 
 `ip add` on a command line to grab their network address.
 
-With our virtual machines online and running, we can start by setting up the ma
+With our DNS machines online and running, we can start by setting up the main projects inventory.yml file. Here I use the Terraform plugin for linting my inventory files. so there are simpler ways to make this inventory file. 
+
+```yml
+[leader]
+```
