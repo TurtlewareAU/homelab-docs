@@ -84,3 +84,7 @@ resource "proxmox_vm_qemu" "<resourcename>" {
 This section sets the display output for Proxmox, due to the cloud image output not matching Proxmox implementation.
 
 `type = "serial0"` sets the VGA display to the serial0 output.
+
+#### Information on Network Section.
+`bridge = "vmbr0"` sets the host bridge to connect the virtual machine to.
+`model = "virtio"` sets the network model for the network interface.
