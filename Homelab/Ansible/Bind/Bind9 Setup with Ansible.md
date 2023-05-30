@@ -145,13 +145,14 @@ Allow transfer will allow this DNS server to transfer its configuration to the n
 allow-transfer { 10.0.44.34; };
 ```
 
-Forwarders is a list of the next DNS Server in the trip. Here I have upstream local DNS. I do this as I want Bind9 to handle the trutel
+Forwarders is a list of the next DNS Server in the trip. Here I have upstream local DNS. I do this as I want Bind9 to handle the turtleware.au domain locally only. I then upstream any other request to my pihole servers at 104, 94 (ad blocking). In my pihole machines I have upstreamed Cloudflare DNS for DNSSEC. 
 ```bash
 forwarders {
   10.0.44.104;
   10.0.44.94;
 };
 ```
+
 
 ```bash
 key "tsig-key" {
