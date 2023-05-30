@@ -308,3 +308,30 @@ We have now come to the part where we will run our scripts and perform the work 
 
 From here we should be able to get results back from nslookup for our internal hostnames.
 
+```bash
+turtlez in ~ λ nslookup firewall.turtleware.au
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	firewall.turtleware.au
+Address: 10.0.44.1
+```
+
+```bash
+turtlez in ~ λ nslookup firewall.turtleware.au 10.0.44.33
+Server:		10.0.44.33
+Address:	10.0.44.33#53
+
+Name:	firewall.turtleware.au
+Address: 10.0.44.1
+```
+
+```bash
+turtlez in ~ λ nslookup firewall.turtleware.au 10.0.44.34
+Server:		10.0.44.34
+Address:	10.0.44.34#53
+
+Name:	firewall.turtleware.au
+Address: 10.0.44.1
+```
