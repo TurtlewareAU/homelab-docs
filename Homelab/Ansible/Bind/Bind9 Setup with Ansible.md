@@ -133,13 +133,19 @@ options {
 
 In my options file I set a trusted network of ip's which can query the DNS Server. Then there is the options set which I have set based on guides.
 
+Listen on will tell the DNS server which host ip to l
+```bash
 listen-on { 10.0.44.33; };
-        allow-transfer { 10.0.44.34; };
-        forwarders {
-                10.0.44.104;
-                10.0.44.94;
-        };
-
+```
+```bash
+allow-transfer { 10.0.44.34; };
+```
+```bash
+forwarders {
+  10.0.44.104;
+  10.0.44.94;
+};
+```
 
 ```bash
 key "tsig-key" {
