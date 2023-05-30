@@ -159,7 +159,7 @@ forwarders {
 
 ## named.conf.local
 
-The named.conf.local is where you want your name server to be the authoritative answer to dns queries. This allows us to define our zone files. I am only going for a forward resolution.
+The named.conf.local is where you want your name server to be the authoritative answer to DNS queries. This allows us to define our zone files. I am only going for a forward resolution.
 
 ```bash
 key "tsig-key" {
