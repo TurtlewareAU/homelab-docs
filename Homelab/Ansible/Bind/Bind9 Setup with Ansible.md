@@ -16,8 +16,7 @@ Here you should have 2 Virtual/physical machines setup with the same version of 
 
 With our DNS machines online and running, we can start by setting up the main projects inventory.yml file. Here I use the Terraform plugin for linting my inventory files. so there are simpler ways to make this inventory file. 
 
-#### Inventory Files 
-
+## Inventory Files 
 
 My Inventory file valid selections for ansible hosts are [all, leader, secondary] this will allow a specific script to target, one or all of the hosts.
 
@@ -48,8 +47,7 @@ x.x.x.x
 
 
 
-#### Machine Setup
----
+## Machine Setup
 
 For the machine setup I have only added to the script the bare minimum to get the machine operation as a bind9 server. I will eventually add a few things extra such as the qemu guest agent.
 
@@ -73,8 +71,8 @@ The script:
 ```
 
 
-#### File breakdown
----
+## File breakdown
+
 - Here we will perform an `apt update` on both machines. To Make sure we have the most up to date package lists.
 - The next step is to change the timezone to match closer to where I live, so logs get a better timezone for timestamps
 - The final step is to perform the install of `sudo apt install bind9 bind9utils`
