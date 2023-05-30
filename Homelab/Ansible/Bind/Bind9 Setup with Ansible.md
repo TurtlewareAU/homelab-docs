@@ -57,12 +57,12 @@ The script:
   hosts: all
   become: true
   tasks:
-   - name: Update Packages
-ansible.builtin.apt:
-update-cache: true
-- name: Set Date Time
-community.general.timezone:
-name: Australia/Sydney
+    - name: Update Packages
+      ansible.builtin.apt:
+        update-cache: true
+    - name: Set Date Time
+      community.general.timezone:
+        name: Australia/Sydney
 - name: Install Default Server APT Packages
 ansible.builtin.apt:
 package:
