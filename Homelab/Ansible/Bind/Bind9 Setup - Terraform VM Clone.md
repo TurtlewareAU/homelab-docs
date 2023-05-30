@@ -99,4 +99,5 @@ This section sets the display output for Proxmox, due to the cloud image output 
 `terraform plan` setup and plan the job. We should see 2 add for the two machines we wanted to add to our Proxmox cluster.
 `terraform apply` this will build the virtual machines, and get them switched on ready for use.
 
-####
+#### Next Steps
+if you are following on from my DNS Setup you can now follow on with 
