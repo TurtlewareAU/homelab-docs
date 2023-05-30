@@ -95,7 +95,7 @@ Transactional Signature [Wikipedia - TSIG](https://en.wikipedia.org/wiki/TSIG) w
       msg: "{{ tsigkeygen.stdout }}"
 ```
 
-The output will contain the following 
+The output will contain the following. This is a tsig-key we can register within our bind9 servers.
 ```bash
 key "tsig-key" {
 	algorithm hmac-sha256;
