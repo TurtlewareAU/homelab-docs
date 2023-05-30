@@ -299,4 +299,6 @@ options {
 
 ## How To Run
 
-We have now come to the part where we will run our scripts and perform the work needed. Its been a lot of setup, but the good thing is when these machines are torn down and ne
+We have now come to the part where we will run our scripts and perform the work needed. Its been a lot of setup, but the good thing is when these machines are torn down and new machines spun up we can run these commands and get our environment up an running quickly.
+
+- `ansible-playbook -i inventory.yml `
