@@ -106,7 +106,7 @@ key "tsig-key" {
 
 ## Create Options File
 
-The named.conf.options file allows you to change the named configuration based on your need. Here I will show my file
+The named.conf.options file allows you to change the named configuration based on your need. Here I will show my file.
 
 ```bash
 acl "trusted" {
@@ -130,6 +130,16 @@ options {
         listen-on-v6 { any; };
 };
 ```
+
+In my options file I set a trusted network of ip's which can query the DNS Server. Then there is the options set which I have set based on guides.
+
+listen-on { 10.0.44.33; };
+        allow-transfer { 10.0.44.34; };
+        forwarders {
+                10.0.44.104;
+                10.0.44.94;
+        };
+
 
 ```bash
 key "tsig-key" {
