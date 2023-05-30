@@ -70,4 +70,6 @@ The script:
           - bind9utils
 ```
 
-Here we will perform an `apt update` on both machines. To Make sure we have the most up to date package lists
+Here we will perform an `apt update` on both machines. To Make sure we have the most up to date package lists.
+The next step is to change the timezone to match closer to where I live, so logs get a better timezone for timestamps
+The final step is to perform the install of `sudo apt install bind9 bind9utils`
