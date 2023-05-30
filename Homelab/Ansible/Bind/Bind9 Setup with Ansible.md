@@ -12,6 +12,6 @@ Please check this page [Bind9 Setup - Terraform VM Clone](Bind9%20Setup%20-%20Te
 
 Here you should have 2 Virtual/physical machines setup with the same version of Ubuntu 22.04. The best thing to do is identify their IP addresses. I have mine set statically via the Terraform steps. If you did not statically set them then the best option is to:
 
-`ip add` on a command line to grab their ne
+`ip add` on a command line to grab their network address.
 
 With our virtual machines online and running, we can start by setting up the ma
