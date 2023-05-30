@@ -65,7 +65,9 @@ The script:
         name: Australia/Sydney
     - name: Install Default Server APT Packages
       ansible.builtin.apt:
-package:
-- bind9
-- bind9utils
+        package:
+          - bind9
+          - bind9utils
 ```
+
+Here we will perform an `apt update` on both machines. To Make sure we have the most up to date package lists
