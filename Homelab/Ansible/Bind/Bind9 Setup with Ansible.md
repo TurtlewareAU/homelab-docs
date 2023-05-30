@@ -263,6 +263,8 @@ zone "turtleware.au" IN {
         state: restarted
 ```
 
+Creating the named.conf.local.slave file with the below information. will trigger the bind server on restart to download the zone file from ns1 and use this zone file for local domain queries
+
 ```yml
 zone "turtleware.au" IN {
     type slave;
@@ -270,6 +272,8 @@ zone "turtleware.au" IN {
     masters { 10.0.44.33; };
 };
 ```
+
+Creating the named.c
 
 ```yml
 acl "trusted" {
