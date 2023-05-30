@@ -79,4 +79,4 @@ The script:
 
 ## TSIG generation
 
-Transactional Signature [Wikipedia - TSIG](https://en.wikipedia.org/wiki/TSIG) will be used to validate that the Terraform script has approval to add, delete and update DNS records within the 
+Transactional Signature [Wikipedia - TSIG](https://en.wikipedia.org/wiki/TSIG) will be used to validate that the Terraform script has approval to add, delete and update DNS records within the 2 virtual machines above. Below is the script we can run to get a `tsig-key` which we can assign to our zone files to allow Terraform/DNS to perform its infrastructure changes.
