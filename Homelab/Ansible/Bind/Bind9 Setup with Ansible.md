@@ -199,22 +199,22 @@ zone "turtleware.au" IN {
         src: "/etc/bind/named.conf.local"
         dest: "/etc/bind/named.conf.local.back"
         mode: "644"
-- name: Copy named.conf to "/etc/bind/named.conf.local"
-ansible.builtin.copy:
-src: "config/named.conf.local"
-dest: "/etc/bind/named.conf.local"
-mode: "644"
-- name: Create New Zone Folder
-ansible.builtin.command: sudo mkdir /var/cache/bind/custom
-register: createfolder
-changed_when: createfolder != 0
-- name: Copy turtleware.au.zone to "/etc/bind/turtleware.au.zone"
-ansible.builtin.copy:
-src: "config/turtleware.au.zone"
-dest: "/var/cache/bind/custom/turtleware.au.zone"
-mode: "644"
-- name: Refresh bind to use new Configurations
-ansible.builtin.systemd:
-name: bind9
+    - name: Copy named.conf to "/etc/bind/named.conf.local"
+      ansible.builtin.copy:
+        src: "config/named.conf.local"
+        dest: "/etc/bind/named.conf.local"
+        mode: "644"
+    - name: Create New Zone Folder
+    ansible.builtin.command: sudo mkdir /var/cache/bind/custom
+        register: createfolder
+        changed_when: createfolder != 0
+    - name: Copy turtleware.au.zone to "/etc/bind/turtleware.au.zone"
+      ansible.builtin.copy:
+        src: "config/turtleware.au.zone"
+        dest: "/var/cache/bind/custom/turtleware.au.zone"
+        mode: "644"
+    - name: Refresh bind to use new Configurations
+      ansible.builtin.systemd:
+        name: bind9
 state: restarted
 ```
