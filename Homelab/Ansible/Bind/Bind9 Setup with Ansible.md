@@ -95,5 +95,11 @@ Transactional Signature [Wikipedia - TSIG](https://en.wikipedia.org/wiki/TSIG) w
       msg: "{{ tsigkeygen.stdout }}"
 ```
 
+The output will contain the following 
 ```bash
+key "tsig-key" {
+	algorithm hmac-sha256;
+	secret "RvGY8nW8nVSaZe9IpFhSAh2WBdVmgWvPTpOuljJyS/c=";
+};
+
 ```
