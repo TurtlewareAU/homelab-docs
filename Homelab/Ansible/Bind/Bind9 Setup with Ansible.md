@@ -107,3 +107,40 @@ key "tsig-key" {
 ## Create Options File
 
 The named.conf.options file allows you to change the named configuration based on your need. Here I will show my file
+
+```bash
+acl "trusted" {
+        10.0.44.33;
+        10.0.44.34;
+        10.0.44.1;
+        10.0.44.0/24;
+};
+
+options {
+        directory "/var/cache/bind";
+        recursion yes;
+        allow-recursion { trusted; };
+        listen-on { 10.0.44.33; };
+        allow-transfer { 10.0.44.34; };
+        forwarders {
+                10.0.44.104;
+                10.0.44.94;
+        };
+        dnssec-validation auto;
+        listen-on-v6 { any; };
+};
+```
+
+```bash
+key "tsig-key" {
+	algorithm hmac-sha256;
+	secret "RvGY8nW8nVSaZe9IpFhSAh2WBdVmgWvPTpOuljJyS/c=";
+};
+
+zone "turtleware.au" IN {
+    type master;
+    file "/var/cache/bind/custom/turtleware.au.zone";
+    update-policy { grant tsig-key. zonesub any; };
+    allow-transfer { 10.0.44.34; };
+};
+```
