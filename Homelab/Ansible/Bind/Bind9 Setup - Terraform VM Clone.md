@@ -95,7 +95,7 @@ This section sets the display output for Proxmox, due to the cloud image output 
 ---
 ### Steps To Build New Machines
 
-`terraform init`
+`terraform init` initialize the project wiht
 
 `terraform plan`
 
