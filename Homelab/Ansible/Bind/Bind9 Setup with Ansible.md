@@ -103,3 +103,7 @@ key "tsig-key" {
 };
 
 ```
+
+## Create Options File
+
+The named.conf.options file allows you 
