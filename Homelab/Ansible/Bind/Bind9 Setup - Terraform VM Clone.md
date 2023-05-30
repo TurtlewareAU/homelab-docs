@@ -28,6 +28,9 @@ pm_tls_insecure = true
 }
 ```
 
+---
+### Virtual Machine Configuration Files
+
 After this I like to create the necessary machine `.tf` files for this I will create a primary and a secondary machine.
 
 - First machine file is `dns01.tf`
@@ -88,3 +91,9 @@ This section sets the display output for Proxmox, due to the cloud image output 
 #### Information on Network Section.
 `bridge = "vmbr0"` sets the host bridge to connect the virtual machine to.
 `model = "virtio"` sets the network model for the network interface.
+
+---
+### Steps To Build New Machines
+
+```
+```
