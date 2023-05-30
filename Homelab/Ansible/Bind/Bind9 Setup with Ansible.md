@@ -273,7 +273,7 @@ zone "turtleware.au" IN {
 };
 ```
 
-Creating the `named.conf.options.slave` file with the below structure will allow for setup of the dns server, similar to ns1
+Creating the `named.conf.options.slave` file with the below structure will allow for setup of the DNS server, similar to ns1
 
 ```yml
 acl "trusted" {
@@ -296,3 +296,7 @@ options {
         listen-on-v6 { any; };
 };
 ```
+
+## How To Run
+
+We have now come to the part where we will run our scripts and perform the work needed. Its been a lot of setup, but the good thing is when these machines are torn down and ne
