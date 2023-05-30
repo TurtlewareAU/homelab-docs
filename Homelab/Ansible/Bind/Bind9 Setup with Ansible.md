@@ -221,7 +221,46 @@ zone "turtleware.au" IN {
 
 ## Create Bind Config Follower (Ansible)
 
-```
+```yml
+- name: Setup BIND Configurations
+  hosts: secondary
+  become: true
+  tasks:
+    - name: Backup named.conf.options
+      ansible.builtin.copy:
+        remote_src: true
+        src: "/etc/bind/named.conf.options"
+        dest: "/etc/bind/named.conf.options.back"
+        mode: "644"
+    - name: Copy named.conf to "/etc/bind/named.conf.options"
+      ansible.builtin.copy:
+        src: "config/named.conf.options.slave"
+        dest: "/etc/bind/named.conf.options"
+        mode: "644"
+    - name: Backup named.conf.local
+      ansible.builtin.copy:
+        remote_src: true
+        src: "/etc/bind/named.conf.local"
+        dest: "/etc/bind/named.conf.local.back"
+        mode: "644"
+    - name: Copy named.conf to "/etc/bind/named.conf.local"
+      ansible.builtin.copy:
+        src: "config/named.conf.local.slave"
+        dest: "/etc/bind/named.conf.local"
+        mode: "644"
+    - name: Create New Zone Folder
+    ansible.builtin.command: sudo mkdir /var/cache/bind/custom
+        register: createfolder
+        changed_when: createfolder != 0
+    - name: Copy turtleware.au.zone to "/etc/bind/turtleware.au.zone"
+      ansible.builtin.copy:
+        src: "config/turtleware.au.zone"
+        dest: "/var/cache/bind/custom/turtleware.au.zone"
+        mode: "644"
+    - name: Refresh bind to use new Configurations
+      ansible.builtin.systemd:
+        name: bind9
+        state: restarted
 ```
 
 ```yml
