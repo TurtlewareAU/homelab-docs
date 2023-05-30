@@ -37,6 +37,7 @@ all:
 ```
 
 Example of a simple inventory file. 
+
 ```yml
 [leader]
 x.x.x.x
@@ -52,6 +53,7 @@ x.x.x.x
 For the machine setup I have only added to the script the bare minimum to get the machine operation as a bind9 server. I will eventually add a few things extra such as the qemu guest agent.
 
 The script:
+
 ```yml
 - name: Bind Server Install
   hosts: all
@@ -96,6 +98,7 @@ Transactional Signature [Wikipedia - TSIG](https://en.wikipedia.org/wiki/TSIG) w
 ```
 
 The output will contain the following. This is a tsig-key we can register within our bind9 servers.
+
 ```bash
 key "tsig-key" {
 	algorithm hmac-sha256;
@@ -145,7 +148,8 @@ Allow transfer will allow this DNS server to transfer its configuration to the n
 allow-transfer { 10.0.44.34; };
 ```
 
-Forwarders is a list of the next DNS Server in the trip. Here I have upstream local DNS. I do this as I want Bind9 to handle the turtleware.au domain locally only. I then upstream any other request to my pihole servers at 104, 94 (ad blocking). In my pihole machines I have upstreamed Cloudflare DNS for DNSSEC. 
+Forwarders is a list of the next DNS Server in the trip. Here I have upstream local DNS. I do this as I want Bind9 to handle the turtleware.au domain locally only. I then upstream any other request to my pi-hole servers at 104, 94 (ad blocking). In my pi-hole machines I have upstream DNS to Cloudflare DNS for DNSSEC. 
+
 ```bash
 forwarders {
   10.0.44.104;
@@ -156,6 +160,7 @@ forwarders {
 ## named.conf.local
 
 The named.conf.local is where you want your name server to be the authoritative answer to dns queries. This allows us to define our zone files. I am only going for a forward resolution.
+
 ```bash
 key "tsig-key" {
 	algorithm hmac-sha256;
