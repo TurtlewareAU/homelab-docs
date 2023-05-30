@@ -16,6 +16,29 @@ Here you should have 2 Virtual/physical machines setup with the same version of 
 
 With our DNS machines online and running, we can start by setting up the main projects inventory.yml file. Here I use the Terraform plugin for linting my inventory files. so there are simpler ways to make this inventory file. 
 
+My Inventory file
+
+```yml
+all:
+  hosts:
+    children:
+leader:
+hosts:
+dns01:
+ansible_host: 10.0.44.33
+ansible_user: twadmin
+secondary:
+hosts:
+dns02:
+ansible_host: 10.0.44.34
+ansible_user: twadmin
+```
+
+Example of a simple inventory file. 
 ```yml
 [leader]
+x.x.x.x
+
+[secondary]
+x.x.x.x
 ```
