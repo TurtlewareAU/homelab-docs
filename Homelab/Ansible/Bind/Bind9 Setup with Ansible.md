@@ -49,4 +49,23 @@ x.x.x.x
 ---
 #### Machine Setup
 
-For the machine setup I have only added to the script the bare minimum to get the machine operation as a bind9 server. I will eventually add 
+For the machine setup I have only added to the script the bare minimum to get the machine operation as a bind9 server. I will eventually add a few things extra such as the qemu guest agent.
+
+The script:
+```yml
+- name: Bind Server Install
+  hosts: all
+  become: true
+  tasks:
+   - name: Update Packages
+ansible.builtin.apt:
+update-cache: true
+- name: Set Date Time
+community.general.timezone:
+name: Australia/Sydney
+- name: Install Default Server APT Packages
+ansible.builtin.apt:
+package:
+- bind9
+- bind9utils
+```
