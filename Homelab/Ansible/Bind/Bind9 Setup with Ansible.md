@@ -306,7 +306,7 @@ We have now come to the part where we will run our scripts and perform the work 
 - `ansible-playbook -i inventory.yml bindconfigs.yml` - setup leader configs on NS1
 - `ansible-playbook -i inventory.yml bindconfigs-slave.yml` - setup the secondary NS2 machine.
 
-From here we should be able to get results back from nslookup for our internal hostnames.
+From here we should be able to get results back from nslookup for our internal host names. 
 
 ```bash
 turtlez in ~ λ nslookup firewall.turtleware.au
