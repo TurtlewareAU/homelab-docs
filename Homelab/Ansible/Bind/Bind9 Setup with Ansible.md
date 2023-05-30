@@ -175,7 +175,7 @@ zone "turtleware.au" IN {
 };
 ```
 
-## Create Bind Config (Ansible)
+## Create Bind Config Leader(Ansible)
 
 ```yml
 - name: Setup BIND Configurations
@@ -218,3 +218,5 @@ zone "turtleware.au" IN {
         name: bind9
         state: restarted
 ```
+
+## Create Bind Config Follower (Ansibler)
