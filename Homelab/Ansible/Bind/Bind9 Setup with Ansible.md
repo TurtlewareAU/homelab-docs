@@ -22,16 +22,16 @@ My Inventory file
 all:
   hosts:
     children:
-leader:
-hosts:
-dns01:
-ansible_host: 10.0.44.33
-ansible_user: twadmin
-secondary:
-hosts:
-dns02:
-ansible_host: 10.0.44.34
-ansible_user: twadmin
+      leader:
+        hosts:
+          dns01:
+            ansible_host: 10.0.44.33
+            ansible_user: twadmin
+      secondary:
+        hosts:
+          dns02:
+            ansible_host: 10.0.44.34
+            ansible_user: twadmin
 ```
 
 Example of a simple inventory file. 
