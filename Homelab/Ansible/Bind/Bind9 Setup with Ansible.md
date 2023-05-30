@@ -63,8 +63,8 @@ The script:
     - name: Set Date Time
       community.general.timezone:
         name: Australia/Sydney
-- name: Install Default Server APT Packages
-ansible.builtin.apt:
+    - name: Install Default Server APT Packages
+      ansible.builtin.apt:
 package:
 - bind9
 - bind9utils
