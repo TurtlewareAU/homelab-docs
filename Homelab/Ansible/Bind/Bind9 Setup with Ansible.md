@@ -153,7 +153,9 @@ forwarders {
 };
 ```
 
+## named.conf.local
 
+The named.conf.local is where you want your name server to be the authoritative answer to dns 
 ```bash
 key "tsig-key" {
 	algorithm hmac-sha256;
