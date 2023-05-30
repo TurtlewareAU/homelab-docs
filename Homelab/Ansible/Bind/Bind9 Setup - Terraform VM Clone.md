@@ -95,8 +95,8 @@ This section sets the display output for Proxmox, due to the cloud image output 
 ---
 ### Steps To Build New Machines
 
-`terraform init` initialize the project wiht
+`terraform init` initialise the project with the necessary providers.
+`terraform plan` setup and plan the job. We should see 2 add for the two machines we wanted to add to our Proxmox cluster.
+`terraform apply` this will build the virtual machines, and get them switched on ready for use.
 
-`terraform plan`
-
-`terraform apply`
+####
