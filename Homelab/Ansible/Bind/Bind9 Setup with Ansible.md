@@ -133,13 +133,19 @@ options {
 
 In my options file I set a trusted network of ip's which can query the DNS Server. Then there is the options set which I have set based on guides.
 
-Listen on will tell the DNS server which host ip to l
+Listen on will tell the DNS server which host ip to listen to.
+
 ```bash
 listen-on { 10.0.44.33; };
 ```
+
+Allow transfer will allow this DNS server to transfer its configuration to the next "Slave" server.
+
 ```bash
 allow-transfer { 10.0.44.34; };
 ```
+
+Forwarders is a list of the next DNS Server in the trip. Here I have upstream local DNS. I do this as I want Bind9 to handle the trutel
 ```bash
 forwarders {
   10.0.44.104;
