@@ -63,7 +63,8 @@ resource "proxmox_vm_qemu" "<resourcename>" {
 }
 ```
 
-Information about the above resource structure.
+
+#### Information about the above resource structure.
 `resource "proxmox_vm_qemu" "<resourcename>"` defines our resource type and name.
 `target_node = "<ProxmoxHostName>"` defines the Proxmox node we want our virtual machine to be cloned to.
 `name        = "<ProxmoxGuestName>"` defines the Proxmox guest name, Shown in the GUI of proxmox next to the vm id
@@ -79,4 +80,7 @@ Information about the above resource structure.
 `memory      = 2048` sets the vm memory (2 - GiB)
 `ipconfig0   = "gw=10.0.44.1,ip=10.0.44.33/24"` sets the gateway and static IP address for the virtual machine.
 
-Information about the VGA section. This section sets the display output for Proxmox, due to the cloud image output not match
+#### Information about the VGA section. 
+This section sets the display output for Proxmox, due to the cloud image output not matching Proxmox implementation.
+
+`type = "serial0"` sets the vga display to the serial0 output.
