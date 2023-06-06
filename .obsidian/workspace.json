@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
+                "file": "Homelab/Hashi Boundary/Working File.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
+                "file": "Homelab/Hashi Boundary/Working File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
+                "file": "Homelab/Hashi Boundary/Working File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md"
+                "file": "Homelab/Hashi Boundary/Working File.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "166e82f5144cf170",
   "lastOpenFiles": [
-    "Homelab/Ansible/Bind/Bind9 Setup - Terraform VM Clone.md",
     "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
+    "Homelab/Hashi Boundary/Working File.md",
+    "Homelab/Hashi Boundary",
+    "Homelab/Ansible/Bind/Bind9 Setup - Terraform VM Clone.md",
     "Homelab/Ansible/Bind/Bind Usage.md",
     "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/SonarQube/Sonarqube Setup.md",
@@ -199,8 +201,6 @@
     "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "img",
     "Homelab/Image",
-    "Homelab/HashiCorp - Vault/img",
-    "Homelab/HashiCorp - Vault",
-    "Homelab/Terraform/Proxmox VM Network boot.md"
+    "Homelab/HashiCorp - Vault/img"
   ]
 }
