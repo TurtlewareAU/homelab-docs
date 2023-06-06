@@ -31,11 +31,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ```bash
-```
 curl -fsSL https://test.docker.com -o test-docker.sh
+sudo sh test-docker.sh
 ```
 
-```
- 
-```
-```
