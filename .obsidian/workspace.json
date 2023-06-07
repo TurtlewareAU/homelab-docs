@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Traefik Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Traefik Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+                "file": "Homelab/Docker Swarm Setup/Traefik Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Swarm Setup.md"
+                "file": "Homelab/Docker Swarm Setup/Traefik Setup.md"
               }
             }
           }
@@ -169,6 +169,8 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+    "Homelab/Docker Swarm Setup/Traefik Setup.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Hashi Boundary/Working File.md",
     "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
@@ -199,7 +201,6 @@
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
-    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Docker Swarm Setup/img",
     "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
     "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
@@ -211,7 +212,6 @@
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
     "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "Homelab/HashiCorp - Vault/Locating a secret value.md",
-    "Homelab/HashiCorp - Vault/Setup a new policy.md",
     "img",
     "Homelab/Image",
     "Homelab/HashiCorp - Vault/img"
