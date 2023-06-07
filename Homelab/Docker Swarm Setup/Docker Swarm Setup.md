@@ -25,3 +25,7 @@ ansible-playbook -i inventory.yml manager-join.yml
 ```bash
 ansible-playbook -i inventory.yml worker-join.yml
 ```
+
+```bash
+ansible-playbook -i inventory.yml portainer-setup.yml
+```
