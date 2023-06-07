@@ -17,3 +17,7 @@ ansible-playbook -i inventory.yml docker.yml
 ```bash
 ansible-playbook -i inventory.yml swarm.yml
 ```
+
+```bash
+ansible-playbook -i inventory.yml manager-join.yml
+```
