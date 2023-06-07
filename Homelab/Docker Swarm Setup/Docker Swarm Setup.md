@@ -13,3 +13,7 @@ ansible-playbook -i inventory.yml nfs.yml
 ```bash
 ansible-playbook -i inventory.yml docker.yml
 ```
+
+```bash
+ansible-playbook -i inventory.yml swarm.yml
+```
