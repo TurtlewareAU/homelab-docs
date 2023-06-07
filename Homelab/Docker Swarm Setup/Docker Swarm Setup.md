@@ -11,5 +11,5 @@ ansible-playbook -i inventory.yml nfs.yml
 ```
 
 ```bash
-ansible-playbook -i inver
+ansible-playbook -i inventory.yml docker.yml
 ```
