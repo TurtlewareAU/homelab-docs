@@ -1,3 +1,6 @@
+```bash
+wget https://geo.mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-cloudimg.qcow2
+```
 
 ```bash
 mv Arch-Linux-x86_64-cloudimg.qcow2 arch.qcow2
