@@ -22,3 +22,8 @@ qemu-img resize arch.qcow2 32G
 ```bash
 qm importdisk 118 arch.qcow2 vm
 ```
+
+Go to hardward,
+
+Click edit on unused disk
+check ssd emulation and discard
