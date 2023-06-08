@@ -27,3 +27,5 @@ Go to hardward,
 
 Click edit on unused disk
 check ssd emulation and discard
+
+Edit Boot Order to enable disk, and move to second in the list
