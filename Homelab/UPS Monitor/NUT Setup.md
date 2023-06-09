@@ -111,3 +111,8 @@ I_HAVE_SECURED_MY_CGI_DIRECTORY
 sudo a2enmod cgi
 sudo systemctl restart apache2
 ```
+
+```bash
+mv /etc/nut/upssched.conf /etc/nut/upssched.conf.back
+nano /etc/nut/upssched.conf
+```
