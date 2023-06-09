@@ -83,3 +83,11 @@ sudo systemctl restart nut-monitor
 sudo upsdrvctl stop
 sudo upsdrvctl start
 ```
+
+```bash
+sudo apt install apache2 nut-cgi
+```
+
+```bash
+sudo nano /etc/nut/hosts.conf
+```
