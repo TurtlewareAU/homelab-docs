@@ -89,5 +89,6 @@ sudo apt install apache2 nut-cgi
 ```
 
 ```bash
+sudo mv /etc/nut/hosts.conf /etc/nut/hosts.conf.back
 sudo nano /etc/nut/hosts.conf
 ```
