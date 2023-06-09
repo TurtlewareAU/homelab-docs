@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/UPS Monitor/NUT Setup.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/UPS Monitor/NUT Setup.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/UPS Monitor/NUT Setup.md",
+                "file": "Homelab/SonarQube/Sonarqube Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/UPS Monitor/NUT Setup.md"
+                "file": "Homelab/SonarQube/Sonarqube Setup.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
-    "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
+    "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
+    "Homelab/SonarQube/Setup Jenkins For Github.md",
     "Homelab/UPS Monitor/NUT Setup.md",
+    "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
     "Homelab/UPS Monitor",
     "Homelab/Docker Swarm Setup/Traefik Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
@@ -184,8 +186,6 @@
     "Homelab/SonarQube/Sonarqube Setup.md",
     "Homelab/Ansible/Bind",
     "Homelab/Ansible",
-    "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
-    "Homelab/SonarQube/Setup Jenkins For Github.md",
     "Homelab/Tosca Mobile App Testing/Tosca App Testing Dumping ground.md",
     "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
     "Homelab/Tosca Mobile App Testing/img",
