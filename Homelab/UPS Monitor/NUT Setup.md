@@ -10,3 +10,7 @@ sudo apt install nut nut-client nut-server
 sudo nut-scanner -U
 ```
 
+```bash
+sudo nano /etc/nut/ups.conf
+cp ups.conf ups.com./backl
+```
