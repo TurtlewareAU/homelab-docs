@@ -70,3 +70,9 @@ MODE=netserver
 sudo mv /etc/nut/upsd.users /etc/nut/upsd.users.back
 sudo nano /etc/nut/upsd.users
 ```
+
+```bash
+[monuser]
+  password = <secret>
+  admin master
+```
