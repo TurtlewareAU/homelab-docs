@@ -65,3 +65,8 @@ sudo nano /etc/nut/nut.conf
 ```bash
 MODE=netserver
 ```
+
+```bash
+sudo mv /etc/nut/upsd.users /etc/nut/upsd.users.back
+sudo nano /etc/nut/upsd.users
+```
