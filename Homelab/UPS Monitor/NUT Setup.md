@@ -106,3 +106,7 @@ sudo nano /etc/nut/upsset.conf
 ```bash
 I_HAVE_SECURED_MY_CGI_DIRECTORY
 ```
+
+```bash
+sudo systemctl restart apache2
+```
