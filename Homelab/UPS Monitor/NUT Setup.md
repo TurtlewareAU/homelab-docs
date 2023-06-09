@@ -52,3 +52,7 @@ MONITOR network@localhost 1 admin <secret> master
 sudo mv /etc/nut/upsd.conf /etc/nut/upsd.conf.back
 sudo nano /etc/nut/upsd.conf
 ```
+
+```bash
+LISTEN 0.0.0.0 3493
+```
