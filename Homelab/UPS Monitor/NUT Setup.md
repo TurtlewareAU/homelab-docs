@@ -14,3 +14,8 @@ sudo nut-scanner -U
 sudo nano /etc/nut/ups.conf
 sudo mv /etc/nut/ups.conf /etc/nut/ups.conf.back
 ```
+
+```bash  
+pollinterval = 1
+maxretry = 3
+```
