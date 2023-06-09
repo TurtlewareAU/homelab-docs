@@ -50,4 +50,5 @@ MONITOR network@localhost 1 admin <secret> master
 
 ```bash
 sudo mv /etc/nut/upsd.conf /etc/nut/upsd.conf.back
+sudo nano /etc/nut/upsd.conf
 ```
