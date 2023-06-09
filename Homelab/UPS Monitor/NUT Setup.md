@@ -92,3 +92,12 @@ sudo apt install apache2 nut-cgi
 sudo mv /etc/nut/hosts.conf /etc/nut/hosts.conf.back
 sudo nano /etc/nut/hosts.conf
 ```
+
+```bash
+MONITOR server@localhost "Server UPS"
+MONITOR network@localhost "Network Router Synology"
+```
+
+```bash
+sudo mv 
+```
