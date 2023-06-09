@@ -108,5 +108,6 @@ I_HAVE_SECURED_MY_CGI_DIRECTORY
 ```
 
 ```bash
+sudo a2enmod cgi
 sudo systemctl restart apache2
 ```
