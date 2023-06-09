@@ -12,5 +12,5 @@ sudo nut-scanner -U
 
 ```bash
 sudo nano /etc/nut/ups.conf
-cp ups.conf ups.com./backl
+sudo mv /etc/nut/ups.conf /etc/nut/ups.conf.back
 ```
