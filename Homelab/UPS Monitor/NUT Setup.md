@@ -38,5 +38,5 @@ maxretry = 3
 
 ```bash
 sudo mv /etc/nut/upsmon.conf /etc/nut/upsmon.conf.back
-sudo nano /et
+sudo nano /etc/nut/upsmon.conf
 ```
