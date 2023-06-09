@@ -20,9 +20,9 @@ pollinterval = 1
 maxretry = 3
 
 [Server]
-        driver = usbhid-ups 
-        port = auto 
-        desc = Cyber Power Main UPS 
+        driver = usbhid-ups
+        port = auto
+        desc = Cyber Power Main UPS
         vendorid = 0764
         productid = 0501
 
@@ -32,5 +32,11 @@ maxretry = 3
         desc = Network Router and Synology
         vendorid = 0764
         productid = 0601
+        serial = GBXXXXXXX
 
+```
+
+```bash
+sudo mv /etc/nut/upsmon.conf /etc/nut/upsmon.conf.back
+sudo nano /et
 ```
