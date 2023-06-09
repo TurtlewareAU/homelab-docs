@@ -61,3 +61,7 @@ LISTEN 0.0.0.0 3493
 sudo mv /etc/nut/nut.conf /etc/nut/nut.conf.back
 sudo nano /etc/nut/nut.conf
 ```
+
+```bash
+MODE=netserver
+```
