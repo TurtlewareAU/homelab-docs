@@ -40,3 +40,8 @@ maxretry = 3
 sudo mv /etc/nut/upsmon.conf /etc/nut/upsmon.conf.back
 sudo nano /etc/nut/upsmon.conf
 ```
+
+```bash
+MONITOR server@localhost 1 admin <secret> master
+MONITOR network@localhost 1 admin <secret> master
+```
