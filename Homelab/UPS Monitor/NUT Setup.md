@@ -42,6 +42,12 @@ sudo nano /etc/nut/upsmon.conf
 ```
 
 ```bash
+RUN_AS_USER root
+
 MONITOR server@localhost 1 admin <secret> master
 MONITOR network@localhost 1 admin <secret> master
+```
+
+```bash
+sudo mv /etc/nut/upsd.conf /etc/nut/upsd.conf.back
 ```
