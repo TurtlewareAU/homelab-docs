@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
+                "file": "Homelab/UPS Monitor/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
+                "file": "Homelab/UPS Monitor/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
+                "file": "Homelab/UPS Monitor/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md"
+                "file": "Homelab/UPS Monitor/Untitled.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
-    "Homelab/Docker Swarm Setup/Traefik Setup.md",
     "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
+    "Homelab/UPS Monitor/Untitled.md",
+    "Homelab/UPS Monitor",
+    "Homelab/Docker Swarm Setup/Traefik Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Hashi Boundary/Working File.md",
@@ -211,9 +213,7 @@
     "Homelab/NFS Setup for Docker/img",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
-    "Homelab/HashiCorp - Vault/Setup a new secret.md",
     "img",
-    "Homelab/Image",
-    "Homelab/HashiCorp - Vault/img"
+    "Homelab/Image"
   ]
 }
