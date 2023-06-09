@@ -56,3 +56,8 @@ sudo nano /etc/nut/upsd.conf
 ```bash
 LISTEN 0.0.0.0 3493
 ```
+
+```bash
+sudo mv /etc/nut/nut.conf /etc/nut/nut.conf.back
+sudo nano /etc/nut/nut.conf
+```
