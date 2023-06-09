@@ -99,5 +99,6 @@ MONITOR network@localhost "Network Router Synology"
 ```
 
 ```bash
-sudo mv 
+sudo mv /etc/nut/upsset.conf /etc/nut/upsset.conf.back
+sudo nano /etc/nut/upsset.conf
 ```
