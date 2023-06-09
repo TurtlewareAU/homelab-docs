@@ -80,4 +80,6 @@ sudo nano /etc/nut/upsd.users
 ```bash
 sudo service nut-server restart
 sudo systemctl restart nut-monitor
+sudo upsdrvctl stop
+sudo upsdrvctl start
 ```
