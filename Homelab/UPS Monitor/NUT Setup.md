@@ -102,3 +102,7 @@ MONITOR network@localhost "Network Router Synology"
 sudo mv /etc/nut/upsset.conf /etc/nut/upsset.conf.back
 sudo nano /etc/nut/upsset.conf
 ```
+
+```bash
+I_HAVE_SECURED_MY_CGI_DIRECTORY
+```
