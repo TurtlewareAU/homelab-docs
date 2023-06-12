@@ -37,4 +37,5 @@ CREATE DATABASE sonar;
 
 ```bash
 CREATE USER sonar WITH ENCRYPTED PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE sonar to sonar;
 ```
