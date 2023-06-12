@@ -25,7 +25,12 @@ systemctl status postgresql
 
 ```bash
 sudo passwd postgres
-
+<secret>
+<secret>
 su - postgres
+<secret>
+```
+
+```bash
 
 ```
