@@ -14,3 +14,6 @@ to VV
 host    all             all             all            trust
 ```
 
+```bash
+sudo systemctl restart postgresql
+```
