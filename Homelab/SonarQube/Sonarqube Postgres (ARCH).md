@@ -36,5 +36,5 @@ CREATE DATABASE sonar;
 ```
 
 ```bash
-CREATE USER user1 WITH ENCRYPTED PASSWORD 'password';
+CREATE USER sonar WITH ENCRYPTED PASSWORD 'password';
 ```
