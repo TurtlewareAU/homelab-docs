@@ -15,5 +15,6 @@ ulimit -n 131072
 ```
 
 ```bash 
-wget 
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.0.0.68432.zip
+
 ```
