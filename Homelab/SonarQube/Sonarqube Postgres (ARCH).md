@@ -22,3 +22,7 @@ systemctl start postgresql
 systemctl enable postgresql
 systemctl status postgresql
 ```
+
+```bash
+su - postgres
+```
