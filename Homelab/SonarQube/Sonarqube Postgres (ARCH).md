@@ -32,5 +32,5 @@ su - postgres
 ```
 
 ```bash
-
+CREATE DATABASE sonar;
 ```
