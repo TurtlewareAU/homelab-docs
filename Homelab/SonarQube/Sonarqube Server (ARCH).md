@@ -27,5 +27,10 @@ sudo mkdir /sonarqube
 ```
 
 ```bash
-sudo cp sonarqube-10.0.0.68432 /so
+sudo cp -r sonarqube-10.0.0.68432 /sonaqrube/*
 ```
+
+```bash
+cd /sonarqube
+```
+
