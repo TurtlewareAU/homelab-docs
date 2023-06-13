@@ -33,5 +33,10 @@ sudo cp -r sonarqube-10.0.0.68432 /sonaqrube/*
 ```bash
 cd /sonarqube
 sudo nano conf/sonar.properties
+
+change
+sonar.jdbc.username=sonarqube
+sonar.jdbc.password=mypassword
+sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
 ```
 
