@@ -40,3 +40,4 @@ sonar.jdbc.password=mypassword
 sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
 ```
 
+java-17-openjdk\bin
