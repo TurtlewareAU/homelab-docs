@@ -16,5 +16,16 @@ ulimit -n 131072
 
 ```bash 
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.0.0.68432.zip
+```
 
+```bash
+sudo unzip sonarqube.zip
+```
+
+```bash
+sudo mkdir /sonarqube
+```
+
+```bash
+sudo cp sonarqube-10.0.0.68432 /so
 ```
