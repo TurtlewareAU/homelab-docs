@@ -32,5 +32,6 @@ sudo cp -r sonarqube-10.0.0.68432 /sonaqrube/*
 
 ```bash
 cd /sonarqube
+sudo nano conf/sonar.properties
 ```
 
