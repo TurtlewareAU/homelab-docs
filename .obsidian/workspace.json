@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/SonarQube/Sonarqube Server (ARCH).md",
+                "file": "Homelab/MsSql - Ubuntu/Install Steps.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/SonarQube/Sonarqube Server (ARCH).md",
+                "file": "Homelab/MsSql - Ubuntu/Install Steps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/SonarQube/Sonarqube Server (ARCH).md",
+                "file": "Homelab/MsSql - Ubuntu/Install Steps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/SonarQube/Sonarqube Server (ARCH).md"
+                "file": "Homelab/MsSql - Ubuntu/Install Steps.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
-    "Homelab/SonarQube/Sonarqube Postgres (ARCH).md",
     "Homelab/SonarQube/Sonarqube Server (ARCH).md",
+    "Homelab/MsSql - Ubuntu/Install Steps.md",
+    "Homelab/MsSql - Ubuntu",
+    "Homelab/SonarQube/Sonarqube Postgres (ARCH).md",
     "Homelab/SonarQube/Sonarqube Setup.md",
     "Homelab/Postgres/Postgres Remote Access.md",
     "Homelab/Postgres",
@@ -210,10 +212,8 @@
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Docker Swarm Setup/img",
     "Homelab/HA - Kubernetes with K3s/K3S - Argo CD setup.md",
-    "Homelab/HA - Kubernetes with K3s/K3S - Kubectl - Persistent Storage.md",
     "Homelab/NFS Setup for Docker/img",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
-    "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png",
-    "img"
+    "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png"
   ]
 }
