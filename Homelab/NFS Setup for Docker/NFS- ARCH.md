@@ -20,3 +20,7 @@ sudo mkdir -p /mnt/docker
 ```bash
 sudo mount --bind /mnt/docker /var/nfs/docker
 ```
+
+```bash
+sudo nano /etc/exports
+```
