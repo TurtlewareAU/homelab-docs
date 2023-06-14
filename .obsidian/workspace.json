@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
+                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md"
+                "file": "Homelab/Docker Swarm Setup/NFS Server Setup.md"
               }
             }
           }
@@ -169,6 +169,9 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
+    "Homelab/Docker Swarm Setup/Docker Setup.md",
+    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/UPS Monitor/NUT Setup.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/NFS Setup for Docker/Setup Docker NFS Server.md",
@@ -184,8 +187,6 @@
     "Homelab/Proxmox Cluster/Cloud Image Setup (Template).md",
     "Homelab/UPS Monitor",
     "Homelab/Docker Swarm Setup/Traefik Setup.md",
-    "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
-    "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Hashi Boundary/Working File.md",
     "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
     "Homelab/Hashi Boundary",
@@ -208,7 +209,6 @@
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135111.png",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306134433.png",
     "Homelab/Ubuntu MaaS/img/maas-dashboard.png",
-    "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
     "Homelab/Docker Swarm Setup/img",
