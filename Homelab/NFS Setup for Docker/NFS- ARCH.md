@@ -24,3 +24,11 @@ sudo mount --bind /mnt/docker /var/nfs/docker
 ```bash
 sudo nano /etc/exports
 ```
+
+```bash
+/mnt/docker   10.0.44.0/24(sync,rw)
+```
+
+```bash
+sudo exportfs -arv
+```
