@@ -16,3 +16,7 @@ sudo systemctl enable nfs-server.service
 sudo mkdir -p /var/nfs/docker
 sudo mkdir -p /mnt/docker
 ```
+
+```bash
+sudo mount --bind /mnt/docker /var/nfs/docker
+```
