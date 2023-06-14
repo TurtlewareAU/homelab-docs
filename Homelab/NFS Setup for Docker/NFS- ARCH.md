@@ -5,7 +5,9 @@ sudo pacman -S nfs-utils
 ```
 
 ```bash
-chkconfignfs on  
-service rpcbind start  
-service nfs start
+sudo systemctl start nfs-server.service
+```
+
+```bash
+sudo systemctl enable nfs-server.service
 ```
