@@ -14,4 +14,5 @@ sudo systemctl enable nfs-server.service
 
 ```bash
 sudo mkdir -p /var/nfs/docker
+sudo mkdir -p /mnt/docker
 ```
