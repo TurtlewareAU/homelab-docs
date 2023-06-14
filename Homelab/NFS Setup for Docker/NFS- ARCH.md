@@ -34,3 +34,7 @@ sudo exportfs -arv
 
 ---> exporting 10.0.44.0/24:/mnt/docker
 ```
+
+```bash
+sudo exportfs -s
+```
