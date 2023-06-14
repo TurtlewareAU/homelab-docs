@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md"
+                "file": "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md"
               }
             }
           }
@@ -169,6 +169,8 @@
   },
   "active": "d860110f008ed268",
   "lastOpenFiles": [
+    "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
+    "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08 - Devops Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/07 - Create Test Events.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
@@ -197,10 +199,8 @@
     "Homelab/Hashi Boundary",
     "Homelab/Ansible/Bind/Bind9 Setup - Terraform VM Clone.md",
     "Homelab/Ansible/Bind/Bind Usage.md",
-    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Ansible/Bind",
     "Homelab/Ansible",
-    "Homelab/Tosca Mobile App Testing/Tosca App Testing Dumping ground.md",
     "Homelab/Tosca Mobile App Testing/img",
     "Homelab/Tosca Mobile App Testing",
     "Homelab/Ubuntu MaaS/img/Pasted image 20230306135608.png",
