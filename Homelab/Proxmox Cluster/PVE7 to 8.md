@@ -28,6 +28,11 @@ sudo apt install corosync-qdevice corosync-qnetd
 ```
 
 ```bash
-nano /etc/ssh/sshd_config
-allow root 
+sudo nano /etc/ssh/sshd_config
+allow root ssh login
+sudo systemctl restart sshd
+```
+
+```bash
+apt install corosync-qdevice
 ```
