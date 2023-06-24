@@ -23,3 +23,11 @@ this will tell you when you are ready to move to version 8
 apt install proxmox-ve
 ```
 
+```bash
+sudo apt install corosync-qdevice corosync-qnetd
+```
+
+```bash
+nano /etc/ssh/sshd_config
+allow root 
+```
