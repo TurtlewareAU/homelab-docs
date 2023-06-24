@@ -11,8 +11,12 @@
             "id": "cba0394a328d5534",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/SonarQube/Setup Jenkins For Github.md",
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/SonarQube/Setup Jenkins For Github.md",
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/SonarQube/Setup Jenkins For Github.md"
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md"
               }
             }
           }
@@ -150,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "cba0394a328d5534",
   "lastOpenFiles": [
+    "Homelab/Proxmox Cluster/PVE7 to 8.md",
     "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
     "Homelab/SonarQube/Sonarqube Postgres (ARCH).md",
     "Homelab/SonarQube/Sonarqube Server (ARCH).md",
@@ -180,7 +185,6 @@
     "Homelab/UPS Monitor",
     "Homelab/Docker Swarm Setup/Traefik Setup.md",
     "Homelab/Hashi Boundary/Working File.md",
-    "Homelab/Ansible/Bind/Bind9 Setup with Ansible.md",
     "Homelab/Hashi Boundary",
     "Homelab/Ansible/Bind",
     "Homelab/Ansible",
