@@ -19,3 +19,7 @@ Refresh Should be 7.4.15 Version
 ## PVE7to8
 this will tell you when you are ready to move to version 8
 
+```bash
+apt install proxmox-ve
+```
+
