@@ -9,3 +9,7 @@ nano /etc/apt/sources.list.d/pve-enterprise.list
 ```bash
 apt update
 ```
+
+```bash
+apt upgrade
+```
