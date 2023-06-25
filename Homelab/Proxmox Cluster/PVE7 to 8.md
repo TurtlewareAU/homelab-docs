@@ -15,7 +15,21 @@ apt upgrade
 ```
 
 ```bash
+sed -i -e 's/bullseye/bookworm/g' /etc/apt/sources.list.d/pve-install-repo.list
 
+deb http://ftp.au.debian.org/debian bookworm main contrib
+deb http://ftp.au.debian.org/debian bookworm-updates main contrib
+deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+deb http://security.debian.org bookworm-security main contrib
+
+```
+
+```bash
+apt update
+```
+
+```bash
+apt dist-upgrade
 ```
 
 Refresh Should be 7.4.15 Version
