@@ -32,6 +32,10 @@ apt update
 apt dist-upgrade
 ```
 
+```bash
+nano /etc/apt/sources.list.d/pve
+```
+
 Refresh Should be 7.4.15 Version
 
 ## PVE7to8
