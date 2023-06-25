@@ -33,7 +33,7 @@ apt dist-upgrade
 ```
 
 ```bash
-nano /etc/apt/sources.list.d/pve
+nano /etc/apt/sources.list.d/pve-enterprise.list.dpkg-dist
 ```
 
 Refresh Should be 7.4.15 Version
