@@ -14,6 +14,10 @@ apt update
 apt upgrade
 ```
 
+```bash
+
+```
+
 Refresh Should be 7.4.15 Version
 
 ## PVE7to8
@@ -45,6 +49,3 @@ On One Node
 pvecm qdevice setup 10.0.44.250 -f
 ```
 
-```bash
-
-```
