@@ -44,6 +44,10 @@ nomad node status
 nano pytechco-redis.nomad.hcl
 ```
 
+```bash
+
+```
+
 ```hcl
 job "pytechco-redis" {
   type = "service"
