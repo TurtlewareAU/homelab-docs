@@ -1,4 +1,4 @@
-```yml
+```hcl
 resource "proxmox_vm_qemu" "nomad_carpo" {
 target_node = "uranus"
 name = "NOMAD-SERVER"
@@ -20,22 +20,13 @@ network {
 bridge = "vmbr0"
 model = "virtio"
 }
-
 os_type = "ubuntu"
-
 }
 
-  
-
 resource "dns_a_record_set" "nomad_carpo" {
-
 zone = "turtleware.au."
-
 name = "carpo"
-
 addresses = ["10.0.44.90"]
-
 ttl = 300
-
 }
 ```
