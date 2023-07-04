@@ -32,6 +32,18 @@ echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-arptables && \
 sudo nomad agent -dev -bind 0.0.0.0 -network-interface='{{ GetDefaultInterfaces | attr "name" }}'
 ```
 
+```bash
+export NOMAD_ADDR=http://localhost:4646
+```
+
+```bash
+nomad node status
+```
+
+```bash
+nano pytechco-redis.nomad.hcl
+```
+
 ```hcl
 job "pytechco-redis" {
   type = "service"
