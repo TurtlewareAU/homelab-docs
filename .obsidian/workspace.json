@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "file": "Homelab/Nomad/Nomad Terraform.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "file": "Homelab/Nomad/Nomad Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "file": "Homelab/Nomad/Nomad Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md"
+                "file": "Homelab/Nomad/Nomad Terraform.md"
               }
             }
           }
@@ -157,6 +157,8 @@
   "active": "cba0394a328d5534",
   "lastOpenFiles": [
     "Homelab/Proxmox Cluster/PVE7 to 8.md",
+    "Homelab/Nomad/Nomad Terraform.md",
+    "Homelab/Nomad",
     "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
     "Homelab/SonarQube/Sonarqube Postgres (ARCH).md",
     "Homelab/SonarQube/Sonarqube Server (ARCH).md",
@@ -184,7 +186,6 @@
     "Homelab/SonarQube/Setup Jenkins For Github.md",
     "Homelab/UPS Monitor",
     "Homelab/Docker Swarm Setup/Traefik Setup.md",
-    "Homelab/Hashi Boundary/Working File.md",
     "Homelab/Hashi Boundary",
     "Homelab/Ansible/Bind",
     "Homelab/Ansible",
@@ -199,7 +200,6 @@
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
     "Homelab/Docker Swarm Setup/img",
-    "Homelab/NFS Setup for Docker/img",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png"
   ]
