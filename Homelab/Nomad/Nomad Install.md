@@ -27,3 +27,37 @@ echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-arptables && \
   echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-ip6tables && \
   echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-iptables
 ```
+
+```bash
+sudo nomad agent -dev -bind 0.0.0.0 -network-interface='{{ GetDefaultInterfaces | attr "name" }}'
+```
+
+```hcl
+job "pytechco-redis" {
+  type = "service"
+
+  group "ptc-redis" {
+    count = 1
+    network {
+      port "redis" {
+        to = 6379
+      }
+    }
+
+    service {
+      name     = "redis-svc"
+      port     = "redis"
+      provider = "nomad"
+    }
+
+    task "redis-task" {
+      driver = "docker"
+
+      config {
+        image = "redis:7.0.7-alpine"
+        ports = ["redis"]
+      }
+    }
+  }
+}
+```
