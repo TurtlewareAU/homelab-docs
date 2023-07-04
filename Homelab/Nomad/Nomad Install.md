@@ -23,12 +23,6 @@ curl -L -o cni-plugins.tgz "https://github.com/containernetworking/plugins/relea
 ```
 
 ```bash
-echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-arptables && \
-  echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-ip6tables && \
-  echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-iptables
-```
-
-```bash
 sudo nomad agent -dev -bind 0.0.0.0 -network-interface='{{ GetDefaultInterfaces | attr "name" }}'
 ```
 
