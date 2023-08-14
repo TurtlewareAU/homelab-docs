@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Nomad/Nomad Install.md",
+                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Nomad/Nomad Install.md",
+                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Nomad/Nomad Install.md",
+                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Nomad/Nomad Install.md"
+                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "cba0394a328d5534",
   "lastOpenFiles": [
-    "Homelab/Nomad/Nomad Terraform.md",
+    "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
     "Homelab/Nomad/Nomad Install.md",
+    "Homelab/Nomad/Nomad Terraform.md",
     "Homelab/Proxmox Cluster/PVE7 to 8.md",
     "Homelab/Nomad",
     "Homelab/SonarQube/Setup Jenkins For SonarQube.md",
@@ -184,7 +185,6 @@
     "Homelab/MsSql - Ubuntu",
     "Homelab/Postgres/Postgres Remote Access.md",
     "Homelab/Postgres",
-    "Homelab/SonarQube/Setup Jenkins For Github.md",
     "Homelab/UPS Monitor",
     "Homelab/Hashi Boundary",
     "Homelab/Ansible/Bind",
