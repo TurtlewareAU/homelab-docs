@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0175c6b77b255008",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cba0394a328d5534",
+  "active": "0175c6b77b255008",
   "lastOpenFiles": [
     "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
     "Homelab/Nomad/Nomad Install.md",
