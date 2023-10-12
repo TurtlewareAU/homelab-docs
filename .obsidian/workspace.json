@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5a3779dfc5a1c39",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb4b48e7ca7eaa2c",
+  "active": "a5a3779dfc5a1c39",
   "lastOpenFiles": [
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
