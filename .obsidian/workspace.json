@@ -23,9 +23,11 @@
             "id": "a5a3779dfc5a1c39",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "Homelab/Portainer/Setup Portainer with SSL.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "file": "Homelab/Portainer/Setup Portainer with SSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
+                "file": "Homelab/Portainer/Setup Portainer with SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md"
+                "file": "Homelab/Portainer/Setup Portainer with SSL.md"
               }
             }
           }
@@ -167,6 +169,8 @@
   },
   "active": "a5a3779dfc5a1c39",
   "lastOpenFiles": [
+    "Homelab/Portainer/Setup Portainer with SSL.md",
+    "Homelab/Portainer",
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
@@ -193,7 +197,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
-    "Homelab/NFS Setup for Docker/NFS- ARCH.md",
     "Homelab/MsSql - Ubuntu",
     "Homelab/Postgres",
     "Homelab/UPS Monitor",
@@ -210,7 +213,6 @@
     "Homelab/Ubuntu MaaS/img/maas-dashboard.png",
     "Homelab/Docker Swarm Setup/img/Pasted image 20230309094818.png",
     "Homelab/Docker Swarm Setup/img/ubuntu-list-folder-items.png",
-    "Homelab/Docker Swarm Setup/img",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argo-folder-structure.png",
     "Homelab/HA - Kubernetes with K3s/img/k3s-argocd-login.png"
   ]
