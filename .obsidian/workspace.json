@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md"
+                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "fb4b48e7ca7eaa2c",
   "lastOpenFiles": [
+    "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
     "Homelab/Docker Swarm Setup/Docker Setup.md",
     "Homelab/Docker Swarm Setup/Docker Swarm Setup.md",
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
@@ -182,7 +183,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/NFS Setup for Docker/NFS- ARCH.md",
-    "Homelab/HA - Kubernetes with K3s/Setup Website Development Manifest.md",
     "Homelab/MsSql - Ubuntu",
     "Homelab/Postgres",
     "Homelab/UPS Monitor",
