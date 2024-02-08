@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ee2b836998c371ab",
+        "id": "b729dc8d87e37fcc",
         "type": "tabs",
         "children": [
           {
-            "id": "fb4b48e7ca7eaa2c",
+            "id": "8de82ccc9e1202b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Proxmox Cluster/PVE7 to 8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5a3779dfc5a1c39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Portainer/Setup Portainer with SSL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d16b95db8102939",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
+                "file": "Homelab/Bitwarden/Migration from Server to Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md",
+                "file": "Homelab/Bitwarden/Migration from Server to Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Bitwarden/Installation Guide.md"
+                "file": "Homelab/Bitwarden/Migration from Server to Server.md"
               }
             }
           }
@@ -179,8 +150,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d16b95db8102939",
+  "active": "9adc06c70433bcb5",
   "lastOpenFiles": [
+    "Homelab/Bitwarden/Installation Guide.md",
+    "Homelab/Bitwarden/Migration from Server to Server.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Proxmox Cluster/Proxmox Alerts.md",
     "Homelab/Portainer/Setup Portainer with SSL.md",
@@ -207,8 +180,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/06 - Tosca Distributed Agent Configuration.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/08a - Account Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
     "Homelab/MsSql - Ubuntu",
     "Homelab/Postgres",
     "Homelab/UPS Monitor",
