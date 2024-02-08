@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b729dc8d87e37fcc",
+        "id": "cb6c5239ac333ed8",
         "type": "tabs",
         "children": [
           {
-            "id": "8de82ccc9e1202b2",
+            "id": "2416ef4910a6a18c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8de82ccc9e1202b2",
+  "active": "2416ef4910a6a18c",
   "lastOpenFiles": [
     "Homelab/Bitwarden/Migration from Server to Server.md",
     "Homelab/Bitwarden/Installation Guide.md",
