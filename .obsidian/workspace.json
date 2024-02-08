@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
+                "file": "Homelab/Bitwarden/Installation Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
+                "file": "Homelab/Bitwarden/Installation Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md",
+                "file": "Homelab/Bitwarden/Installation Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab/Proxmox Cluster/Proxmox Alerts.md"
+                "file": "Homelab/Bitwarden/Installation Guide.md"
               }
             }
           }
@@ -181,6 +181,8 @@
   },
   "active": "6d16b95db8102939",
   "lastOpenFiles": [
+    "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
+    "Homelab/Proxmox Cluster/Proxmox Alerts.md",
     "Homelab/Portainer/Setup Portainer with SSL.md",
     "Homelab/Portainer",
     "Homelab/Docker Swarm Setup/Docker Compose/PiHole for Local DNS Mapping.md",
@@ -189,7 +191,6 @@
     "Homelab/Docker Swarm Setup/NFS Server Setup.md",
     "Homelab/Docker Swarm Setup/Telegraf Setup.md",
     "Homelab/Docker Swarm Setup/Traefik Setup.md",
-    "Homelab/Proxmox Cluster/Proxmox Alerts.md",
     "Homelab/Proxmox Cluster/PVE7 to 8.md",
     "Homelab/Proxmox Cluster/Proxmox Terraform.md",
     "Homelab/Proxmox Cluster/Proxmox Cluster Setup.md",
@@ -208,7 +209,6 @@
     "Homelab/Tosca 15.0 Dex Walkthroughs/03b - HTTPS Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/04 - Database Repository Setup.md",
     "Homelab/Tosca 15.0 Dex Walkthroughs/03 - Tosca Server 15.2 Patch 4.md",
-    "Homelab/Tosca 15.0 Dex Walkthroughs/05 - Setup Automation Object Service.md",
     "Homelab/MsSql - Ubuntu",
     "Homelab/Postgres",
     "Homelab/UPS Monitor",
