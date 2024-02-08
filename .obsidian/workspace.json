@@ -89,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab/Bitwarden/Migration from Server to Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab/Bitwarden/Migration from Server to Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homelab/Bitwarden/Migration from Server to Server.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -150,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9adc06c70433bcb5",
+  "active": "8de82ccc9e1202b2",
   "lastOpenFiles": [
-    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Bitwarden/Migration from Server to Server.md",
+    "Homelab/Bitwarden/Installation Guide.md",
     "Homelab/Ubuntu/How to remove ubuntu default DNS.md",
     "Homelab/Proxmox Cluster/Proxmox Alerts.md",
     "Homelab/Portainer/Setup Portainer with SSL.md",
